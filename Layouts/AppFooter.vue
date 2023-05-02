@@ -1,6 +1,6 @@
 <template>
   <footer class="regularFont bg-[#537FF7] py-8">
-    <div class="max-w-app mx-auto px-4">
+    <div class="max-w-custom mx-auto px-4">
       <div class="flex flex-wrap text-left lg:text-left">
         <div class="w-full lg:w-6/12 px-4">
           <img src="/assets/aid_white.png" alt="image" class="w-12" />
@@ -49,10 +49,18 @@
             </div>
             <div class="w-full">
               <div class="text-right text-white pt-8">
-                <a class="inline-block no-underline py-2 px-2 text-3xl">
+                <a
+                  href="https://www.facebook.com/schoolaidapp"
+                  target="_blank"
+                  class="inline-block no-underline py-2 px-2 text-3xl"
+                >
                   <i class="fa-brands fa-facebook"></i>
                 </a>
-                <a class="inline-block no-underline py-2 px-2 text-3xl">
+                <a
+                  href="https://www.instagram.com/schoolaid.app/"
+                  target="_blank"
+                  class="inline-block no-underline py-2 px-2 text-3xl"
+                >
                   <i class="fa-brands fa-instagram"></i>
                 </a>
               </div>

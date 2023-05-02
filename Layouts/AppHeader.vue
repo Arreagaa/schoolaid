@@ -11,7 +11,7 @@ export default {
   <div class="max-w-fill text-zinc-900 bg-transparant">
     <nav id="header" class="w-full z-30 top-0 py-1">
       <div
-        class="w-full flex-wrap flex-row container mx-auto flex items-center justify-between py-3 px-6 xl:px-16 xl:py-2 sm:py-8"
+        class="w-full flex-row flex-wrap xl:flex-nowrap xl:container md:flex-nowrap sm:flex-nowrap mx-auto flex items-center justify-between py-3 px-6 xl:px-16 xl:py-2 sm:py-8"
       >
         <label
           for="menu-toggle"
@@ -96,61 +96,82 @@ export default {
                   >Contacto</a
                 >
               </li>
+              <li>
+                <a
+                  class="inline-block no-underline py-2 px-4 navLink"
+                  href="/#Contact"
+                  >Idioma</a
+                >
+              </li>
+              <li>
+                <div class="inline-block no-underline pl-1 py-2">
+                  <a
+                    href="https://www.facebook.com/schoolaidapp"
+                    target="_blank"
+                    class="inline-block no-underline px-2 text-3xl text-[#537ff7]"
+                  >
+                    <i class="fa-brands fa-facebook"></i>
+                  </a>
+                  <a
+                    href="https://www.instagram.com/schoolaid.app/"
+                    target="_blank"
+                    class="inline-block no-underline text-3xl text-[#537ff7]"
+                  >
+                    <i class="fa-brands fa-instagram"></i>
+                  </a>
+                </div>
+              </li>
             </ul>
           </nav>
         </div>
 
-        <div class="py-8 px-2">
-          <a class="flex items-center" href="/">
-            <img
-              src="/assets/schoolaid.ico"
-              alt="image"
-              class="2xl:w-48 xl:w-40 md:w-32 w-56"
-            />
+        <div class="py-8 px-2 flex items-center">
+          <a class="2xl:w-48 xl:w-40 md:w-32 w-56" href="/">
+            <img src="/assets/schoolaid.ico" />
           </a>
         </div>
         <div
-          class="ModeratBlack 2xl:text-xl text-lg flex items-center lg:flex hidden"
+          class="ModeratBlack 2xl:text-xl max-[1165px]:text-base text-lg flex items-center lg:flex hidden"
           id="nav-content"
         >
           <a class="inline-block no-underline navLink">
             <a
-              class="inline-block no-underline py-2 px-4 navLink"
+              class="inline-block no-underline py-2 xl:mx-4 lg:mx-4 mx-2 navLink"
               href="/#About"
               >Quienes somos</a
             >
           </a>
           <a class="inline-block no-underline navLink">
             <a
-              class="inline-block no-underline py-2 px-4 navLink"
+              class="inline-block no-underline py-2 xl:mx-4 lg:mx-4 mx-2 navLink"
               href="/#Values"
               >Ecosistema Aids</a
             >
           </a>
           <a class="inline-block no-underline navLink">
             <a
-              class="inline-block no-underline py-2 px-4 navLink"
+              class="inline-block no-underline py-2 xl:mx-4 lg:mx-4 mx-2 navLink"
               href="/#Products"
               >Comunidad</a
             >
           </a>
           <a class="inline-block no-underline navLink">
             <a
-              class="inline-block no-underline py-2 px-4 navLink"
+              class="inline-block no-underline py-2 xl:mx-4 lg:mx-4 mx-2 navLink"
               href="/#Contact"
               >Instituciones</a
             >
           </a>
           <a class="inline-block no-underline navLink">
             <a
-              class="inline-block no-underline py-2 px-4 navLink"
+              class="inline-block no-underline py-2 xl:mx-4 lg:mx-4 mx-2 navLink"
               href="/#Contact"
               >Socios</a
             >
           </a>
           <a class="inline-block no-underline navLink">
             <a
-              class="inline-block no-underline py-2 px-4 navLink"
+              class="inline-block no-underline py-2 xl:mx-4 lg:mx-4 mx-2 navLink"
               href="/#Contact"
               >Contacto</a
             >
@@ -161,16 +182,26 @@ export default {
           id="nav-content"
         >
           <a class="inline-block no-underline navLink">
-            <a class="inline-block no-underline px-4 navLink" href="/#Contact"
+            <a
+              class="inline-block no-underline xl:mx-4 lg:mx-4 mx-2 navLink"
+              href="/#Contact"
               >Idioma</a
             >
           </a>
           <a class="inline-block no-underline">
-            <a class="inline-block no-underline px-2 text-3xl">
-              <i class="fa-brands fa-facebook" style="color: #537ff7"></i>
+            <a
+              href="https://www.facebook.com/schoolaidapp"
+              target="_blank"
+              class="inline-block no-underline px-2 text-3xl text-[#537ff7]"
+            >
+              <i class="fa-brands fa-facebook"></i>
             </a>
-            <a class="inline-block no-underline px-2 text-3xl">
-              <i class="fa-brands fa-instagram" style="color: #537ff7"></i>
+            <a
+              href="https://www.instagram.com/schoolaid.app/"
+              target="_blank"
+              class="inline-block no-underline px-2 text-3xl text-[#537ff7]"
+            >
+              <i class="fa-brands fa-instagram"></i>
             </a>
           </a>
         </div>
