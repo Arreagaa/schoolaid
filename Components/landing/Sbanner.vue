@@ -8,13 +8,13 @@
           </div>
           <div>
             <div class="mx-auto xl:px-0 px-6 py-6 xl:py-0">
-              <p class="ModeratBlack xl:text-2xl text-xl xl:mb-6 mb-4">
+              <p class="PoppinsRegular font-bold text-xl xl:mb-6 mb-4">
                 ¡Nuevo socio de integración!
               </p>
-              <h1 class="ModeratBlack xl:text-[40px] max-[375px]:pr-4 text-3xl">
+              <h1 class="PoppinsBold xl:text-[40px] max-[375px]:pr-4 text-3xl">
                 Monitoreo de Seguridad Privada con Golan
               </h1>
-              <p class="text-lg xl:text-2xl text-xl xl:my-6 my-4">
+              <p class="PoppinsExtraLight text-lg xl:text-2xl font-bold text-xl xl:my-6 my-4">
                 Gestión de visitantes, seguridad, control y seguridad de los
                 alumnos.
               </p>
@@ -54,7 +54,7 @@
           <div
             class="absolute top-0 -right-6 image-aid xl:flex hidden items-end text-end pt-28 hidden-below-1520"
           >
-            <img src="/assets/aids/Rectangle-48.png" class="w-48" alt="" />
+            <img src="/assets/aids/Rectangle-48.png" class="w-40" alt="" />
           </div>
         </div>
       </div>

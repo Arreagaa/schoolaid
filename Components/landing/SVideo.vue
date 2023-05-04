@@ -39,15 +39,13 @@ export default {
         class="flex flex-col items-start justify-center w-full h-full xl:px-4 xl:py-6 px-6 py-28 mb-6 md:mb-0 md:w-3/4"
       >
         <div
-          class="flex flex-col items-start justify-center h-full space-y-3 transform md:space-y-5 text-white"
+          class="flex flex-col items-start justify-center h-full space-y-3 transform md:space-y-5 2xl:pr-16 size-responsive text-white"
         >
           <a
             class="ModeratBlack xl:text-4xl text-3xl font-bold leading-none xl:mb-6 mb-2 tracking-wider"
             >¿Cómo funciona?</a
           >
-          <p
-            class="xl:text-2xl md:text-xl text-lg leading-6 xl:pr-0 md:pr-0 pr-4"
-          >
+          <p class="PoppinsMedium md:text-xl text-lg leading-6">
             SchoolAid es una App que facilita y automatiza las gestiones diarias
             entre padres de familia y colegio, y centraliza todas las
             plataformas en un mismo lugar.
@@ -57,3 +55,10 @@ export default {
     </div>
   </div>
 </template>
+<style>
+@media (min-width: 1536px) and (max-width: 1669px) {
+  .size-responsive {
+    padding-right: 0%;
+  }
+}
+</style>

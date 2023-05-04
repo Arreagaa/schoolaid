@@ -8,10 +8,10 @@ export default {
 };
 </script>
 <template>
-  <div class="max-w-fill text-zinc-900 bg-transparant">
+  <div class="max-w-custom text-zinc-900 bg-transparant">
     <nav id="header" class="w-full z-30 top-0 py-1">
       <div
-        class="w-full flex-row flex-wrap xl:flex-nowrap xl:container md:flex-nowrap sm:flex-nowrap mx-auto flex items-center justify-between py-3 px-6 xl:px-16 xl:py-2 sm:py-8"
+        class="w-full flex-row flex-wrap xl:flex-nowrap md:flex-nowrap sm:flex-nowrap mx-auto flex items-center justify-between py-3 px-6 xl:px-12 xl:py-2 sm:py-8"
       >
         <label
           for="menu-toggle"
@@ -50,7 +50,7 @@ export default {
           class="hidden md:flex md:items-center md:w-auto w-full order-3 md:order-1"
           id="menu"
         >
-          <nav class="lg:hidden ModeratBlack">
+          <nav class="lg:hidden PoppinsMedium font-semibold">
             <ul
               class="md:flex items-center justify-between text-xl text-zinc-900"
             >
@@ -131,7 +131,7 @@ export default {
           </a>
         </div>
         <div
-          class="ModeratBlack 2xl:text-xl max-[1165px]:text-base text-lg flex items-center lg:flex hidden"
+          class="PoppinsMedium font-semibold  max-[1165px]:text-base text-lg flex items-center lg:flex hidden"
           id="nav-content"
         >
           <a class="inline-block no-underline navLink">
@@ -178,7 +178,7 @@ export default {
           </a>
         </div>
         <div
-          class="ModeratBlack 2xl:text-xl text-lg flex items-center lg:flex hidden"
+          class="PoppinsMedium font-semibold  text-lg flex items-center lg:flex hidden"
           id="nav-content"
         >
           <a class="inline-block no-underline navLink">
@@ -186,6 +186,13 @@ export default {
               class="inline-block no-underline xl:mx-4 lg:mx-4 mx-2 navLink"
               href="/#Contact"
               >Idioma</a
+            >
+          </a>
+          <a class="inline-block no-underline navLink">
+            <a
+              class="inline-block no-underline xl:mx-4 lg:mx-4 mx-2 navLink"
+              href="/#Contact"
+              >Select</a
             >
           </a>
           <a class="inline-block no-underline">

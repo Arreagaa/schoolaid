@@ -12,7 +12,7 @@ const props = defineProps({
 </script>
 <template>
   <div
-    class="bg-white rounded-2xl px-8 pt-10 sm:px-12 lg:px-6 border border-[#537FF7]"
+    class="bg-white rounded-2xl px-8 pt-10 pb-2 sm:px-12 lg:px-6 border border-[#537FF7]"
   >
     <div class="flex items-left text-left px-4 pb-2">
       <div class="rounded-full bg-[#F3BE18] text-center px-4 py-4">
@@ -21,7 +21,7 @@ const props = defineProps({
     </div>
     <div class="text-black pt-6 pb-8 px-4">
       <h3 class="ModeratBlack text-3xl">{{ item.title }}</h3>
-      <p class="text-lg py-4 2xl:pr-8 pr-0 md:pr-16">
+      <p class="PoppinsMedium text-lg py-4 2xl:pr-4 pr-0 md:pr-16">
         {{ item.description }}
       </p>
       <div v-if="idItem === 2 || idItem === 3" class="xl:pt-2" />

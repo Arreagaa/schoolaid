@@ -28,7 +28,7 @@ export default {
         <div class="pt-4">
           <div
             v-if="idItem === 5"
-            class="bg-[#F66750] flex items-center leading-none rounded-full px-6 py-2"
+            class="bg-[#F66750] flex items-center leading-none rounded-full px-6 py-2 animate-bounce"
           >
             <p class="inline text-base text-white font-medium">¡Nuevo!</p>
           </div>
