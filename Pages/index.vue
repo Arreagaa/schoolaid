@@ -53,8 +53,10 @@ export default {
       />
     </div>
     <div class="pt-8">
-      <div class="2xl:flex items-center">
-        <div class="2xl:flex hidden lg:hidden w-full max-w-xl w-3/5">
+      <div class="2xl:flex">
+        <div
+          class="2xl:flex hidden image-responsive lg:hidden w-full max-w-xl w-3/5"
+        >
           <img class="object-cover" src="/assets/bg/Clientes.png" />
         </div>
         <div class="w-full h-auto">
@@ -81,3 +83,10 @@ export default {
     <AppFooter />
   </section>
 </template>
+<style>
+@media (min-width: 1536px) and (max-width: 1537px) {
+  .image-responsive {
+    display: none;
+  }
+}
+</style>

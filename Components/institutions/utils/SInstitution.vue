@@ -11,7 +11,7 @@ const props = defineProps({
 });
 </script>
 <template>
-  <div class="2xl:px-12 padding-responsive px-10 py-10">
+  <div class="padding-responsive px-10 py-10">
     <div class="flex flex-col items-center">
       <div v-if="idItem === 2 || idItem === 4" class="2xl:pb-10"></div>
       <div class="text-white text-center px-8 py-8 bg-[#537FF7] rounded-full">
@@ -28,10 +28,10 @@ const props = defineProps({
 <style>
 @media (min-width: 1538px) and (max-width: 1669px) {
   .padding-responsive {
-    padding-left: 12px;
-    padding-right: 12px;
+    padding-left: 18px;
+    padding-right: 18px;
   }
-  .res-size{
+  .res-size {
     font-size: 22px;
   }
 }

@@ -39,7 +39,7 @@ export default {
         class="flex flex-col items-start justify-center w-full h-full xl:px-4 xl:py-6 px-6 py-28 mb-6 md:mb-0 md:w-3/4"
       >
         <div
-          class="flex flex-col items-start justify-center h-full space-y-3 transform md:space-y-5 2xl:pr-16 size-responsive text-white"
+          class="flex flex-col items-start justify-center h-full space-y-3 transform md:space-y-5 2xl:pr-16 responsive-size text-white"
         >
           <a
             class="ModeratBlack xl:text-4xl text-3xl font-bold leading-none xl:mb-6 mb-2 tracking-wider"
@@ -57,7 +57,7 @@ export default {
 </template>
 <style>
 @media (min-width: 1536px) and (max-width: 1669px) {
-  .size-responsive {
+  .responsive-size {
     padding-right: 0%;
   }
 }
