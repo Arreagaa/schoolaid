@@ -19,7 +19,7 @@ export default {
         <iframe
           v-if="isPlaying"
           class="absolute inset-0 w-full h-full"
-          src="https://www.youtube.com/embed/aoGQM5LuVto?autoplay=1"
+          src="https://www.youtube.com/embed/j0DyAQlewws?autoplay=1"
           allowfullscreen
           allow="autoplay"
         ></iframe>
@@ -30,6 +30,7 @@ export default {
           alt=""
           @click="playVideo"
         />
+        
       </div>
     </div>
     <div
@@ -46,7 +47,7 @@ export default {
             >¿Cómo funciona?</a
           >
           <p class="PoppinsMedium md:text-xl text-lg leading-6">
-            SchoolAid es una App que facilita y automatiza las gestiones diarias
+            SchoolAid es un SaaS que facilita y automatiza las gestiones diarias
             entre padres de familia y colegio, y centraliza todas las
             plataformas en un mismo lugar.
           </p>

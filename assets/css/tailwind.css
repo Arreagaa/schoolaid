@@ -120,3 +120,27 @@ a:hover .arrow:before {
   margin-right: auto;
   margin-left: auto;
 }
+#menu-toggle:checked + #menu {
+  display: block;
+}
+
+.hover\:grow {
+  transition: all 0.3s;
+  transform: scale(1);
+}
+
+.hover\:grow:hover {
+  transform: scale(1.02);
+}
+@keyframes slide-in-left {
+  from {
+    transform: translateX(-100%);
+  }
+  to {
+    transform: translateX(0%);
+  }
+}
+.slide-in-left {
+  animation: slide-in-left 0.5s forwards;
+  transition: transform 0.5s ease;
+}

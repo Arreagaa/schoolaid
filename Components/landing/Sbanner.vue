@@ -12,11 +12,12 @@
                 ¡Nuevo socio de integración!
               </p>
               <h1 class="PoppinsBold xl:text-[40px] max-[375px]:pr-4 text-3xl">
-                Monitoreo de Seguridad Privada con Golan
+                Alianza estratégica con Grupo Golán
               </h1>
-              <p class="PoppinsExtraLight text-lg xl:text-2xl font-bold text-xl xl:my-6 my-4">
-                Gestión de visitantes, seguridad, control y seguridad de los
-                alumnos.
+              <p
+                class="PoppinsExtraLight text-lg xl:text-2xl font-bold text-xl xl:my-6 my-4"
+              >
+                Ahora las rutas escolares están más protegidas.
               </p>
               <div class="flex items-center text-center xl:pt-0 py-4">
                 <a

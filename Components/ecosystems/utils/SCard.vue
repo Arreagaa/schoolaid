@@ -22,7 +22,12 @@ export default {
     <img class="h-56 lg:h-72 object-cover rounded" :src="item.image" />
     <div class="py-3 xl:px-2">
       <div class="flex items-center gap-4">
-        <h3 class="ModeratBlack font-semibold text-4xl text-black pt-4">
+        <div class="flex items-center justify-center pt-4">
+          <img :src="item.icon" class="xl:w-8 w-6" />
+        </div>
+        <h3
+          class="ModeratBlack font-semibold xl:text-4xl text-3xl text-black pt-4"
+        >
           {{ item.title }}
         </h3>
         <div class="pt-4">
@@ -48,9 +53,6 @@ export default {
             <div class="arrow"></div>
           </div>
         </a>
-      </div>
-      <div v-if="idItem === 5">
-        <p class="text-[#537FF7] underline text-xl pt-4">Business solution</p>
       </div>
     </div>
   </div>
