@@ -30,7 +30,7 @@ export default {
 
 <template>
   <div class="max-w-custom text-zinc-900 bg-transparant">
-    <nav id="header" class="w-full z-30 top-0 xl:py-4 py-1">
+    <nav id="header" class="w-full z-30 top-0 py-1">
       <div
         class="w-full flex-row flex-wrap xl:flex-nowrap md:flex-nowrap sm:flex-nowrap mx-auto flex items-center justify-between py-3 px-6 2xl:px-12 xl:py-2 sm:py-8"
         :class="{ 'slide-in-left': menuOpen }"
