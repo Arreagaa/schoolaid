@@ -1,4 +1,5 @@
 <script setup>
+import SMore from "~/Components/utils/SMore.vue";
 const props = defineProps({
   item: {
     type: Object,
@@ -26,15 +27,7 @@ const props = defineProps({
       </p>
       <div v-if="idItem === 2 || idItem === 3" class="xl:pt-2" />
       <div class="flex items-center text-center pt-4">
-        <a
-          :href="item.link"
-          class="xl:text-lg text-base rounded-full bg-[#537FF7] py-2 px-4 text-white font-bold flex items-center gap-4 transition duration-200"
-        >
-          Conoce más
-          <div class="arrow-wrapper">
-            <div class="arrow"></div>
-          </div>
-        </a>
+        <SMore :href="item.link" />
       </div>
     </div>
   </div>

@@ -11,6 +11,7 @@
   "devDependencies": {
     "@fortawesome/free-brands-svg-icons": "^6.4.0",
     "@fortawesome/free-solid-svg-icons": "^6.4.0",
+    "@nuxtjs/i18n": "^8.0.0-beta.11",
     "@nuxtjs/tailwindcss": "^6.6.6",
     "@types/node": "^18",
     "nuxt": "^3.4.2"

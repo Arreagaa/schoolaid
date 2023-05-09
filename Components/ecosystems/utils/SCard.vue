@@ -1,5 +1,7 @@
 <script>
+import SMore from "~/Components/utils/SMore.vue";
 export default {
+  components: { SMore },
   data() {
     return {
       excludedIds: [1, 3, 4, 5],
@@ -44,15 +46,7 @@ export default {
       </p>
       <div class="flex items-center text-center pt-8">
         <div v-if="!excludedIds.includes(idItem)" class="xl:py-12" />
-        <a
-          :href="item.link"
-          class="xl:text-lg text-base rounded-full bg-[#537FF7] py-2 px-4 text-white font-bold flex items-center gap-4 transition duration-200"
-        >
-          Conoce más
-          <div class="arrow-wrapper">
-            <div class="arrow"></div>
-          </div>
-        </a>
+        <SMore :href="item.link" />
       </div>
     </div>
   </div>

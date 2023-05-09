@@ -1,10 +1,20 @@
 <script>
+import STranslate from "./utils/STranslate.vue";
 export default {
   data() {
     return {
       menuOpen: false,
+      links: [
+        { title: "Quienes somos", url: "/" },
+        { title: "Ecosistemas Aids", url: "/#Values" },
+        { title: "Comunidad", url: "/#Products" },
+        { title: "Instituciones", url: "/#Contact" },
+        { title: "Socios", url: "/#Contact" },
+        { title: "Contacto", url: "/#Contact" },
+      ],
     };
   },
+  components: { STranslate },
   methods: {
     toggleMenu() {
       this.menuOpen = !this.menuOpen;
@@ -20,9 +30,9 @@ export default {
 
 <template>
   <div class="max-w-custom text-zinc-900 bg-transparant">
-    <nav id="header" class="w-full z-30 top-0 py-1">
+    <nav id="header" class="w-full z-30 top-0 xl:py-4 py-1">
       <div
-        class="w-full flex-row flex-wrap xl:flex-nowrap md:flex-nowrap sm:flex-nowrap mx-auto flex items-center justify-between py-3 px-6 xl:px-12 xl:py-2 sm:py-8"
+        class="w-full flex-row flex-wrap xl:flex-nowrap md:flex-nowrap sm:flex-nowrap mx-auto flex items-center justify-between py-3 px-6 2xl:px-12 xl:py-2 sm:py-8"
         :class="{ 'slide-in-left': menuOpen }"
       >
         <label
@@ -42,40 +52,15 @@ export default {
         >
           <nav class="lg:hidden PoppinsMedium font-semibold h-screen">
             <ul class="md:flex items-center justify-between text-xl text-black">
-              <li>
-                <a class="inline-block py-4 px-4 navLink" href="/"
-                  >Quienes somos</a
-                >
+              <li v-for="link in links" :key="link.id">
+                <a :href="link.url" class="inline-block py-4 px-4 navLink">{{
+                  link.title
+                }}</a>
               </li>
               <li>
-                <a class="inline-block py-4 px-4 navLink" href="/#Values"
-                  >Ecosistemas Aids</a
-                >
-              </li>
-              <li>
-                <a class="inline-block py-4 px-4 navLink" href="/#Products"
-                  >Comunidad</a
-                >
-              </li>
-              <li>
-                <a class="inline-block py-4 px-4 navLink" href="/#Contact"
-                  >Instituciones</a
-                >
-              </li>
-              <li>
-                <a class="inline-block py-4 px-4 navLink" href="/#Contact"
-                  >Socios</a
-                >
-              </li>
-              <li>
-                <a class="inline-block py-4 px-4 navLink" href="/#Contact"
-                  >Contacto</a
-                >
-              </li>
-              <li>
-                <a class="inline-block py-4 px-4 navLink" href="/#Contact"
-                  >Idioma</a
-                >
+                <div class="inline-block py-2">
+                  <STranslate />
+                </div>
               </li>
               <li>
                 <div class="inline-block pl-1 py-4 text-3xl text-[#537ff7]">
@@ -103,69 +88,31 @@ export default {
           </a>
         </div>
         <div
-          class="PoppinsMedium font-semibold max-[1165px]:text-base text-lg flex items-center lg:flex hidden"
+          class="PoppinsMedium font-semibold xl:text-lg text-base flex items-center lg:flex hidden"
           id="nav-content"
         >
-          <a class="inline-block navLink">
-            <a class="inline-block py-2 xl:mx-4 lg:mx-4 mx-2 navLink" href="/"
-              >Quienes somos</a
-            >
-          </a>
-          <a class="inline-block navLink">
-            <a
-              class="inline-block py-2 xl:mx-4 lg:mx-4 mx-2 navLink"
-              href="/#Values"
-              >Ecosistema Aids</a
-            >
-          </a>
-          <a class="inline-block navLink">
-            <a
-              class="inline-block py-2 xl:mx-4 lg:mx-4 mx-2 navLink"
-              href="/#Products"
-              >Comunidad</a
-            >
-          </a>
-          <a class="inline-block navLink">
-            <a
-              class="inline-block py-2 xl:mx-4 lg:mx-4 mx-2 navLink"
-              href="/#Contact"
-              >Instituciones</a
-            >
-          </a>
-          <a class="inline-block navLink">
-            <a
-              class="inline-block py-2 xl:mx-4 lg:mx-4 mx-2 navLink"
-              href="/#Contact"
-              >Socios</a
-            >
-          </a>
-          <a class="inline-block navLink">
-            <a
-              class="inline-block py-2 xl:mx-4 lg:mx-4 mx-2 navLink"
-              href="/#Contact"
-              >Contacto</a
-            >
-          </a>
+          <ul class="flex">
+            <li v-for="(link, index) in links" :key="index">
+              <a
+                :href="link.url"
+                class="inline-block py-2 xl:mx-4 mx-2 navLink"
+                >{{ link.title }}</a
+              >
+            </li>
+          </ul>
         </div>
-        <div
-          class="PoppinsMedium font-semibold text-lg flex items-center lg:flex hidden"
-          id="nav-content"
-        >
-          <a class="inline-block navLink">
-            <a
-              class="inline-block xl:mx-4 lg:mx-4 mx-2 navLink"
-              href="/#Contact"
-              >Idioma</a
-            >
-          </a>
-          <a class="inline-block navLink">
-            <a
-              class="inline-block xl:mx-4 lg:mx-4 mx-2 navLink"
-              href="/#Contact"
-              >Select</a
-            >
-          </a>
-          <a class="inline-block">
+        <div class="flex items-center lg:flex hidden">
+          <div
+            class="PoppinsMedium font-semibold xl:text-lg text-base flex items-center"
+          >
+            <a class="inline-block navLink">
+              <a class="inline-block navLink">Idioma</a>
+            </a>
+            <a class="inline-block navLink">
+              <STranslate />
+            </a>
+          </div>
+          <div class="flex items-center">
             <a
               href="https://www.facebook.com/schoolaidapp"
               target="_blank"
@@ -180,8 +127,9 @@ export default {
             >
               <i class="fa-brands fa-instagram"></i>
             </a>
-          </a>
+          </div>
         </div>
+
         <div
           class="order-2 md:order-3 flex items-center lg:hidden"
           id="nav-content"

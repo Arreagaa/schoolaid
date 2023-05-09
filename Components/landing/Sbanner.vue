@@ -1,3 +1,6 @@
+<script setup>
+import SMore from '../utils/SMore.vue';
+</script>
 <template>
   <div class="overflow-hidden bg-[#537FF7] flex items-center py-8">
     <section class="bg-cover bg-center w-full relative">
@@ -20,14 +23,7 @@
                 Ahora las rutas escolares están más protegidas.
               </p>
               <div class="flex items-center text-center xl:pt-0 py-4">
-                <a
-                  class="xl:text-lg text-base border-2 border-white rounded-full py-2 px-4 text-white font-bold flex items-center gap-4 transition duration-200"
-                >
-                  Conoce más
-                  <div class="arrow-wrapper">
-                    <div class="arrow"></div>
-                  </div>
-                </a>
+                <SMore />
               </div>
               <div class="flex items-center text-center pt-4">
                 <a href="" class="pr-2"
