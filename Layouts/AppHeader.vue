@@ -54,7 +54,7 @@ export default {
             <ul class="md:flex items-center justify-between text-xl text-black">
               <li v-for="link in links" :key="link.id">
                 <a :href="link.url" class="inline-block py-4 px-4 navLink">{{
-                  link.title
+                  $t(link.title)
                 }}</a>
               </li>
               <li>
@@ -96,7 +96,7 @@ export default {
               <a
                 :href="link.url"
                 class="inline-block py-2 xl:mx-4 mx-2 navLink"
-                >{{ link.title }}</a
+                >{{ $t(link.title) }}</a
               >
             </li>
           </ul>
@@ -105,8 +105,8 @@ export default {
           <div
             class="PoppinsMedium font-semibold xl:text-lg text-base flex items-center"
           >
-            <a class="inline-block navLink">
-              <a class="inline-block navLink">Idioma</a>
+            <a class="inline-block">
+              <a class="inline-block">{{$t("Idioma")}}</a>
             </a>
             <a class="inline-block navLink">
               <STranslate />

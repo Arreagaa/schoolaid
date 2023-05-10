@@ -32,7 +32,6 @@ export default {
       class="bg-[url('/assets/bg/Header.png')] bg-cover xl:bg-center bg-left"
     >
       <SHero />
-      <div class="xl:py-56 py-28"></div>
     </div>
   </section>
   <section>

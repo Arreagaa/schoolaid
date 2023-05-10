@@ -3,11 +3,24 @@ export default {
   data() {
     return {
       isPlaying: false,
+      videoLink: "https://www.youtube.com/embed/j0DyAQlewws?autoplay=1",
     };
   },
   methods: {
     playVideo() {
       this.isPlaying = true;
+    },
+    localeVideo() {
+      if (this.$i18n.locale === "es") {
+        this.videoLink = "https://www.youtube.com/embed/j0DyAQlewws?autoplay=1";
+      } else {
+        this.videoLink = "https://www.youtube.com/embed/zh4GX_9utBM?autoplay=1";
+      }
+    },
+  },
+  watch: {
+    "$i18n.locale": function () {
+      this.localeVideo();
     },
   },
 };
@@ -19,7 +32,7 @@ export default {
         <iframe
           v-if="isPlaying"
           class="absolute inset-0 w-full h-full"
-          src="https://www.youtube.com/embed/j0DyAQlewws?autoplay=1"
+          :src="videoLink"
           allowfullscreen
           allow="autoplay"
         ></iframe>
@@ -30,7 +43,6 @@ export default {
           alt=""
           @click="playVideo"
         />
-        
       </div>
     </div>
     <div
@@ -56,10 +68,3 @@ export default {
     </div>
   </div>
 </template>
-<style>
-@media (min-width: 1536px) and (max-width: 1669px) {
-  .responsive-size {
-    padding-right: 0%;
-  }
-}
-</style>
