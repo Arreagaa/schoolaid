@@ -7,7 +7,7 @@
           <span
             class="PoppinsMedium text-lg block text-white text-base py-20 xl:px-14"
           >
-            © 2020 Schoolaid Todos los derechos
+            © 2020 Schoolaid {{ $t("Todos los derechos") }}
           </span>
         </div>
         <div class="w-full lg:w-6/12 px-4 xl:pt-28">
@@ -37,7 +37,7 @@
             </div>
             <div class="w-full xl:pl-12 lg:w-1/8 md:w-1/2 xl:pt-0 pt-4">
               <h2 class="PoppinsMedium block text-white text-lg font-bold mb-2">
-                Contacto
+                {{ $t("Contacto") }}
               </h2>
               <ul class="mb-10 list-unstyled PoppinsRegular">
                 <li class="py1">

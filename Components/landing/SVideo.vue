@@ -56,15 +56,24 @@ export default {
         >
           <a
             class="ModeratBlack xl:text-4xl text-3xl font-bold leading-none xl:mb-6 mb-2 tracking-wider"
-            >¿Cómo funciona?</a
+            >{{ $t("¿Cómo funciona?") }}</a
           >
           <p class="PoppinsMedium md:text-xl text-lg leading-6">
-            SchoolAid es un SaaS que facilita y automatiza las gestiones diarias
-            entre padres de familia y colegio, y centraliza todas las
-            plataformas en un mismo lugar.
+            {{
+              $t(
+                "SchoolAid es un SaaS que facilita y automatiza las gestiones diarias entre padres de familia y colegio, y centraliza todas las plataformas en un mismo lugar."
+              )
+            }}
           </p>
         </div>
       </div>
     </div>
   </div>
 </template>
+<style>
+@media (min-width: 1536px) and (max-width: 1669px) {
+  .responsive-size {
+    padding-right: 0%;
+  }
+}
+</style>

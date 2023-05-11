@@ -8,15 +8,21 @@
       >
         <h1
           class="ModeratBlack my-4 xl:text-6xl size-responsive text-4xl max-[375px]:text-3xl font-bold leading-tight"
+          :class="$i18n.locale === 'es' ? 'xl:pr-0' : 'xl:pr-16'"
         >
-          Simplificamos procesos
-          <span class="text-[#F66750] underline">mejoramos relaciones</span>
+          {{ $t("Simplificamos procesos") }}
+          <span class="text-[#F66750] underline">{{
+            $t("mejoramos relaciones")
+          }}</span>
         </h1>
         <p
           class="PoppinsRegular leading-normal xl:text-xl text-lg my-4 xl:my-4 mb-8 xl:pr-16"
         >
-          Automatiza y simplifica los procesos diarios entre colegio y padres de
-          familia.
+          {{
+            $t(
+              "Automatiza y simplifica los procesos diarios entre colegio y padres de familia."
+            )
+          }}
         </p>
       </div>
     </div>

@@ -21,10 +21,19 @@ const props = defineProps({
       </div>
     </div>
     <div class="text-black pt-6 pb-8 px-4">
-      <h3 class="ModeratBlack text-3xl">{{ item.title }}</h3>
+      <h3
+        class="ModeratBlack text-3xl"
+        :class="$i18n.locale === 'es' ? '2xl:pr-0' : '2xl:pr-16'"
+      >
+        {{ $t(item.title) }}
+      </h3>
       <p class="PoppinsMedium text-lg py-4 2xl:pr-4 pr-0 md:pr-16">
-        {{ item.description }}
+        {{ $t(item.description) }}
       </p>
+      <div
+        v-if="idItem === 3"
+        :class="$i18n.locale === 'es' ? '2xl:pb-0' : '2xl:pb-6'"
+      ></div>
       <div v-if="idItem === 2 || idItem === 3" class="xl:pt-2" />
       <div class="flex items-center text-center pt-4">
         <SMore :href="item.link" />

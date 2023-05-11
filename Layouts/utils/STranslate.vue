@@ -5,8 +5,8 @@ export default {
     return {
       currentLanguage: this.$i18n.locale,
       supportedLanguagesFlagIcons: {
-        es: "/assets/icons/es.png",
-        en: "/assets/icons/en.png",
+        es: "/assets/icons/es.svg",
+        en: "/assets/icons/en.svg",
       },
     };
   },

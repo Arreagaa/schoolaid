@@ -38,7 +38,10 @@ export default {
     <Sbanner />
   </section>
   <section class="max-w-custom py-16">
-    <SBagTitle title="¿Cómo te ayudamos?" image="/assets/aids/Ayuda.png" />
+    <SBagTitle
+      :title="$t('¿Cómo te ayudamos?')"
+      image="/assets/aids/Ayuda.png"
+    />
     <div class="py-8">
       <SShow />
     </div>
@@ -46,8 +49,8 @@ export default {
   <section class="pt-8 mb-0 pb-0">
     <div class="max-w-custom">
       <SBagTitle
-        title="Tipos de Instituciones"
-        description="Quienes utilizan nuestros productos:"
+        :title="$t('Tipos de Instituciones')"
+        :description="$t('Quienes utilizan nuestros productos:')"
         image="/assets/aids/Instituciones.png"
       />
     </div>
@@ -73,7 +76,10 @@ export default {
     </div>
   </section>
   <section class="max-w-custom py-16">
-    <SBagTitle title="Nuestro Ecosistema Aids" image="/assets/aids/Aid.png" />
+    <SBagTitle
+      :title="$t('Nuestro Ecosistema Aids')"
+      image="/assets/aids/Aid.png"
+    />
     <div class="py-8">
       <SEcosystems />
     </div>

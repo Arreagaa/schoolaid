@@ -5,6 +5,7 @@ export default {
   data() {
     return {
       excludedIds: [1, 3, 4, 5],
+      excludedIdsEn: [0, 1, 2],
     };
   },
   props: {
@@ -37,15 +38,24 @@ export default {
             v-if="idItem === 5"
             class="bg-[#F66750] flex items-center leading-none rounded-full px-6 py-2 animate-bounce"
           >
-            <p class="inline text-base text-white font-medium">¡Nuevo!</p>
+            <p class="inline text-base text-white font-medium">
+              {{ $t("¡Nuevo!") }}
+            </p>
           </div>
         </div>
       </div>
       <p class="paragraph-normal font-semibold text-[#333333] pt-6 text-xl">
-        {{ item.description }}
+        {{ $t(item.description) }}
       </p>
       <div class="flex items-center text-center pt-8">
-        <div v-if="!excludedIds.includes(idItem)" class="xl:py-12" />
+        <div
+          v-if="!excludedIds.includes(idItem)"
+          :class="$i18n.locale === 'es' ? 'xl:py-12' : 'xl:py-0'"
+        />
+        <div
+          v-if="excludedIdsEn.includes(idItem)"
+          :class="$i18n.locale === 'es' ? 'xl:py-0 lg:py-0' : 'xl:py-12 lg:py-8'"
+        ></div>
         <SMore :href="item.link" />
       </div>
     </div>
