@@ -60,7 +60,20 @@ export default defineI18nConfig(() => ({
       "Punto de venta digital. Administra cobros, membresías y más.":
         "Punto de venta digital. Administra cobros, membresías y más.",
       "¡Nuevo!": "¡Nuevo!",
-      "Todos los derechos": "Todos los derechos"
+      "Todos los derechos": "Todos los derechos",
+      "¡Nuevo módulo!": "¡Nuevo módulo!",
+      "Punto de venta digital para colegios, academias y gimnasios":
+        "Punto de venta digital para colegios, academias y gimnasios",
+      "Facilita la automatización y gestión de pagos, venta de productos y membresías.":
+        "Facilita la automatización y gestión de pagos, venta de productos y membresías.",
+      "Crea y administra un mercado totalmente digital para vender de manera fácil.":
+        "Crea y administra un mercado totalmente digital para vender de manera fácil.",
+      "Crea membresías de cobro automático para facilitar los procesos de pago.":
+        "Crea membresías de cobro automático para facilitar los procesos de pago.",
+      "Gestiona cobros, estados de cuenta, productos, inventario, etc.":
+        "Gestiona cobros, estados de cuenta, productos, inventario, etc.",
+      "Personaliza el punto de venta según tus necesidades.":
+        "Personaliza el punto de venta según tus necesidades.",
     },
     en: {
       Español: "Spanish",
@@ -119,7 +132,20 @@ export default defineI18nConfig(() => ({
       "Punto de venta digital. Administra cobros, membresías y más.":
         "Digital Point of Sale. Create and manage tuition payments, memberships, products, and more.",
       "¡Nuevo!": "New!",
-      "Todos los derechos": "All rights reserved."
+      "Todos los derechos": "All rights reserved.",
+      "¡Nuevo módulo!": "New module!",
+      "Punto de venta digital para colegios, academias y gimnasios":
+        "Digital point of sale for schools, academies and gyms",
+      "Facilita la automatización y gestión de pagos, venta de productos y membresías.":
+        "It facilitates the automation and management of payments, product sales and memberships.",
+      "Crea y administra un mercado totalmente digital para vender de manera fácil.":
+        "Create and manage a fully digital marketplace to sell easily.",
+      "Crea membresías de cobro automático para facilitar los procesos de pago.":
+        "Create automatic payment memberships to facilitate the payment processes.",
+      "Gestiona cobros, estados de cuenta, productos, inventario, etc.":
+        "Manage charges, account statements, products, inventory, etc.",
+      "Personaliza el punto de venta según tus necesidades.":
+        "Customize the point of sale according to your needs.",
     },
   },
 }));

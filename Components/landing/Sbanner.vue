@@ -60,14 +60,14 @@ export default {
                       <a class="pr-2" id="prevButton"
                         ><img
                           src="/assets/aids/Send-Square.png"
-                          class="w-10 object-cover rounded-xl"
+                          class="w-10 cursor-pointer object-cover rounded-xl"
                           alt=""
                       /></a>
                       <a
                         ><img
                           id="nextButton"
                           src="/assets/aids/Recive-Square.png"
-                          class="w-10 object-cover rounded-xl"
+                          class="w-10 cursor-pointer object-cover rounded-xl"
                           alt=""
                       /></a>
                     </div>
@@ -105,36 +105,42 @@ export default {
                 <div>
                   <div class="mx-auto xl:px-0 px-6 py-6 xl:py-0">
                     <p class="PoppinsRegular font-bold text-xl xl:mb-6 mb-4">
-                      {{ $t("¡Nuevo socio de integración!") }}
+                      {{ $t("¡Nuevo módulo!") }}
                     </p>
                     <h1
                       class="PoppinsBold xl:text-[40px] max-[375px]:pr-4 text-3xl"
                     >
-                      {{ $t("Alianza estratégica con Grupo Golán") }}
+                      {{
+                        $t(
+                          "Punto de venta digital para colegios, academias y gimnasios"
+                        )
+                      }}
                     </h1>
                     <p
                       class="PoppinsExtraLight text-lg xl:text-2xl font-bold text-xl xl:my-6 my-4"
                     >
                       {{
-                        $t("Ahora las rutas escolares están más protegidas.")
+                        $t(
+                          "Facilita la automatización y gestión de pagos, venta de productos y membresías."
+                        )
                       }}
                     </p>
-                    <div class="flex items-center text-center xl:pt-0 py-4">
+                    <NuxtLink to="/market-aid" class="flex items-center text-center xl:pt-0 py-4">
                       <SMore />
-                    </div>
+                    </NuxtLink>
                     <div class="flex items-center text-center pt-4 block">
                       <a class="pr-2"
                         ><img
                           id="prevButton"
                           src="/assets/aids/Send-Square.png"
-                          class="w-10 object-cover rounded-xl"
+                          class="w-10 cursor-pointer object-cover rounded-xl"
                           alt=""
                       /></a>
                       <a
                         ><img
                           id="nextButton"
                           src="/assets/aids/Recive-Square.png"
-                          class="w-10 object-cover rounded-xl"
+                          class="w-10 cursor-pointer object-cover rounded-xl"
                           alt=""
                       /></a>
                     </div>
@@ -146,15 +152,6 @@ export default {
                       alt=""
                     />
                   </div>
-                </div>
-                <div
-                  class="absolute top-0 -right-6 image-aid xl:flex hidden items-end text-end pt-28 hidden-below-1520"
-                >
-                  <img
-                    src="/assets/aids/Rectangle-48.png"
-                    class="w-40"
-                    alt=""
-                  />
                 </div>
               </div>
             </div>
