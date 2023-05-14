@@ -6,11 +6,11 @@ export default {
       menuOpen: false,
       links: [
         { title: "Quienes somos", url: "/" },
-        { title: "Ecosistemas Aids", url: "/#Values" },
-        { title: "Comunidad", url: "/#Products" },
-        { title: "Instituciones", url: "/#Contact" },
-        { title: "Socios", url: "/#Contact" },
-        { title: "Contacto", url: "/#Contact" },
+        { title: "Ecosistemas Aids", url: "" },
+        { title: "Comunidad", url: "/community" },
+        { title: "Instituciones", url: "" },
+        { title: "Socios", url: "" },
+        { title: "Contacto", url: "" },
       ],
     };
   },
@@ -54,7 +54,8 @@ export default {
             <ul class="md:flex items-center justify-between text-xl text-black">
               <li v-for="link in links" :key="link.id">
                 <NuxtLink
-                  :href="link.url"
+                  :to="link.url"
+                  exact-active-class="text-[#537FF7]"
                   class="inline-block py-4 px-4 navLink"
                   >{{ $t(link.title) }}</NuxtLink
                 >
@@ -85,9 +86,9 @@ export default {
           </nav>
         </div>
         <div class="xl:py-8 py-6 px-2 flex items-center">
-          <a class="2xl:w-48 xl:w-40 md:w-32 w-56" href="/">
+          <NuxtLink class="2xl:w-48 xl:w-40 md:w-32 w-56" to="/">
             <img src="/assets/schoolaid.png" />
-          </a>
+          </NuxtLink>
         </div>
         <div
           class="PoppinsMedium font-semibold xl:text-lg text-base flex items-center lg:flex hidden"
@@ -96,7 +97,8 @@ export default {
           <ul class="flex">
             <li v-for="(link, index) in links" :key="index">
               <NuxtLink
-                :href="link.url"
+                :to="link.url"
+                exact-active-class="text-[#537FF7]"
                 class="inline-block py-2 xl:mx-4 mx-2 navLink"
                 >{{ $t(link.title) }}</NuxtLink
               >

@@ -74,6 +74,12 @@ export default defineI18nConfig(() => ({
         "Gestiona cobros, estados de cuenta, productos, inventario, etc.",
       "Personaliza el punto de venta según tus necesidades.":
         "Personaliza el punto de venta según tus necesidades.",
+      welcome_message:
+        "Puedes utilizar <span class='text-[#537FF7]'>SchoolAid</span> en cualquier parte del mundo",
+      "Colegios, Empresas y Academias": "Colegios, Empresas y Academias",
+      "Usuarios satisfechos con opiniones positivas":
+        "Usuarios satisfechos con opiniones positivas",
+      "Familias que usan la app a diario": "Familias que usan la app a diario",
     },
     en: {
       Español: "Spanish",
@@ -146,6 +152,12 @@ export default defineI18nConfig(() => ({
         "Manage charges, account statements, products, inventory, etc.",
       "Personaliza el punto de venta según tus necesidades.":
         "Customize the point of sale according to your needs.",
+      welcome_message:
+        "You can use <span class='text-[#537FF7]'>SchoolAid</span> anywhere in the world",
+      "Colegios, Empresas y Academias": "Schools, Companies, and Institutions.",
+      "Usuarios satisfechos con opiniones positivas":
+        "Satisfied users with positive experiences.",
+      "Familias que usan la app a diario": "Families who use our App eveyday.",
     },
   },
 }));
