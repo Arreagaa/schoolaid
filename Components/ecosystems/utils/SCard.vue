@@ -54,9 +54,11 @@ export default {
         />
         <div
           v-if="excludedIdsEn.includes(idItem)"
-          :class="$i18n.locale === 'es' ? 'xl:py-0 lg:py-0' : 'xl:py-12 lg:py-8'"
+          :class="
+            $i18n.locale === 'es' ? 'xl:py-0 lg:py-0' : 'xl:py-12 lg:py-8'
+          "
         ></div>
-        <SMore :href="item.link" />
+        <SMore :to="item.link" />
       </div>
     </div>
   </div>

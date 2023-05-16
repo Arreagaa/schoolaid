@@ -19,7 +19,7 @@ const applications = [
     icon: "/assets/icons/Transporte.png",
     description:
       "Gestión de pasajeros, automatización, seguimiento y trazabilidad en tiempo real.",
-    link: "https://www.figma.com/proto/g7eE11PFHtMzLJzLcwOt3C/SchoolAid?node-id=109-5977&scaling=min-zoom&page-id=109%3A5976",
+    link: "/transportation-aid",
   },
   {
     title: "Comunicación",

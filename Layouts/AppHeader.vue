@@ -6,7 +6,10 @@ export default {
       menuOpen: false,
       links: [
         { title: "Quienes somos", url: "/" },
-        { title: "Ecosistemas Aids", url: "" },
+        {
+          title: "Ecosistema Aid",
+          url: ["/market-aid", "/transportation-aid"],
+        },
         { title: "Comunidad", url: "/community" },
         { title: "Instituciones", url: "" },
         { title: "Socios", url: "" },
@@ -16,6 +19,13 @@ export default {
   },
   components: { STranslate },
   methods: {
+    isActive(link) {
+      if (Array.isArray(link.url)) {
+        return link.url.includes(this.$route.path);
+      } else {
+        return link.url === this.$route.path;
+      }
+    },
     toggleMenu() {
       this.menuOpen = !this.menuOpen;
       if (this.menuOpen) {
@@ -55,7 +65,7 @@ export default {
               <li v-for="link in links" :key="link.id">
                 <NuxtLink
                   :to="link.url"
-                  exact-active-class="text-[#537FF7]"
+                  :class="{ 'text-[#537FF7]': isActive(link) }"
                   class="inline-block py-4 px-4 navLink"
                   >{{ $t(link.title) }}</NuxtLink
                 >
@@ -98,7 +108,7 @@ export default {
             <li v-for="(link, index) in links" :key="index">
               <NuxtLink
                 :to="link.url"
-                exact-active-class="text-[#537FF7]"
+                :class="{ 'text-[#537FF7]': isActive(link) }"
                 class="inline-block py-2 xl:mx-4 mx-2 navLink"
                 >{{ $t(link.title) }}</NuxtLink
               >

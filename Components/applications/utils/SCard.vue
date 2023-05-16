@@ -36,7 +36,7 @@ const props = defineProps({
       ></div>
       <div v-if="idItem === 2 || idItem === 3" class="xl:pt-2" />
       <div class="flex items-center text-center pt-4">
-        <SMore :href="item.link" />
+        <SMore :to="item.link" />
       </div>
     </div>
   </div>

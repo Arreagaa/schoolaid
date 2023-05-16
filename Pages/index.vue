@@ -77,7 +77,7 @@ export default {
   </section>
   <section class="max-w-custom py-16">
     <SBagTitle
-      :title="$t('Nuestro Ecosistema Aids')"
+      :title="$t('Nuestro Ecosistema Aid')"
       image="/assets/aids/Aid.png"
     />
     <div class="py-8">

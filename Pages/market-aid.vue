@@ -10,14 +10,14 @@ import SBagTitle from "~/Components/landing/utils/SBagTitle.vue";
       <AppHeaderVue />
     </div>
   </section>
-  <section class="py-8 xl:px-6">
+  <section class="pb-8 xl:px-6">
     <div class="max-w-custom">
       <SBagTitle
         title="Market Aid"
         description="Business solution"
         image="/assets/aids/aid_market.png"
       />
-      <div class="pt-8">
+      <div>
         <SMarket />
       </div>
     </div>

@@ -1,6 +1,6 @@
 <script setup>
 import SText from "./utils/SText.vue";
-import SData from "./utils/SData.vue";
+import SInfo from "./utils/SInfo.vue";
 </script>
 <template>
   <div class="flex flex-col-reverse md:flex-row">
@@ -12,8 +12,16 @@ import SData from "./utils/SData.vue";
     </div>
   </div>
   <div>
-    <div>
-      <SData />
+    <div class="px-3 md:lg:xl:px-72 res-space-x">
+      <SInfo />
     </div>
   </div>
 </template>
+<style>
+@media (min-width: 1282px) and (max-width: 1669px) {
+  .res-space-x {
+    padding-left: 0%;
+    padding-right: 0%;
+  }
+}
+</style>

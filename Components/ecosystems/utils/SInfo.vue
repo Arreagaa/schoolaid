@@ -7,6 +7,7 @@ const ecosystems = [
     description:
       "Gestiona y administra el transporte escolar. Ubicación en tiempo real, reportes y más.",
     icon: "/assets/aids/Transportation.png",
+    link: "/transportation-aid",
   },
   {
     title: "Control Aid",
@@ -14,6 +15,7 @@ const ecosystems = [
     description:
       "Mantén el control de los accesos, salidas y cambios. Administra solicitudes de padres y asistencia en clases.",
     icon: "/assets/aids/Control.png",
+    link: "/transportation-aid",
   },
   {
     title: "Communication Aid",
@@ -21,6 +23,7 @@ const ecosystems = [
     description:
       "Centraliza todas las herramientas y la comunicación en un solo lugar.",
     icon: "/assets/aids/Communication.png",
+    link: "/transportation-aid",
   },
   {
     title: "Chat Center",
@@ -28,6 +31,7 @@ const ecosystems = [
     description:
       "Atención a padres a través de chat. Crea y administra canales de servicio al cliente.",
     icon: "/assets/aids/Chat.png",
+    link: "/transportation-aid",
   },
   {
     title: "Wellness Aid",
@@ -35,12 +39,14 @@ const ecosystems = [
     description:
       "Crea encuestas y formularios personalizados. Administra registros médicos y más.",
     icon: "/assets/aids/Transportation.png",
+    link: "/transportation-aid",
   },
   {
     title: "Market Aid",
     image: "/assets/img/Market-Aid.png",
     description: "Punto de venta digital. Administra cobros, membresías y más.",
     icon: "/assets/aids/Market.png",
+    link: "/transportation-aid",
   },
 ];
 </script>

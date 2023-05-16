@@ -24,7 +24,7 @@ export default defineI18nConfig(() => ({
         "Ahora las rutas escolares están más protegidas.",
       "¿Cómo te ayudamos?": "¿Cómo te ayudamos?",
       "Tipos de Instituciones": "Tipos de Instituciones",
-      "Nuestro Ecosistema Aids": "Nuestro Ecosistema Aids",
+      "Nuestro Ecosistema Aid": "Nuestro Ecosistema Aid",
       "Quienes utilizan nuestros productos:":
         "Quienes utilizan nuestros productos:",
       Academias: "Academias",
@@ -103,7 +103,7 @@ export default defineI18nConfig(() => ({
         "Now school routes are more protected.",
       "¿Cómo te ayudamos?": "Our solutions",
       "Tipos de Instituciones": "Our clients",
-      "Nuestro Ecosistema Aids": "Our Aids Ecosystem",
+      "Nuestro Ecosistema Aid": "Our Aids Ecosystem",
       "Quienes utilizan nuestros productos:": "Who's trusting our services:",
       Academias: "Academies",
       Colegios: "Private Schools",
