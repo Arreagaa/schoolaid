@@ -80,6 +80,8 @@ export default defineI18nConfig(() => ({
       "Usuarios satisfechos con opiniones positivas":
         "Usuarios satisfechos con opiniones positivas",
       "Familias que usan la app a diario": "Familias que usan la app a diario",
+      Integraciones: "Integraciones",
+      "Clientes satisfechos": "Clientes satisfechos",
     },
     en: {
       Español: "Spanish",
@@ -158,6 +160,8 @@ export default defineI18nConfig(() => ({
       "Usuarios satisfechos con opiniones positivas":
         "Satisfied users with positive experiences.",
       "Familias que usan la app a diario": "Families who use our App eveyday.",
+      Integraciones: "Integration Partners",
+      "Clientes satisfechos": "Our customers",
     },
   },
 }));

@@ -11,8 +11,8 @@ export default {
           url: ["/market-aid", "/transportation-aid"],
         },
         { title: "Comunidad", url: "/community" },
-        { title: "Instituciones", url: "" },
-        { title: "Socios", url: "" },
+        { title: "Instituciones", url: "/customers" },
+        { title: "Socios", url: "/customers" },
         { title: "Contacto", url: "" },
       ],
     };
@@ -60,7 +60,9 @@ export default {
           class="hidden md:flex md:items-center md:w-auto w-full order-3 md:order-1 overflow-y-hidden"
           id="menu"
         >
-          <nav class="lg:hidden PoppinsMedium font-semibold h-screen">
+          <nav
+            class="lg:hidden PoppinsMedium font-semibold max-[767px]:h-screen"
+          >
             <ul class="md:flex items-center justify-between text-xl text-black">
               <li v-for="link in links" :key="link.id">
                 <NuxtLink

@@ -1,5 +1,4 @@
 <script>
-import SMore from "~/Components/utils/SMore.vue";
 import SData from "./SData.vue";
 import { Swiper, SwiperSlide } from "swiper/vue";
 import "swiper/css";
@@ -30,7 +29,6 @@ export default {
   components: {
     Swiper,
     SwiperSlide,
-    SMore,
     SData,
   },
   setup() {
