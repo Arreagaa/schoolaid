@@ -13,9 +13,9 @@ import AppFooter from "~/Layouts/AppFooter.vue";
   <section>
     <div class="max-w-custom px-6">
       <SBagTitleCustomers :title="$t('Integraciones')" />
-      <div>
-        <SShow />
-      </div>
+    </div>
+    <div>
+      <SShow />
     </div>
   </section>
   <section>
