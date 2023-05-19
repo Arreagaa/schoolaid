@@ -3,7 +3,8 @@ import SData from "./SData.vue";
 import { Swiper, SwiperSlide } from "swiper/vue";
 import "swiper/css";
 import "swiper/css/navigation";
-import { Navigation } from "swiper";
+import { Navigation, Autoplay } from "swiper";
+
 export default {
   data() {
     return {
@@ -24,6 +25,10 @@ export default {
           image: "/assets/img/Group-7.png",
         },
       ],
+      autoplayOptions: {
+        delay: 5000,
+        disableOnInteraction: false,
+      },
     };
   },
   components: {
@@ -33,7 +38,7 @@ export default {
   },
   setup() {
     return {
-      modules: [Navigation],
+      modules: [Navigation, Autoplay],
       navigation: {
         prevEl: "#prevButton",
         nextEl: "#nextButton",
@@ -42,10 +47,17 @@ export default {
   },
 };
 </script>
+
 <template>
   <section class="w-full">
     <div class="swiper">
-      <swiper :navigation="navigation" :modules="modules" class="mySwiper">
+      <swiper
+        :navigation="navigation"
+        :modules="modules"
+        :autoplay="autoplayOptions"
+        :loop="true"
+        class="mySwiper"
+      >
         <swiper-slide v-for="(item, index) in data" :key="index">
           <SData :id-item="index" :item="item" />
         </swiper-slide>

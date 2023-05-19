@@ -13,7 +13,7 @@ export default {
         { title: "Comunidad", url: "/community" },
         { title: "Instituciones", url: "/customers" },
         { title: "Socios", url: "/customers" },
-        { title: "Contacto", url: "" },
+        { title: "Contacto", url: "/contact" },
       ],
     };
   },

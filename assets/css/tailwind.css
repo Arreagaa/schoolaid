@@ -64,7 +64,7 @@
   @apply ring-red-400 border-red-400;
 }
 .focus-form {
-  @apply focus:ring-yellow-400 focus:border-yellow-400;
+  @apply focus:ring-[#537FF7] focus:border-[#537FF7];
 }
 .navLink {
   @apply hover:text-[#537FF7];
@@ -116,9 +116,7 @@ a:hover .arrow:before {
   right: 0;
 }
 .max-w-custom {
-  max-width: 1700px;
-  margin-right: auto;
-  margin-left: auto;
+  @apply max-w-[1700px] mx-auto;
 }
 #menu-toggle:checked + #menu {
   display: block;
