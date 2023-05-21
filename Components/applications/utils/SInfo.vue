@@ -6,13 +6,13 @@ const applications = [
     icon: "/assets/icons/Seguridad.png",
     description:
       "Gestión de visitantes, seguridad, control y seguridad de los alumnos.",
-    link: "https://www.figma.com/proto/g7eE11PFHtMzLJzLcwOt3C/SchoolAid?node-id=109-5977&scaling=min-zoom&page-id=109%3A5976",
+    link: "/control-aid",
   },
   {
     title: "Automatizar operaciones",
     icon: "/assets/icons/Automatizar.png",
     description: "Asistencia, solicitudes de los padres y cambios de horario.",
-    link: "https://www.figma.com/proto/g7eE11PFHtMzLJzLcwOt3C/SchoolAid?node-id=109-5977&scaling=min-zoom&page-id=109%3A5976",
+    link: "/control-aid",
   },
   {
     title: "Transporte",
@@ -26,7 +26,7 @@ const applications = [
     icon: "/assets/icons/Comunicacion.png",
     description:
       "Centro de chat y herramientas de comunicación eficientes e inmediatas.",
-    link: "https://www.figma.com/proto/g7eE11PFHtMzLJzLcwOt3C/SchoolAid?node-id=109-5977&scaling=min-zoom&page-id=109%3A5976",
+    link: "/communication-aid",
   },
 ];
 </script>

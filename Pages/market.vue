@@ -13,10 +13,7 @@ import SBagTitleAid from "~/Components/utils/SBagTitleAid.vue";
   <section>
     <div>
       <div class="max-w-custom 2xl:px-8">
-        <SBagTitleAid
-          title="Transportation Aid"
-          image="/assets/aids/Transportation.png"
-        />
+        <SBagTitleAid title="Market Aid" image="/assets/aids/Market.png" />
       </div>
       <div>
         <SShow />

@@ -13,7 +13,7 @@ export default {
           title: "¡Nuevo socio de integración!",
           description: "Alianza estratégica con Grupo Golán",
           text: "Ahora las rutas escolares están más protegidas.",
-          url: "/",
+          url: "/transportation-aid",
           image: "/assets/img/Group-7.png",
         },
         {
@@ -47,7 +47,6 @@ export default {
   },
 };
 </script>
-
 <template>
   <section class="w-full">
     <div class="swiper">

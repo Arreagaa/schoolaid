@@ -1,6 +1,8 @@
 export default defineI18nConfig(() => ({
   locale: "es",
   fallbackLocale: "en",
+  fallbackWarn: false,
+  missingWarn: false,
   messages: {
     es: {
       Español: "Español",
@@ -93,6 +95,21 @@ export default defineI18nConfig(() => ({
         "¿Qué tipo de solución funciona mejor para ti?",
       "Cuéntanos más": "Cuéntanos más",
       Enviar: "Enviar",
+      "Plataforma web para mejor administración del transporte escolar. Ubicación y tráfico en tiempo real. Alertas y notificaciones de proximidad.":
+        "Plataforma web para mejor administración del transporte escolar. Ubicación y tráfico en tiempo real. Alertas y notificaciones de proximidad.",
+      Reportes: "Reportes",
+      "Trazabilidad.": "Trazabilidad.",
+      "Asistencia en rutas.": "Asistencia en rutas.",
+      "Alertas de velocidad.": "Alertas de velocidad.",
+      "Horas en parada.": "Horas en parada.",
+      "Tráfico.": "Tráfico.",
+      "Permite a los padres ver la ubicación exacta del transporte escolar en tiempo real a través de la app.":
+        "Permite a los padres ver la ubicación exacta del transporte escolar en tiempo real a través de la app.",
+      "Visualiza los tiempos de llegada estimados por parada, recibe notificaciones push durante la ruta y alertas de proximidad.":
+        "Visualiza los tiempos de llegada estimados por parada, recibe notificaciones push durante la ruta y alertas de proximidad.",
+      "Nueva Alianza con Grupo Golán": "Nueva Alianza con Grupo Golán",
+      "Ahora los colegios en Guatemala y El Salvador pueden optar por incluir un botón de pánico en el transporte escolar y ante cualquier situación de riesgo, un Especialista en Atención de Seguridad de Golán, atenderá la señal de emergencia desde la App de SchoolAid y una Patrulla REDIPAT se despachará de inmediato hacia la ubicación del bus.":
+        "Ahora los colegios en Guatemala y El Salvador pueden optar por incluir un botón de pánico en el transporte escolar y ante cualquier situación de riesgo, un Especialista en Atención de Seguridad de Golán, atenderá la señal de emergencia desde la App de SchoolAid y una Patrulla REDIPAT se despachará de inmediato hacia la ubicación del bus.",
     },
     en: {
       Español: "Spanish",
@@ -184,6 +201,21 @@ export default defineI18nConfig(() => ({
         "I want more information about...",
       "Cuéntanos más": "Tell us more",
       Enviar: "Send",
+      "Plataforma web para mejor administración del transporte escolar. Ubicación y tráfico en tiempo real. Alertas y notificaciones de proximidad.":
+        "Web platform for better administration of school transport. Location and traffic in real time. Proximity alerts and notifications.",
+      Reportes: "Reports",
+      "Trazabilidad.": "Traceability.",
+      "Asistencia en rutas.": "Route assistance.",
+      "Alertas de velocidad.": "Speed alerts.",
+      "Horas en parada.": "Stop hours.",
+      "Tráfico.": "Traffic.",
+      "Permite a los padres ver la ubicación exacta del transporte escolar en tiempo real a través de la app.":
+        "Allows parents to view the exact location of the school transport in real time through the app.",
+      "Visualiza los tiempos de llegada estimados por parada, recibe notificaciones push durante la ruta y alertas de proximidad.":
+        "Visualize estimated arrival times per stop, receive push notifications during the route, and proximity alerts.",
+      "Nueva Alianza con Grupo Golán": "New Integration Partner: Grupo Golán",
+      "Ahora los colegios en Guatemala y El Salvador pueden optar por incluir un botón de pánico en el transporte escolar y ante cualquier situación de riesgo, un Especialista en Atención de Seguridad de Golán, atenderá la señal de emergencia desde la App de SchoolAid y una Patrulla REDIPAT se despachará de inmediato hacia la ubicación del bus.":
+        "Now schools in Guatemala and El Salvador can choose to include a panic button in the school transport and in any risk situation, a Golan Security Specialist will attend to the emergency signal from the SchoolAid App and a REDIPAT Patrol unit will be dispatched immediately to the bus location.",
     },
   },
 }));

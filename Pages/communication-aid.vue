@@ -14,8 +14,8 @@ import SBagTitleAid from "~/Components/utils/SBagTitleAid.vue";
     <div>
       <div class="max-w-custom 2xl:px-8">
         <SBagTitleAid
-          title="Transportation Aid"
-          image="/assets/aids/Transportation.png"
+          title="Communication Aid"
+          image="/assets/aids/Communication.png"
         />
       </div>
       <div>

@@ -40,7 +40,7 @@ export default {
             image: "/assets/clients/antiguagreen.png",
           },
           {
-            image: "/assets/clients/Boston.png",
+            image: "/assets/clients/principe-asturias.gif",
           },
           {
             image: "/assets/clients/liceo-javier.png",
@@ -49,7 +49,7 @@ export default {
             image: "/assets/clients/epic.jpg",
           },
           {
-            image: "/assets/clients/connections-apde-logo.png",
+            image: "/assets/clients/montemaria-logo.jpeg",
           },
           {
             image: "/assets/clients/fmt.jpeg",
@@ -86,7 +86,7 @@ export default {
         ],
         [
           {
-            image: "/assets/clients/montemaria-logo.jpeg",
+            image: "/assets/clients/connections-apde-logo.png",
           },
           {
             image: "/assets/clients/entrevalles.jpg",
@@ -112,7 +112,7 @@ export default {
         ],
         [
           {
-            image: "/assets/clients/logo-bep.png",
+            image: "/assets/clients/Boston.png",
           },
           {
             image: "/assets/clients/olami-mx.png",
@@ -121,13 +121,19 @@ export default {
             image: "/assets/clients/equity.png",
           },
           {
-            image: " ",
+            image: "/assets/clients/julioverne.png",
+          },
+          {
+            image: "/assets/clients/waldorf.png",
+          },
+          {
+            image: "/assets/clients/Telus-Symbol.png",
+          },
+          {
+            image: "/assets/clients/colgate.png",
           },
           {
             image: "/assets/clients/genius.jpeg",
-          },
-          {
-            image: "/assets/clients/principe-asturias.gif",
           },
         ],
       ],
@@ -138,22 +144,33 @@ export default {
   },
   methods: {
     nextSlide() {
-      if (this.currentIndex < this.data.length - 1) {
-        this.currentIndex++;
-      }
+      this.currentIndex = (this.currentIndex + 1) % this.data.length;
     },
     prevSlide() {
-      if (this.currentIndex > 0) {
-        this.currentIndex--;
-      }
+      this.currentIndex =
+        (this.currentIndex - 1 + this.data.length) % this.data.length;
     },
+    startAutoSlide() {
+      this.slideInterval = setInterval(() => {
+        this.nextSlide();
+      }, 15000);
+    },
+    stopAutoSlide() {
+      clearInterval(this.slideInterval);
+    },
+  },
+  mounted() {
+    this.startAutoSlide();
+  },
+  beforeDestroy() {
+    this.stopAutoSlide();
   },
 };
 </script>
 <template>
   <section>
     <div>
-      <div class="md:px-0 px-6 pb-4">
+      <div class="pb-4 md:-ml-3 md:px-0 px-5">
         <SBagTitleCustomers :title="$t('Clientes satisfechos')" />
       </div>
       <div class="md:px-0 px-4">
@@ -175,7 +192,7 @@ export default {
                   :key="index"
                   class="p-4 md:py-16"
                 >
-                  <img :src="item.image" class="w-36 object-center" alt="" />
+                  <img :src="item.image" alt="" />
                 </div>
               </div>
             </div>

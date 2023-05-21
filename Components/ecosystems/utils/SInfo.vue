@@ -15,7 +15,7 @@ const ecosystems = [
     description:
       "Mantén el control de los accesos, salidas y cambios. Administra solicitudes de padres y asistencia en clases.",
     icon: "/assets/aids/Control.png",
-    link: "/transportation-aid",
+    link: "/control-aid",
   },
   {
     title: "Communication Aid",
@@ -23,7 +23,7 @@ const ecosystems = [
     description:
       "Centraliza todas las herramientas y la comunicación en un solo lugar.",
     icon: "/assets/aids/Communication.png",
-    link: "/transportation-aid",
+    link: "/communication-aid",
   },
   {
     title: "Chat Center",
@@ -31,7 +31,7 @@ const ecosystems = [
     description:
       "Atención a padres a través de chat. Crea y administra canales de servicio al cliente.",
     icon: "/assets/aids/Chat.png",
-    link: "/transportation-aid",
+    link: "/chat-center",
   },
   {
     title: "Wellness Aid",
@@ -46,7 +46,7 @@ const ecosystems = [
     image: "/assets/img/Market-Aid.png",
     description: "Punto de venta digital. Administra cobros, membresías y más.",
     icon: "/assets/aids/Market.png",
-    link: "/transportation-aid",
+    link: "/market",
   },
 ];
 </script>
