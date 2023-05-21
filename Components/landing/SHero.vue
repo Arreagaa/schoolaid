@@ -1,7 +1,7 @@
 <template>
   <div>
     <div
-      class="w-full max-w-custom mx-auto flex items-center justify-between py-3 xl:px-12 max-[375px]:px-2 px-4 xl:py-10 max-[1279px]:px-4 sm:py-8"
+      class="w-full max-w-custom mx-auto flex items-center justify-between py-3 min-[1536px]:px-12 max-[375px]:px-2 px-4 xl:py-10 max-[1279px]:px-4 sm:py-8"
     >
       <div
         class="flex flex-col w-full md:w-2/5 justify-center text-center md:text-left xl:px-0 px-1"

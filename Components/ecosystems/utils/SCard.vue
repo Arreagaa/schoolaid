@@ -23,13 +23,13 @@ export default {
 <template>
   <div class="max-w-xs md:max-w-none overflow-hidden py-4">
     <img class="h-56 lg:h-72 object-cover rounded" :src="item.image" />
-    <div class="py-3 xl:px-2">
+    <div class="py-3 min-[1536px]:px-2">
       <div class="flex items-center gap-4">
         <div class="flex items-center justify-center pt-4">
           <img :src="item.icon" class="xl:w-8 w-6" />
         </div>
         <h3
-          class="ModeratBlack font-semibold xl:text-4xl text-3xl text-black pt-4"
+          class="ModeratBlack font-semibold min-[1536px]:text-4xl text-3xl text-black pt-4"
         >
           {{ item.title }}
         </h3>
@@ -57,7 +57,11 @@ export default {
           :class="
             $i18n.locale === 'es' ? 'xl:py-0 lg:py-0' : 'xl:py-12 lg:py-8'
           "
-        ></div>
+        />
+        <div
+          v-if="idItem === 3"
+          :class="$i18n.locale === 'en' ? 'max-[1550px]:py-12' : 'xl:py-0'"
+        />
         <SMore :to="item.link" />
       </div>
     </div>
