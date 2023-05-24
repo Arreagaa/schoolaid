@@ -4,7 +4,9 @@ import SBagTitleAid from "../utils/SBagTitleAid.vue";
 <template>
   <div class="flex flex-col md:flex-row">
     <div class="md:order-1 order-2 md:w-1/2">
-      <div class="PoppinsLight xl:px-16 px-8 py-4 pb-16 font-bold text-xl">
+      <div
+        class="PoppinsLight min-[1535px]:px-24 px-8 py-4 pb-16 font-bold text-xl"
+      >
         <p class="text-black 2xl:px-16 res-space-aid">
           {{
             $t(
@@ -14,7 +16,7 @@ import SBagTitleAid from "../utils/SBagTitleAid.vue";
         </p>
       </div>
       <div
-        class="flex flex-col bg-[#537FF7] PoppinsLight xl:px-16 px-8 py-16 font-bold text-xl text-white"
+        class="flex flex-col bg-[#537FF7] PoppinsLight min-[1535px]:px-24 px-8 py-16 text-xl text-white"
       >
         <div class="2xl:px-16 res-space-aid">
           <div class="bg-[#18D3AF] rounded-lg px-4 py-4 w-max">
@@ -32,7 +34,7 @@ import SBagTitleAid from "../utils/SBagTitleAid.vue";
           </div>
         </div>
       </div>
-      <div class="PoppinsLight xl:px-16 px-8 pt-8 font-bold text-xl">
+      <div class="PoppinsLight min-[1535px]:px-24 px-8 pt-8 font-bold text-xl">
         <p class="text-black 2xl:px-16 res-space-aid">
           {{
             $t(

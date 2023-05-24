@@ -1,6 +1,6 @@
 <script setup>
 import AppHeaderVue from "~/Layouts/AppHeader.vue";
-import SShow from "~/Components/transportation/SShow.vue";
+import SShow from "~/Components/market/SShow.vue";
 import AppFooter from "~/Layouts/AppFooter.vue";
 import SBagTitleAid from "~/Components/utils/SBagTitleAid.vue";
 </script>

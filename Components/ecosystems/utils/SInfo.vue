@@ -39,7 +39,7 @@ const ecosystems = [
     description:
       "Crea encuestas y formularios personalizados. Administra registros médicos y más.",
     icon: "/assets/aids/Transportation.png",
-    link: "/transportation-aid",
+    link: "/wellness-aid",
   },
   {
     title: "Market Aid",

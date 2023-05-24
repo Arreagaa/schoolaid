@@ -110,6 +110,64 @@ export default defineI18nConfig(() => ({
       "Nueva Alianza con Grupo Golán": "Nueva Alianza con Grupo Golán",
       "Ahora los colegios en Guatemala y El Salvador pueden optar por incluir un botón de pánico en el transporte escolar y ante cualquier situación de riesgo, un Especialista en Atención de Seguridad de Golán, atenderá la señal de emergencia desde la App de SchoolAid y una Patrulla REDIPAT se despachará de inmediato hacia la ubicación del bus.":
         "Ahora los colegios en Guatemala y El Salvador pueden optar por incluir un botón de pánico en el transporte escolar y ante cualquier situación de riesgo, un Especialista en Atención de Seguridad de Golán, atenderá la señal de emergencia desde la App de SchoolAid y una Patrulla REDIPAT se despachará de inmediato hacia la ubicación del bus.",
+      "Plataforma administrativa para eficientizar solicitudes de padres. Trazabilidad de todos los cambios, ausencias y solicitudes.":
+        "Plataforma administrativa para optimizar las solicitudes de los padres. Seguimiento de todos los cambios, ausencias y solicitudes.",
+      "Genera reportes automáticos por fecha, nivel de grado, grado, o por alumno. Personalización de formularios de solicitudes a la medida de necesidades del colegio. Control de asistencia y toma de asistencia en clases.":
+        "Genera informes automáticos por fecha, nivel de grado, grado o alumno. Personalización de formularios de solicitud a medida de las necesidades del colegio. Control y registro de asistencia en las clases.",
+      Características: "Características",
+      "Módulo de solicitudes y permisos para padres de familia (ausencias, cambio de transporte, cumpleaños, etc.)":
+        "Módulo de solicitudes y permisos para padres de familia (ausencias, cambio de transporte, cumpleaños, etc.)",
+      "Personalización de solicitudes, formularios y permisos según requerimientos específicos del colegio.":
+        "Personalización de solicitudes, formularios y permisos según los requerimientos específicos del colegio.",
+      "Buzón de sugerencias, formularios, etc.":
+        "Buzón de sugerencias, formularios, etc.",
+      "Control de accesos y salidas a través de Código QR.":
+        "Control de accesos y salidas mediante código QR.",
+      "Generación de códigos para personas autorizadas para recoger niños, y compartirlos por cualquier medio.":
+        "Generación de códigos para personas autorizadas a recoger a los niños y compartirlos por cualquier medio.",
+      "Invitaciones para proveedores y visitas provisionales.":
+        "Invitaciones para proveedores y visitas temporales.",
+      "Botón para eficientizar colas en horario de salida en auto.":
+        "Botón para agilizar las colas durante el horario de salida en automóvil.",
+      "Trazabilidad de entradas y salidas y reportes en tiempo real.":
+        "Rastreo de entradas y salidas y generación de informes en tiempo real.",
+      "Mejora la comunicación entre el colegio y padres de familia. Crea canales de chat por departamento, área, o nivel de grado para mejorar tiempos de respuesta y atención al cliente para padres. Gestiona chats de entre padres, maestros y personal administrativo.":
+        "Mejora la comunicación entre el colegio y los padres de familia. Crea canales de chat por departamento, área o nivel de grado para mejorar los tiempos de respuesta y la atención al cliente para los padres. Gestiona chats entre padres, maestros y personal administrativo.",
+      "Establece horarios de atención.": "Establece horarios de atención.",
+      "Obtén el registro de todas las conversaciones.":
+        "Obtén el registro de todas las conversaciones.",
+      "Mantén la privacidad de las familias sin tener que compartir contactos telefónicos.":
+        "Mantén la privacidad de las familias sin tener que compartir contactos telefónicos.",
+      "Módulo de encuestas y formularios personalizados para responder a través de la App de padres.":
+        "Módulo de encuestas y formularios personalizados para responder a través de la App de padres.",
+      "Monitorea la salud mental de los niños, detecta buying, o haz encuestass de satisfacción por nivel de grado, grado, sección o grupo específico.":
+        "Monitorea la salud mental de los niños, detecta el acoso escolar o realiza encuestas de satisfacción por nivel de grado, grado, sección o grupo específico.",
+      "Recopila registros medicos, vacunación o permisos de administración de medicamentos.":
+        "Recopila registros médicos, de vacunación o permisos de administración de medicamentos.",
+      "Crea y administra un mercado totalmente digital para vender de manera fácil.":
+        "Crea y administra un mercado totalmente digital para facilitar la venta de manera fácil.",
+      "Uniformes.": "Uniformes.",
+      "Útiles escolares.": "Útiles escolares.",
+      "Cafetería.": "Cafetería.",
+      "Crea membresías de cobro automático para facilitar los procesos de pago de:":
+        "Crea membresías con cobro automático para facilitar los procesos de pago de:",
+      "Colegiaturas.": "Colegiaturas.",
+      "Cuota de bus escolar.": "Cuota de autobús escolar.",
+      "Servicios mensuales.": "Servicios mensuales.",
+      "Plataforma administrativa para gestionar cobros, moras, estados de cuenta, membresías, productos, inventario, etc.":
+        "Plataforma administrativa para gestionar cobros, moras, estados de cuenta, membresías, productos, inventario, etc.",
+      "Historial de todos los cobros, pagos, etc.":
+        "Historial de todos los cobros, pagos, etc.",
+      "Genera reportes.": "Genera reportes.",
+      "Personalización según necesidades del colegio.":
+        "Personalización según las necesidades del colegio.",
+      "Recordatorios de pago a papas.": "Recordatorios de pago a los padres.",
+      "Branding y personalización de pantalla inicial con logo de colegio.":
+        "Branding y personalización de la pantalla inicial con el logotipo del colegio.",
+      "Single sign-in para otras plataformas, consultas de notas o estados de cuenta con integraciones a portal de pagos, redes sociales, página web, Colegium, Facts, PowerSchool, Homeland, iSams, y otras plataformas.":
+        "Inicio de sesión único para otras plataformas, consulta de calificaciones o estados de cuenta con integraciones a portal de pagos, redes sociales, página web, Colegium, Facts, PowerSchool, Homeland, iSams y otras plataformas.",
+      "Envía mensajes a través de notificaciones push a la App de padres y centraliza toda la comunicación de manera simple, utilizando filtros de segmentación para enviar mensajes por niveles de grado, grados, grupos específicos o por estudiante.":
+        "Envía mensajes a través de notificaciones push a la App de padres y centraliza toda la comunicación de manera sencilla, utilizando filtros de segmentación para enviar mensajes por niveles de grado, grados, grupos específicos o por estudiante.",
     },
     en: {
       Español: "Spanish",
@@ -216,6 +274,63 @@ export default defineI18nConfig(() => ({
       "Nueva Alianza con Grupo Golán": "New Integration Partner: Grupo Golán",
       "Ahora los colegios en Guatemala y El Salvador pueden optar por incluir un botón de pánico en el transporte escolar y ante cualquier situación de riesgo, un Especialista en Atención de Seguridad de Golán, atenderá la señal de emergencia desde la App de SchoolAid y una Patrulla REDIPAT se despachará de inmediato hacia la ubicación del bus.":
         "Now schools in Guatemala and El Salvador can choose to include a panic button in the school transport and in any risk situation, a Golan Security Specialist will attend to the emergency signal from the SchoolAid App and a REDIPAT Patrol unit will be dispatched immediately to the bus location.",
+      "Plataforma administrativa para eficientizar solicitudes de padres. Trazabilidad de todos los cambios, ausencias y solicitudes.":
+        "Administrative platform to streamline parent requests. Traceability of all changes, absences, and requests.",
+      "Genera reportes automáticos por fecha, nivel de grado, grado, o por alumno. Personalización de formularios de solicitudes a la medida de necesidades del colegio. Control de asistencia y toma de asistencia en clases.":
+        "Generates automatic reports by date, grade level, grade, or student. Customization of request forms tailored to school needs. Attendance control and recording in classes.",
+      Características: "Features",
+      "Módulo de solicitudes y permisos para padres de familia (ausencias, cambio de transporte, cumpleaños, etc.)":
+        "Module for parental requests and permissions (absences, transportation changes, birthdays, etc.)",
+      "Personalización de solicitudes, formularios y permisos según requerimientos específicos del colegio.":
+        "Customization of requests, forms, and permissions according to specific school requirements.",
+      "Buzón de sugerencias, formularios, etc.": "Suggestions box, forms, etc.",
+      "Control de accesos y salidas a través de Código QR.":
+        "Access and exit control through QR Code.",
+      "Generación de códigos para personas autorizadas para recoger niños, y compartirlos por cualquier medio.":
+        "Generation of codes for authorized persons to pick up children and share them through any means.",
+      "Invitaciones para proveedores y visitas provisionales.":
+        "Invitations for suppliers and temporary visits.",
+      "Botón para eficientizar colas en horario de salida en auto.":
+        "Button to streamline queues during car pick-up time.",
+      "Trazabilidad de entradas y salidas y reportes en tiempo real.":
+        "Traceability of entries, exits, and real-time reports.",
+      "Mejora la comunicación entre el colegio y padres de familia. Crea canales de chat por departamento, área, o nivel de grado para mejorar tiempos de respuesta y atención al cliente para padres. Gestiona chats de entre padres, maestros y personal administrativo.":
+        "Enhance communication between the school and parents. Create chat channels by department, area, or grade level to improve response times and customer service for parents. Manage chats among parents, teachers, and administrative staff.",
+      "Establece horarios de atención.": "Set service hours.",
+      "Obtén el registro de todas las conversaciones.":
+        "Get a record of all conversations.",
+      "Mantén la privacidad de las familias sin tener que compartir contactos telefónicos.":
+        "Maintain family privacy without having to share phone contacts.",
+      "Módulo de encuestas y formularios personalizados para responder a través de la App de padres.":
+        "Module for customized surveys and forms to be answered through the Parent App.",
+      "Monitorea la salud mental de los niños, detecta buying, o haz encuestass de satisfacción por nivel de grado, grado, sección o grupo específico.":
+        "Monitor children's mental health, detect bullying, or conduct satisfaction surveys by grade level, grade, section, or specific group.",
+      "Recopila registros medicos, vacunación o permisos de administración de medicamentos.":
+        "Collect medical records, vaccination information, or permissions for medication administration.",
+      "Crea y administra un mercado totalmente digital para vender de manera fácil.":
+        "Create and manage a fully digital marketplace for easy selling.",
+      "Uniformes.": "Uniforms.",
+      "Útiles escolares.": "School supplies.",
+      "Cafetería.": "Cafeteria.",
+      "Crea membresías de cobro automático para facilitar los procesos de pago de:":
+        "Create automatic payment memberships to facilitate the payment processes for:",
+      "Colegiaturas.": "Tuition fees.",
+      "Cuota de bus escolar.": "School bus fee.",
+      "Servicios mensuales.": "Monthly services.",
+      "Plataforma administrativa para gestionar cobros, moras, estados de cuenta, membresías, productos, inventario, etc.":
+        "Administrative platform to manage payments, late fees, account statements, memberships, products, inventory, etc.",
+      "Historial de todos los cobros, pagos, etc.":
+        "History of all charges, payments, etc.",
+      "Genera reportes.": "Generate reports.",
+      "Personalización según necesidades del colegio.":
+        "Customization according to school needs.",
+      "Recordatorios de pago a papas.": "Payment reminders to parents.",
+      "Branding y personalización de pantalla inicial con logo de colegio.":
+        "Branding and customization of the initial screen with school logo.",
+      "Single sign-in para otras plataformas, consultas de notas o estados de cuenta con integraciones a portal de pagos, redes sociales, página web, Colegium, Facts, PowerSchool, Homeland, iSams, y otras plataformas.":
+        "Single sign-in for other platforms, grade inquiries or account statements with integrations to payment portals, social media, website, Colegium, Facts, PowerSchool, Homeland, iSams, and other platforms.",
+      "Envía mensajes a través de notificaciones push a la App de padres y centraliza toda la comunicación de manera simple, utilizando filtros de segmentación para enviar mensajes por niveles de grado, grados, grupos específicos o por estudiante.":
+        "Send messages through push notifications to the Parent App and centralize all communication in a simple way, using segmentation filters to send messages by grade levels, grades, specific groups, or by student.",
     },
   },
 }));

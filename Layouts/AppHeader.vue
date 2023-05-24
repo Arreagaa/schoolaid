@@ -1,31 +1,14 @@
 <script>
 import STranslate from "./utils/STranslate.vue";
+import SEcosystem from "./utils/SEcosystem.vue";
 export default {
   data() {
     return {
       menuOpen: false,
-      links: [
-        { title: "Quienes somos", url: "/" },
-        {
-          title: "Ecosistema Aid",
-          url: ["/market-aid", "/transportation-aid"],
-        },
-        { title: "Comunidad", url: "/community" },
-        { title: "Instituciones", url: "/customers" },
-        { title: "Socios", url: "/customers" },
-        { title: "Contacto", url: "/contact" },
-      ],
     };
   },
-  components: { STranslate },
+  components: { STranslate, SEcosystem },
   methods: {
-    isActive(link) {
-      if (Array.isArray(link.url)) {
-        return link.url.includes(this.$route.path);
-      } else {
-        return link.url === this.$route.path;
-      }
-    },
     toggleMenu() {
       this.menuOpen = !this.menuOpen;
       if (this.menuOpen) {
@@ -63,13 +46,50 @@ export default {
           <nav
             class="lg:hidden PoppinsMedium font-semibold max-[767px]:h-screen"
           >
-            <ul class="md:flex items-center justify-between text-xl text-black">
-              <li v-for="link in links" :key="link.id">
+            <ul class="md:flex items-center justify-between text-lg text-black">
+              <li>
                 <NuxtLink
-                  :to="link.url"
-                  :class="{ 'text-[#537FF7]': isActive(link) }"
+                  to="/"
+                  :exact-active-class="'text-[#537FF7]'"
                   class="inline-block py-4 px-4 navLink"
-                  >{{ $t(link.title) }}</NuxtLink
+                  >{{ $t("Quienes somos") }}</NuxtLink
+                >
+              </li>
+              <div class="inline-block py-4 px-3 navLink">
+                <SEcosystem :exact-active-class="'text-[#537FF7]'" />
+              </div>
+              <li>
+                <NuxtLink
+                  to="/community"
+                  :exact-active-class="'text-[#537FF7]'"
+                  class="inline-block py-4 px-4 navLink"
+                  >{{ $t("Comunidad") }}</NuxtLink
+                >
+              </li>
+              <li>
+                <NuxtLink
+                  to="/customers"
+                  :exact-active-class="'text-[#537FF7]'"
+                  class="inline-block py-4 px-4 navLink"
+                  >{{ $t("Instituciones") }}</NuxtLink
+                >
+              </li>
+              <li>
+                <NuxtLink
+                  to="/customers"
+                  :exact-active-class="'text-[#537FF7]'"
+                  class="inline-block py-4 px-4 navLink"
+                  >{{ $t("Socios") }}</NuxtLink
+                >
+              </li>
+
+              <li></li>
+              <li>
+                <NuxtLink
+                  to="/contact"
+                  :exact-active-class="'text-[#537FF7]'"
+                  class="inline-block py-4 px-4 navLink"
+                  >{{ $t("Contacto") }}</NuxtLink
                 >
               </li>
               <li>
@@ -103,23 +123,50 @@ export default {
           </NuxtLink>
         </div>
         <div
-          class="PoppinsMedium font-semibold xl:text-lg text-base flex items-center lg:flex hidden"
+          class="PoppinsMedium font-semibold min-[1340px]:text-lg text-base flex items-center lg:flex hidden"
           id="nav-content"
         >
           <ul class="flex">
-            <li v-for="(link, index) in links" :key="index">
+            <li>
               <NuxtLink
-                :to="link.url"
-                :class="{ 'text-[#537FF7]': isActive(link) }"
+                to="/"
+                :exact-active-class="'text-[#537FF7]'"
                 class="inline-block py-2 xl:mx-4 mx-2 navLink"
-                >{{ $t(link.title) }}</NuxtLink
+                >{{ $t("Quienes somos") }}</NuxtLink
+              >
+              <div class="inline-block py-2 xl:mx-4 mx-2">
+                <SEcosystem />
+              </div>
+              <NuxtLink
+                to="/community"
+                :exact-active-class="'text-[#537FF7]'"
+                class="inline-block py-2 xl:mx-4 mx-2 navLink"
+                >{{ $t("Comunidad") }}</NuxtLink
+              >
+              <NuxtLink
+                to="/customers"
+                :exact-active-class="'text-[#537FF7]'"
+                class="inline-block py-2 xl:mx-4 mx-2 navLink"
+                >{{ $t("Instituciones") }}</NuxtLink
+              >
+              <NuxtLink
+                to="/customers"
+                :exact-active-class="'text-[#537FF7]'"
+                class="inline-block py-2 xl:mx-4 mx-2 navLink"
+                >{{ $t("Socios") }}</NuxtLink
+              >
+              <NuxtLink
+                to="/contact"
+                :exact-active-class="'text-[#537FF7]'"
+                class="inline-block py-2 xl:mx-4 mx-2 navLink"
+                >{{ $t("Contacto") }}</NuxtLink
               >
             </li>
           </ul>
         </div>
         <div class="flex items-center lg:flex hidden">
           <div
-            class="PoppinsMedium font-semibold xl:text-lg text-base flex items-center"
+            class="PoppinsMedium font-semibold min-[1340px]:text-lg text-base flex items-center"
           >
             <a class="inline-block">
               <a class="inline-block">{{ $t("Idioma") }}</a>

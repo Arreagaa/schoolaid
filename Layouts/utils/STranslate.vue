@@ -62,7 +62,6 @@ export default {
         <img
           class="w-8 inline-block mr-2"
           :src="supportedLanguagesFlagIcons.es"
-          alt="{{ $t('Español') }} flag"
         />
         {{ $t("Español") }}
       </a>
@@ -74,7 +73,6 @@ export default {
         <img
           class="w-8 inline-block mr-2"
           :src="supportedLanguagesFlagIcons.en"
-          alt="{{ $t('Inglés') }} flag"
         />
         {{ $t("Inglés") }}
       </a>

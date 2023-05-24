@@ -24,8 +24,8 @@ export default {
   <div class="max-w-xs md:max-w-none overflow-hidden py-4">
     <img class="h-56 lg:h-72 object-cover rounded" :src="item.image" />
     <div class="py-3 min-[1536px]:px-2">
-      <div class="flex items-center gap-4">
-        <div class="flex items-center justify-center pt-4">
+      <div class="flex items-center">
+        <div class="flex items-center justify-center pt-4 pr-2">
           <img :src="item.icon" class="xl:w-8 w-6" />
         </div>
         <h3
@@ -33,9 +33,8 @@ export default {
         >
           {{ item.title }}
         </h3>
-        <div class="pt-4">
+        <div v-if="idItem === 5" class="pl-4 pt-4">
           <div
-            v-if="idItem === 5"
             class="bg-[#F66750] flex items-center leading-none rounded-full px-6 py-2 animate-bounce"
           >
             <p class="inline text-base text-white font-medium">
@@ -44,7 +43,9 @@ export default {
           </div>
         </div>
       </div>
-      <p class="paragraph-normal font-semibold text-[#333333] pt-6 text-xl">
+      <p
+        class="paragraph-normal font-semibold text-[#333333] pt-6 min-[1536px]:text-xl text-lg"
+      >
         {{ $t(item.description) }}
       </p>
       <div class="flex items-center text-center pt-8">
