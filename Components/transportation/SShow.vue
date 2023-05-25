@@ -50,8 +50,8 @@ import SBagTitleAid from "../utils/SBagTitleAid.vue";
           }}
         </p>
       </div>
-      <div class="PoppinsLight xl:px-16 px-8">
-        <div class="flex items-center text-center">
+      <div class="xl:px-16 px-8">
+        <div class="md:flex hidden items-center text-center">
           <img src="/assets/bg/img+.png" alt="" />
         </div>
       </div>
@@ -67,7 +67,7 @@ import SBagTitleAid from "../utils/SBagTitleAid.vue";
           />
         </div>
       </div>
-      <div class="PoppinsLight font-bold text-xl md:pt-0 pt-8">
+      <div class="PoppinsLight font-bold text-xl md:pt-0">
         <SBagTitleAid
           title="Transportation Aid+"
           image="/assets/aids/Transportation.png"
@@ -76,7 +76,7 @@ import SBagTitleAid from "../utils/SBagTitleAid.vue";
           {{ $t("Nueva Alianza con Grupo Golán") }}
         </h1>
         <p
-          class="text-black pt-6 min-[1669px]:px-8 min-[1669px]:pr-36 xl:pr-36 min-[1669px]:pb-36 md:px-0 px-8 pb-16 text-justify"
+          class="text-black pt-6 min-[1669px]:px-8 min-[1669px]:pr-36 xl:pr-36 min-[1669px]:pb-36 md:px-0 px-8 pb-4 text-justify"
         >
           {{
             $t(
@@ -84,6 +84,11 @@ import SBagTitleAid from "../utils/SBagTitleAid.vue";
             )
           }}
         </p>
+        <div>
+          <div class="md:hidden items-center text-center">
+            <img src="/assets/bg/img+.png" alt="" />
+          </div>
+        </div>
       </div>
     </div>
   </div>

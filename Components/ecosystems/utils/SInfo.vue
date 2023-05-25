@@ -46,7 +46,7 @@ const ecosystems = [
     image: "/assets/img/Market-Aid.png",
     description: "Punto de venta digital. Administra cobros, membresías y más.",
     icon: "/assets/aids/Market.png",
-    link: "/market",
+    link: "/market-aid",
   },
 ];
 </script>

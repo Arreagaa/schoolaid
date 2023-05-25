@@ -26,7 +26,7 @@ export default {
           image: "/assets/aids/Transportation.png",
         },
         {
-          url: "/market",
+          url: "/market-aid",
           text: "Market Aid",
           image: "/assets/aids/Market.png",
         },

@@ -59,10 +59,6 @@ export default {
             $i18n.locale === 'es' ? 'xl:py-0 lg:py-0' : 'xl:py-12 lg:py-8'
           "
         />
-        <div
-          v-if="idItem === 3"
-          :class="$i18n.locale === 'en' ? 'max-[1550px]:py-12' : 'xl:py-0'"
-        />
         <SMore :to="item.link" />
       </div>
     </div>

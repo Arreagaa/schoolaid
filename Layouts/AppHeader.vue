@@ -20,17 +20,16 @@ export default {
   },
 };
 </script>
-
 <template>
-  <div class="max-w-custom text-zinc-900 bg-transparant">
+  <div class="max-w-custom text-zinc-900">
     <nav id="header" class="w-full z-30 top-0 py-1">
       <div
-        class="w-full flex-row flex-wrap xl:flex-nowrap md:flex-nowrap sm:flex-nowrap mx-auto flex items-center justify-between py-3 px-6 2xl:px-12 xl:py-2 sm:py-8"
+        class="w-full flex-row flex-wrap mx-auto lg:flex-nowrap flex items-center justify-between py-3 px-6 res-padding-r 2xl:px-12 xl:py-2 sm:py-8"
         :class="{ 'slide-in-left': menuOpen }"
       >
         <label
           for="menu-toggle"
-          class="cursor-pointer md:hidden block text-2xl text-[#537FF7]"
+          class="cursor-pointer lg:hidden block text-2xl text-[#537FF7]"
           @click="toggleMenu"
         >
           <i v-if="!menuOpen" class="fa-solid fa-bars"></i>
@@ -38,15 +37,14 @@ export default {
           <i v-else class="fa-solid fa-xmark"></i>
         </label>
         <input class="hidden" type="checkbox" id="menu-toggle" />
-
         <div
-          class="hidden md:flex md:items-center md:w-auto w-full order-3 md:order-1 overflow-y-hidden"
+          class="hidden lg:flex lg:items-center lg:w-auto w-full order-3 lg:order-1 overflow-y-hidden"
           id="menu"
         >
           <nav
             class="lg:hidden PoppinsMedium font-semibold max-[767px]:h-screen"
           >
-            <ul class="md:flex items-center justify-between text-lg text-black">
+            <ul class="lg:flex items-center justify-between text-lg text-black">
               <li>
                 <NuxtLink
                   to="/"
@@ -118,12 +116,12 @@ export default {
           </nav>
         </div>
         <div class="xl:py-8 py-6 px-2 flex items-center">
-          <NuxtLink class="2xl:w-48 xl:w-40 md:w-32 w-56" to="/">
+          <NuxtLink class="2xl:w-48 xl:w-40 lg:w-32 w-56" to="/">
             <img src="/assets/schoolaid.png" />
           </NuxtLink>
         </div>
         <div
-          class="PoppinsMedium font-semibold min-[1340px]:text-lg text-base flex items-center lg:flex hidden"
+          class="PoppinsMedium font-semibold min-[1340px]:text-lg max-[1132px]:text-sm text-base flex items-center lg:flex hidden"
           id="nav-content"
         >
           <ul class="flex">
@@ -166,7 +164,7 @@ export default {
         </div>
         <div class="flex items-center lg:flex hidden">
           <div
-            class="PoppinsMedium font-semibold min-[1340px]:text-lg text-base flex items-center"
+            class="PoppinsMedium font-semibold min-[1340px]:text-lg max-[1132px]:text-sm text-base flex items-center"
           >
             <a class="inline-block">
               <a class="inline-block">{{ $t("Idioma") }}</a>
@@ -192,12 +190,19 @@ export default {
             </a>
           </div>
         </div>
-
         <div
-          class="order-2 md:order-3 flex items-center lg:hidden"
+          class="order-2 lg:order-3 flex items-center lg:hidden"
           id="nav-content"
         ></div>
       </div>
     </nav>
   </div>
 </template>
+<style>
+@media (min-width: 1023px) and (max-width: 1055px) {
+  .res-padding-r {
+    padding-right: 0%;
+    padding-left: 0%;
+  }
+}
+</style>

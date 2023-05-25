@@ -25,14 +25,14 @@ export default {
 };
 </script>
 <template>
-  <section class="md:bg-[url('/assets/bg/Contacto.png')] bg-cover bg-center">
-    <div class="max-w-custom flex flex-col md:flex-row">
-      <div class="md:order-1 order-2 md:w-1/2">
-        <div class="min-[1535px]:px-8 px-4">
+  <section class="lg:bg-[url('/assets/bg/Contacto.png')] bg-cover bg-center">
+    <div class="max-w-custom flex flex-col lg:flex-row">
+      <div class="lg:order-1 order-2 lg:w-1/2">
+        <div class="min-[1535px]:px-8 px-6">
           <SBagTitleCustomers :title="$t('Contáctanos')" />
         </div>
         <div
-          class="PoppinsLight min-[1535px]:px-12 pl-8 pb-8 font-bold text-xl"
+          class="PoppinsLight min-[1535px]:px-12 px-6 pl-8 pb-8 font-bold text-xl"
         >
           <p class="text-black">
             {{
@@ -43,7 +43,7 @@ export default {
           </p>
         </div>
         <div
-          class="PoppinsLight text-[#537FF7] font-bold min-[1535px]:pl-12 min-[1553px]:pr-40 px-8 py-4 pb-16 text-base"
+          class="PoppinsLight text-[#537FF7] font-bold min-[1535px]:pl-12 min-[1553px]:pr-40 px-6 py-4 pb-16 text-base"
         >
           <div class="flex flex-col">
             <div class="-mx-3 md:flex mb-6">
@@ -90,7 +90,7 @@ export default {
             </div>
           </div>
         </div>
-        <div class="PoppinsLight min-[1535px]:px-12 px-8 font-bold text-xl">
+        <div class="PoppinsLight min-[1535px]:px-12 px-6 font-bold text-xl">
           <p class="text-black">
             {{ $t("¿Qué tipo de solución funciona mejor para ti?") }}
           </p>
@@ -136,21 +136,21 @@ export default {
           </div>
         </div>
         <div
-          class="PoppinsLight text-[#537FF7] font-bold min-[1535px]:pl-12 min-[1553px]:pr-40 px-8 pt-16 text-xl"
+          class="PoppinsLight text-[#537FF7] font-bold min-[1535px]:pl-12 min-[1553px]:pr-40 px-6 pt-16 text-xl"
         >
           <p class="text-black pb-4">{{ $t("Cuéntanos más") }}</p>
           <div>
             <STextarea id="body" :value="body" @update:value="body = $event" />
           </div>
         </div>
-        <div class="PoppinsLight min-[1535px]:px-10 px-8 pt-4 md:pb-56">
+        <div class="PoppinsLight min-[1535px]:px-10 px-6 pt-4 lg:pb-56">
           <div class="flex">
             <SSend />
           </div>
         </div>
       </div>
-      <div class="order-2 md:order-1 md:w-1/2">
-        <div class="md:hidden">
+      <div class="order-2 lg:order-1 lg:w-1/2">
+        <div class="lg:hidden">
           <img src="/assets/bg/Contacto_1.png" alt="" />
         </div>
       </div>

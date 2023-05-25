@@ -26,8 +26,8 @@ export default {
 };
 </script>
 <template>
-  <div class="flex flex-col md:flex-row">
-    <div class="md:w-3/4 md:order-1 order-2">
+  <div class="flex flex-col lg:flex-row">
+    <div class="lg:w-3/4 lg:order-1 order-2">
       <div class="relative overflow-hidden pb-[90%]">
         <iframe
           v-if="isPlaying"
@@ -46,19 +46,19 @@ export default {
       </div>
     </div>
     <div
-      class="md:w-1/2 md:order-2 flex items-center justify-center bg-[url('/assets/aids/Video.png')] bg-cover bg-center"
+      class="lg:w-1/2 lg:order-2 flex items-center justify-center bg-[url('/assets/aids/Video.png')] bg-cover bg-center"
     >
       <div
-        class="flex flex-col items-start justify-center w-full h-full xl:px-4 xl:py-6 px-6 py-28 mb-6 md:mb-0 md:w-3/4"
+        class="flex flex-col items-start justify-center w-full h-full xl:px-4 xl:py-6 px-6 py-28 mb-6 lg:mb-0 lg:w-3/4"
       >
         <div
-          class="flex flex-col items-start justify-center h-full space-y-3 transform md:space-y-5 2xl:pr-16 responsive-size text-white"
+          class="flex flex-col items-start justify-center h-full space-y-3 transform lg:space-y-5 2xl:pr-16 responsive-size text-white"
         >
           <a
             class="ModeratBlack xl:text-4xl text-3xl font-bold leading-none xl:mb-6 mb-2 tracking-wider"
             >{{ $t("¿Cómo funciona?") }}</a
           >
-          <p class="PoppinsMedium md:text-xl text-lg leading-6">
+          <p class="PoppinsMedium lg:text-xl text-lg leading-6">
             {{
               $t(
                 "SchoolAid es un SaaS que facilita y automatiza las gestiones diarias entre padres de familia y colegio, y centraliza todas las plataformas en un mismo lugar."
