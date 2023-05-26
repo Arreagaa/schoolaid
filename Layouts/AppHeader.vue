@@ -1,208 +1,162 @@
 <script>
-import STranslate from "./utils/STranslate.vue";
 import SEcosystem from "./utils/SEcosystem.vue";
+import STranslate from "./utils/STranslate.vue";
+import SResNavLink from "./utils/SResNavLink.vue";
+import SNavLink from "./utils/SNavLink.vue";
 export default {
   data() {
     return {
-      menuOpen: false,
+      isMenuOpen: false,
     };
   },
-  components: { STranslate, SEcosystem },
+  components: { SEcosystem, STranslate, SResNavLink, SNavLink },
   methods: {
     toggleMenu() {
-      this.menuOpen = !this.menuOpen;
-      if (this.menuOpen) {
-        document.body.style.overflow = "hidden";
-      } else {
-        document.body.style.overflow = "visible";
-      }
+      this.isMenuOpen = !this.isMenuOpen;
     },
   },
 };
 </script>
 <template>
-  <div class="max-w-custom text-zinc-900">
-    <nav id="header" class="w-full z-30 top-0 py-1">
-      <div
-        class="w-full flex-row flex-wrap mx-auto lg:flex-nowrap flex items-center justify-between py-3 px-6 res-padding-r 2xl:px-12 xl:py-2 sm:py-8"
-        :class="{ 'slide-in-left': menuOpen }"
-      >
-        <label
-          for="menu-toggle"
-          class="cursor-pointer lg:hidden block text-2xl text-[#537FF7]"
-          @click="toggleMenu"
-        >
-          <i v-if="!menuOpen" class="fa-solid fa-bars"></i>
-
-          <i v-else class="fa-solid fa-xmark"></i>
-        </label>
-        <input class="hidden" type="checkbox" id="menu-toggle" />
-        <div
-          class="hidden lg:flex lg:items-center lg:w-auto w-full order-3 lg:order-1 overflow-y-hidden"
-          id="menu"
-        >
-          <nav
-            class="lg:hidden PoppinsMedium font-semibold max-[767px]:h-screen"
+  <div class="max-w-custom 2xl:px-12 px-4 pt-8">
+    <nav class="relative px-4 res-spa py-4 flex items-center bg-white h-full">
+      <div class="flex items-center justify-center w-full lg:w-auto">
+        <NuxtLink class="2xl:w-48 xl:w-40 lg:w-32 w-56 md:ml-0 ml-12" to="/">
+          <img src="/assets/schoolaid.png" />
+        </NuxtLink>
+        <div class="lg:hidden">
+          <button
+            class="navbar-burger flex items-center text-2xl text-[#537FF7] py-3 ml-8"
+            @click="toggleMenu"
           >
-            <ul class="lg:flex items-center justify-between text-lg text-black">
-              <li>
-                <NuxtLink
-                  to="/"
-                  :exact-active-class="'text-[#537FF7]'"
-                  class="inline-block py-4 px-4 navLink"
-                  >{{ $t("Quienes somos") }}</NuxtLink
-                >
-              </li>
-              <div class="inline-block py-4 px-3 navLink">
-                <SEcosystem :exact-active-class="'text-[#537FF7]'" />
-              </div>
-              <li>
-                <NuxtLink
-                  to="/community"
-                  :exact-active-class="'text-[#537FF7]'"
-                  class="inline-block py-4 px-4 navLink"
-                  >{{ $t("Comunidad") }}</NuxtLink
-                >
-              </li>
-              <li>
-                <NuxtLink
-                  to="/customers"
-                  :exact-active-class="'text-[#537FF7]'"
-                  class="inline-block py-4 px-4 navLink"
-                  >{{ $t("Instituciones") }}</NuxtLink
-                >
-              </li>
-              <li>
-                <NuxtLink
-                  to="/customers"
-                  :exact-active-class="'text-[#537FF7]'"
-                  class="inline-block py-4 px-4 navLink"
-                  >{{ $t("Socios") }}</NuxtLink
-                >
-              </li>
+            <i class="fa-solid fa-bars"></i>
+          </button>
+        </div>
+      </div>
 
-              <li></li>
-              <li>
-                <NuxtLink
-                  to="/contact"
-                  :exact-active-class="'text-[#537FF7]'"
-                  class="inline-block py-4 px-4 navLink"
-                  >{{ $t("Contacto") }}</NuxtLink
-                >
-              </li>
-              <li>
-                <div class="inline-block py-2">
-                  <STranslate />
-                </div>
-              </li>
-              <li>
-                <div class="inline-block pl-1 py-4 text-3xl text-[#537ff7]">
-                  <a
-                    href="https://www.facebook.com/schoolaidapp"
-                    target="_blank"
-                    class="px-2"
-                  >
-                    <i class="fa-brands fa-facebook"></i>
-                  </a>
-                  <a
-                    href="https://www.instagram.com/schoolaid.app/"
-                    target="_blank"
-                  >
-                    <i class="fa-brands fa-instagram"></i>
-                  </a>
-                </div>
-              </li>
-            </ul>
-          </nav>
-        </div>
-        <div class="xl:py-8 py-6 px-2 flex items-center">
-          <NuxtLink class="2xl:w-48 xl:w-40 lg:w-32 w-56" to="/">
-            <img src="/assets/schoolaid.png" />
-          </NuxtLink>
-        </div>
+      <ul
+        class="PoppinsMedium font-semibold min-[1372px]:text-lg max-[1292px]:text-sm text-base hidden lg:flex lg:mx-auto lg:flex lg:items-center flex items-center 2xl:space-x-2"
+        :class="{ hidden: !isMenuOpen }"
+      >
+        <li>
+          <SNavLink to="/" :text="$t('Quienes somos')" />
+        </li>
+        <li>
+          <SEcosystem />
+        </li>
+        <li>
+          <SNavLink to="/community" :text="$t('Comunidad')" />
+        </li>
+        <li>
+          <SNavLink to="/customers" :text="$t('Instituciones')" />
+        </li>
+        <li>
+          <SNavLink to="/customers" :text="$t('Socios')" />
+        </li>
+        <li>
+          <SNavLink to="/contact" :text="$t('Contacto')" />
+        </li>
+      </ul>
+      <div class="flex items-center lg:flex hidden">
         <div
-          class="PoppinsMedium font-semibold min-[1340px]:text-lg max-[1132px]:text-sm text-base flex items-center lg:flex hidden"
-          id="nav-content"
+          class="PoppinsMedium font-semibold min-[1372px]:text-lg max-[1292px]:text-sm text-base flex items-center"
         >
-          <ul class="flex">
+          <a class="inline-block">
+            <a class="inline-block">{{ $t("Idioma") }}</a>
+          </a>
+          <a class="inline-block navLink">
+            <STranslate />
+          </a>
+        </div>
+        <div class="flex items-center">
+          <a
+            href="https://www.facebook.com/schoolaidapp"
+            target="_blank"
+            class="inline-block px-2 text-3xl text-[#537ff7]"
+          >
+            <i class="fa-brands fa-facebook"></i>
+          </a>
+          <a
+            href="https://www.instagram.com/schoolaid.app/"
+            target="_blank"
+            class="inline-block px-2 text-3xl text-[#537ff7]"
+          >
+            <i class="fa-brands fa-instagram"></i>
+          </a>
+        </div>
+      </div>
+    </nav>
+    <div class="navbar-menu relative z-50" :class="{ hidden: !isMenuOpen }">
+      <div
+        class="navbar-backdrop fixed inset-0 bg-gray-800 opacity-25"
+        @click="toggleMenu"
+      ></div>
+      <nav
+        class="fixed top-0 left-0 bottom-0 flex flex-col w-5/6 max-w-sm py-6 px-6 bg-white border-r overflow-y-auto"
+      >
+        <div class="flex items-center pb-8">
+          <a class="w-14">
+            <img src="/assets/aid.png" />
+          </a>
+          <button
+            class="navbar-close text-3xl text-[#537FF7] ml-auto"
+            @click="toggleMenu"
+          >
+            <i class="fa-solid fa-xmark"></i>
+          </button>
+        </div>
+        <div class="PoppinsMedium font-semibold text-lg">
+          <ul>
             <li>
-              <NuxtLink
-                to="/"
-                :exact-active-class="'text-[#537FF7]'"
-                class="inline-block py-2 xl:mx-4 mx-2 navLink"
-                >{{ $t("Quienes somos") }}</NuxtLink
-              >
-              <div class="inline-block py-2 xl:mx-4 mx-2">
-                <SEcosystem />
+              <SResNavLink to="/" :text="$t('Quienes somos')" />
+            </li>
+            <div class="inline-block py-4 px-3 navLink">
+              <SEcosystem />
+            </div>
+            <li>
+              <SResNavLink to="/community" :text="$t('Comunidad')" />
+            </li>
+            <li>
+              <SResNavLink to="/customers" :text="$t('Instituciones')" />
+            </li>
+            <li>
+              <SResNavLink to="/customers" :text="$t('Socios')" />
+            </li>
+            <li>
+              <SResNavLink to="/contact" :text="$t('Contacto')" />
+            </li>
+            <li>
+              <div class="inline-block py-2">
+                <STranslate />
               </div>
-              <NuxtLink
-                to="/community"
-                :exact-active-class="'text-[#537FF7]'"
-                class="inline-block py-2 xl:mx-4 mx-2 navLink"
-                >{{ $t("Comunidad") }}</NuxtLink
-              >
-              <NuxtLink
-                to="/customers"
-                :exact-active-class="'text-[#537FF7]'"
-                class="inline-block py-2 xl:mx-4 mx-2 navLink"
-                >{{ $t("Instituciones") }}</NuxtLink
-              >
-              <NuxtLink
-                to="/customers"
-                :exact-active-class="'text-[#537FF7]'"
-                class="inline-block py-2 xl:mx-4 mx-2 navLink"
-                >{{ $t("Socios") }}</NuxtLink
-              >
-              <NuxtLink
-                to="/contact"
-                :exact-active-class="'text-[#537FF7]'"
-                class="inline-block py-2 xl:mx-4 mx-2 navLink"
-                >{{ $t("Contacto") }}</NuxtLink
-              >
+            </li>
+            <li>
+              <div class="inline-block pl-1 py-4 text-3xl text-[#537ff7]">
+                <a
+                  href="https://www.facebook.com/schoolaidapp"
+                  target="_blank"
+                  class="px-2"
+                >
+                  <i class="fa-brands fa-facebook"></i>
+                </a>
+                <a
+                  href="https://www.instagram.com/schoolaid.app/"
+                  target="_blank"
+                >
+                  <i class="fa-brands fa-instagram"></i>
+                </a>
+              </div>
             </li>
           </ul>
         </div>
-        <div class="flex items-center lg:flex hidden">
-          <div
-            class="PoppinsMedium font-semibold min-[1340px]:text-lg max-[1132px]:text-sm text-base flex items-center"
-          >
-            <a class="inline-block">
-              <a class="inline-block">{{ $t("Idioma") }}</a>
-            </a>
-            <a class="inline-block navLink">
-              <STranslate />
-            </a>
-          </div>
-          <div class="flex items-center">
-            <a
-              href="https://www.facebook.com/schoolaidapp"
-              target="_blank"
-              class="inline-block px-2 text-3xl text-[#537ff7]"
-            >
-              <i class="fa-brands fa-facebook"></i>
-            </a>
-            <a
-              href="https://www.instagram.com/schoolaid.app/"
-              target="_blank"
-              class="inline-block px-2 text-3xl text-[#537ff7]"
-            >
-              <i class="fa-brands fa-instagram"></i>
-            </a>
-          </div>
-        </div>
-        <div
-          class="order-2 lg:order-3 flex items-center lg:hidden"
-          id="nav-content"
-        ></div>
-      </div>
-    </nav>
+      </nav>
+    </div>
   </div>
 </template>
 <style>
-@media (min-width: 1023px) and (max-width: 1055px) {
-  .res-padding-r {
+@media (min-width: 1023px) and (max-width: 1038px) {
+  .res-spa {
     padding-right: 0%;
-    padding-left: 0%;
   }
 }
 </style>

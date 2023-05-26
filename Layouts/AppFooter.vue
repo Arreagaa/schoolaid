@@ -35,7 +35,7 @@
                 </li>
               </ul>
             </div>
-            <div class="w-full xl:pl-12 lg:w-1/8 md:w-1/2 xl:pt-0 pt-4">
+            <div class="w-full md:pl-12 lg:w-1/8 md:w-1/2 md:pt-0 pt-4">
               <h2 class="PoppinsMedium block text-white text-lg font-bold mb-2">
                 {{ $t("Contacto") }}
               </h2>

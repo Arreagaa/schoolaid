@@ -2,8 +2,8 @@
 import SBagTitleAid from "../utils/SBagTitleAid.vue";
 </script>
 <template>
-  <div class="flex flex-col md:flex-row">
-    <div class="md:order-1 order-2 md:w-1/2">
+  <div class="flex flex-col lg:flex-row">
+    <div class="lg:order-1 order-2 lg:w-1/2">
       <div class="PoppinsLight min-[1535px]:px-24 px-8 py-4 font-bold text-xl">
         <p class="text-black 2xl:px-16 res-space-aid">
           {{
@@ -35,7 +35,7 @@ import SBagTitleAid from "../utils/SBagTitleAid.vue";
             <h1 class="PoppinsBold text-3xl py-8">
               {{ $t("Características") }}
             </h1>
-            <ul class="PoppinsLight list-disc pl-8 md:pr-24">
+            <ul class="PoppinsLight list-disc pl-8 lg:pr-24">
               <li class="pb-10">
                 {{
                   $t(
@@ -57,17 +57,17 @@ import SBagTitleAid from "../utils/SBagTitleAid.vue";
           </div>
         </div>
       </div>
-      <div class="PoppinsLight xl:px-16 md:py-16 px-8">
-        <div class="md:flex hidden items-center text-center">
+      <div class="PoppinsLight xl:px-16 lg:py-16 px-8">
+        <div class="lg:flex hidden items-center text-center">
           <img src="/assets/bg/img+.png" alt="" />
         </div>
       </div>
     </div>
-    <div class="order-2 md:order-1 md:w-1/2">
-      <div class="md:-ml-[72px] xl:mt-8 lg:mt-0 md:mt-0 overflow-hidden">
+    <div class="order-2 lg:order-1 lg:w-1/2">
+      <div class="lg:-ml-[72px] xl:mt-8 lg:mt-0 lg:mt-0 overflow-hidden">
         <img src="/assets/bg/aids.png" alt="" />
       </div>
-      <div class="PoppinsLight font-bold text-xl md:pt-16 pt-4">
+      <div class="PoppinsLight font-bold text-xl lg:pt-16 pt-4">
         <SBagTitleAid title="Control Aid+" image="/assets/aids/Control.png" />
         <div class="text-black pt-8 px-8 res-space-aid">
           <ul class="custom-list min-[1669px]:pl-4 min-[1669px]:pr-64">
@@ -100,7 +100,7 @@ import SBagTitleAid from "../utils/SBagTitleAid.vue";
             </li>
           </ul>
         </div>
-        <div class="md:hidden items-center text-center">
+        <div class="lg:hidden items-center text-center">
           <img src="/assets/bg/img+.png" alt="" />
         </div>
       </div>

@@ -192,7 +192,7 @@ export default {
                   :key="index"
                   class="p-4 md:py-16"
                 >
-                  <img :src="item.image" alt="" />
+                  <img :src="item.image" class="w-36" alt="" />
                 </div>
               </div>
             </div>

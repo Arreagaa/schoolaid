@@ -2,8 +2,8 @@
 import SBagTitleAid from "../utils/SBagTitleAid.vue";
 </script>
 <template>
-  <div class="flex flex-col md:flex-row">
-    <div class="md:order-1 order-2 md:w-1/2">
+  <div class="flex flex-col lg:flex-row">
+    <div class="lg:order-1 order-2 lg:w-1/2">
       <div
         class="PoppinsLight min-[1535px]:px-24 px-8 py-4 pb-16 font-bold text-xl"
       >
@@ -51,32 +51,32 @@ import SBagTitleAid from "../utils/SBagTitleAid.vue";
         </p>
       </div>
       <div class="xl:px-16 px-8">
-        <div class="md:flex hidden items-center text-center">
+        <div class="lg:flex hidden items-center text-center">
           <img src="/assets/bg/img+.png" alt="" />
         </div>
       </div>
     </div>
-    <div class="order-2 md:order-1 md:w-1/2">
-      <div class="md:-ml-[72px] relative overflow-hidden">
+    <div class="order-2 lg:order-1 lg:w-1/2">
+      <div class="lg:-ml-[72px] relative overflow-hidden">
         <img src="/assets/bg/aid_1.png" alt="" />
-        <div class="md:pb-32 pb-16">
+        <div class="lg:pb-32 md:pb-0 pb-16">
           <img
             src="/assets/img/transport.png"
-            class="z-50 md:ml-16 absolute md:top-60 top-20 left-0 rounded-lg"
+            class="z-50 lg:ml-16 absolute lg:top-60 top-20 left-0 rounded-lg"
             alt=""
           />
         </div>
       </div>
-      <div class="PoppinsLight font-bold text-xl md:pt-0">
+      <div class="PoppinsLight font-bold text-xl lg:pt-0">
         <SBagTitleAid
           title="Transportation Aid+"
           image="/assets/aids/Transportation.png"
         />
-        <h1 class="text-black 2xl:px-8 md:px-0 px-8 res-space-aid">
+        <h1 class="text-black 2xl:px-8 lg:px-0 px-8 res-space-aid">
           {{ $t("Nueva Alianza con Grupo Golán") }}
         </h1>
         <p
-          class="text-black pt-6 min-[1669px]:px-8 min-[1669px]:pr-36 xl:pr-36 min-[1669px]:pb-36 md:px-0 px-8 pb-4 text-justify"
+          class="text-black pt-6 min-[1669px]:px-8 min-[1669px]:pr-36 xl:pr-36 min-[1669px]:pb-36 lg:px-0 px-8 pb-4 text-justify"
         >
           {{
             $t(
@@ -85,7 +85,7 @@ import SBagTitleAid from "../utils/SBagTitleAid.vue";
           }}
         </p>
         <div>
-          <div class="md:hidden items-center text-center">
+          <div class="lg:hidden items-center text-center">
             <img src="/assets/bg/img+.png" alt="" />
           </div>
         </div>
