@@ -168,6 +168,10 @@ export default defineI18nConfig(() => ({
         "Inicio de sesión único para otras plataformas, consulta de calificaciones o estados de cuenta con integraciones a portal de pagos, redes sociales, página web, Colegium, Facts, PowerSchool, Homeland, iSams y otras plataformas.",
       "Envía mensajes a través de notificaciones push a la App de padres y centraliza toda la comunicación de manera simple, utilizando filtros de segmentación para enviar mensajes por niveles de grado, grados, grupos específicos o por estudiante.":
         "Envía mensajes a través de notificaciones push a la App de padres y centraliza toda la comunicación de manera sencilla, utilizando filtros de segmentación para enviar mensajes por niveles de grado, grados, grupos específicos o por estudiante.",
+      "Políticas de Privacidad y Protección de Datos":
+        "Políticas de Privacidad y Protección de Datos",
+      "Términos y Condiciones de uso": "Términos y Condiciones de uso",
+      "Política de cookies": "Política de cookies"
     },
     en: {
       Español: "Spanish",
@@ -331,6 +335,10 @@ export default defineI18nConfig(() => ({
         "Single sign-in for other platforms, grade inquiries or account statements with integrations to payment portals, social media, website, Colegium, Facts, PowerSchool, Homeland, iSams, and other platforms.",
       "Envía mensajes a través de notificaciones push a la App de padres y centraliza toda la comunicación de manera simple, utilizando filtros de segmentación para enviar mensajes por niveles de grado, grados, grupos específicos o por estudiante.":
         "Send messages through push notifications to the Parent App and centralize all communication in a simple way, using segmentation filters to send messages by grade levels, grades, specific groups, or by student.",
+      "Políticas de Privacidad y Protección de Datos":
+        "Privacy and Data Protection Policies",
+      "Términos y Condiciones de uso": "Terms and Conditions of Platform Use",
+      "Política de cookies": "Cookies policy"
     },
   },
 }));

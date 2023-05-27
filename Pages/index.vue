@@ -37,7 +37,7 @@ export default {
   <section>
     <Sbanner />
   </section>
-  <section class="max-w-custom py-16">
+  <section class="max-w-custom pt-16 pb-8">
     <SBagTitle
       :title="$t('¿Cómo te ayudamos?')"
       image="/assets/aids/Ayuda.png"
@@ -80,7 +80,7 @@ export default {
       :title="$t('Nuestro Ecosistema Aid')"
       image="/assets/aids/Aid.png"
     />
-    <div class="py-8">
+    <div class="md:py-8 md:pt-8 pt-0">
       <SEcosystems />
     </div>
   </section>

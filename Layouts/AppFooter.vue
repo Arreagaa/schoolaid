@@ -5,7 +5,7 @@
         <div class="w-full lg:w-6/12 px-4">
           <img src="/assets/aid_white.png" alt="image" class="w-12" />
           <span
-            class="PoppinsMedium text-lg block text-white text-base py-20 xl:px-14"
+            class="PoppinsMedium text-lg block text-white text-base lg:py-20 py-10 xl:px-14"
           >
             © 2020 Schoolaid {{ $t("Todos los derechos") }}
           </span>
@@ -21,17 +21,19 @@
               </h2>
               <ul class="list-unstyled PoppinsRegular">
                 <li class="py1">
-                  <a class="text-white block pb-2 text-base"
-                    >Privacy and Data Protection Policies</a
-                  >
+                  <NuxtLink to="/privacy-policy" class="text-white block pb-2 text-base">{{
+                    $t("Políticas de Privacidad y Protección de Datos")
+                  }}</NuxtLink>
                 </li>
                 <li class="py1">
-                  <a class="text-white block pb-2 text-base"
-                    >Términos y Condiciones de uso</a
-                  >
+                  <NuxtLink to="/terms" class="text-white block pb-2 text-base">{{
+                    $t("Términos y Condiciones de uso")
+                  }}</NuxtLink>
                 </li>
                 <li class="py1">
-                  <a class="text-white block pb-2 text-base">Cookies policy</a>
+                  <NuxtLink to="/cookies" class="text-white block pb-2 text-base">{{
+                    $t("Política de cookies")
+                  }}</NuxtLink>
                 </li>
               </ul>
             </div>
@@ -41,7 +43,9 @@
               </h2>
               <ul class="mb-10 list-unstyled PoppinsRegular">
                 <li class="py1">
-                  <a class="text-white block pb-2 text-base"
+                  <a
+                    href="mailto:info@schoolaid.app"
+                    class="text-white block pb-2 text-base"
                     >info@schoolaid.app</a
                   >
                 </li>

@@ -3,7 +3,7 @@ import SInfo from "./utils/SInfo.vue";
 </script>
 <template>
   <section
-    class="bg-white flex text-center res-padding 2xl:pt-28 pb-16 md:px-0 px-16"
+    class="bg-white flex text-center res-padding 2xl:pt-28 pb-16 2xl:px-0 md:px-6 px-16"
   >
     <SInfo />
   </section>

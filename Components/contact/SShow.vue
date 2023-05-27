@@ -28,7 +28,7 @@ export default {
   <section class="lg:bg-[url('/assets/bg/Contacto.png')] bg-cover bg-center">
     <div class="max-w-custom flex flex-col lg:flex-row">
       <div class="lg:order-1 order-2 lg:w-1/2">
-        <div class="min-[1535px]:px-8 px-6">
+        <div class="min-[1535px]:px-8 px-4">
           <SBagTitleCustomers :title="$t('Contáctanos')" />
         </div>
         <div

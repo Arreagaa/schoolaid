@@ -13,14 +13,14 @@ defineProps({
     <div class="p-4 text-black flex items-center block">
       <img
         :src="image"
-        class="xl:w-20 xl:h-20 w-14 h-14 mr-4 object-contain"
+        class="md:w-20 md:h-20 w-14 h-14 mr-4 object-contain"
         alt=""
       />
       <div>
-        <h1 class="ModeratBlack xl:text-4xl text-2xl text-black py-2">
+        <h1 class="ModeratBlack md:text-4xl text-2xl text-black py-2">
           {{ title }}
         </h1>
-        <p class="PoppinsMedium text-lg text-black">
+        <p class="PoppinsMedium md:text-lg text-base text-black">
           {{ description }}
         </p>
       </div>
