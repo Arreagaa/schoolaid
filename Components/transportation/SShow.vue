@@ -29,7 +29,7 @@ import SBagTitleAid from "../utils/SBagTitleAid.vue";
               <li class="pb-2">{{ $t("Asistencia en rutas.") }}</li>
               <li class="pb-2">{{ $t("Alertas de velocidad.") }}</li>
               <li class="pb-2">{{ $t("Horas en parada.") }}</li>
-              <li class="pb-2">{{ $t("Tráfico.") }}</li>
+              <li class="pb-2">{{ $t("Tráfico.") }}</li>
             </ul>
           </div>
         </div>

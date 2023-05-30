@@ -98,10 +98,10 @@ export default defineI18nConfig(() => ({
       "Plataforma web para mejor administración del transporte escolar. Ubicación y tráfico en tiempo real. Alertas y notificaciones de proximidad.":
         "Plataforma web para mejor administración del transporte escolar. Ubicación y tráfico en tiempo real. Alertas y notificaciones de proximidad.",
       Reportes: "Reportes",
-      "Trazabilidad.": "Trazabilidad.",
+      "Trazabilidad.": "Trazabilidad de estudiantes en la ruta.",
       "Asistencia en rutas.": "Asistencia en rutas.",
       "Alertas de velocidad.": "Alertas de velocidad.",
-      "Horas en parada.": "Horas en parada.",
+      "Horas en parada.": "Horarios de paradas.",
       "Tráfico.": "Tráfico.",
       "Permite a los padres ver la ubicación exacta del transporte escolar en tiempo real a través de la app.":
         "Permite a los padres ver la ubicación exacta del transporte escolar en tiempo real a través de la app.",
@@ -112,15 +112,9 @@ export default defineI18nConfig(() => ({
         "Ahora los colegios en Guatemala y El Salvador pueden optar por incluir un botón de pánico en el transporte escolar y ante cualquier situación de riesgo, un Especialista en Atención de Seguridad de Golán, atenderá la señal de emergencia desde la App de SchoolAid y una Patrulla REDIPAT se despachará de inmediato hacia la ubicación del bus.",
       "Plataforma administrativa para eficientizar solicitudes de padres. Trazabilidad de todos los cambios, ausencias y solicitudes.":
         "Plataforma administrativa para optimizar las solicitudes de los padres. Seguimiento de todos los cambios, ausencias y solicitudes.",
-      "Genera reportes automáticos por fecha, nivel de grado, grado, o por alumno. Personalización de formularios de solicitudes a la medida de necesidades del colegio. Control de asistencia y toma de asistencia en clases.":
-        "Genera informes automáticos por fecha, nivel de grado, grado o alumno. Personalización de formularios de solicitud a medida de las necesidades del colegio. Control y registro de asistencia en las clases.",
       Características: "Características",
-      "Módulo de solicitudes y permisos para padres de familia (ausencias, cambio de transporte, cumpleaños, etc.)":
-        "Módulo de solicitudes y permisos para padres de familia (ausencias, cambio de transporte, cumpleaños, etc.)",
-      "Personalización de solicitudes, formularios y permisos según requerimientos específicos del colegio.":
-        "Personalización de solicitudes, formularios y permisos según los requerimientos específicos del colegio.",
-      "Buzón de sugerencias, formularios, etc.":
-        "Buzón de sugerencias, formularios, etc.",
+      "Automatización de línea de automóvil mediante verificación de código QR individual. Los códigos se actualizan automáticamente con los cambios realizados por los padres, para que la salida de alumnos sea efectiva y más rápida.":
+        "Automatización de línea de automóvil mediante verificación de código QR individual. Los códigos se actualizan automáticamente con los cambios realizados por los padres, para que la salida de alumnos sea efectiva y más rápida.",
       "Control de accesos y salidas a través de Código QR.":
         "Control de accesos y salidas mediante código QR.",
       "Generación de códigos para personas autorizadas para recoger niños, y compartirlos por cualquier medio.":
@@ -171,7 +165,16 @@ export default defineI18nConfig(() => ({
       "Políticas de Privacidad y Protección de Datos":
         "Políticas de Privacidad y Protección de Datos",
       "Términos y Condiciones de uso": "Términos y Condiciones de uso",
-      "Política de cookies": "Política de cookies"
+      "Política de cookies": "Política de cookies",
+      "Agiliza las solicitudes de los padres y los cambios en la salida de alumnos.":
+        "Agiliza las solicitudes de los padres y los cambios en la salida de alumnos.",
+      "Obtener el registro de todos los cambios, ausencias y solicitudes de todos los estudiantes.":
+        "Obtener el registro de todos los cambios, ausencias y solicitudes de todos los estudiantes.",
+      "Reportes por fecha, nivel, grado o por alumno.":
+        "Reportes por fecha, nivel, grado o por alumno.",
+      "Genera pases digitales o físicos.": "Genera pases digitales o físicos.",
+      "Gestiona y automatizar la asistencia.":
+        "Gestiona y automatizar la asistencia.",
     },
     en: {
       Español: "Spanish",
@@ -264,30 +267,25 @@ export default defineI18nConfig(() => ({
       "Cuéntanos más": "Tell us more",
       Enviar: "Send",
       "Plataforma web para mejor administración del transporte escolar. Ubicación y tráfico en tiempo real. Alertas y notificaciones de proximidad.":
-        "Web platform for better administration of school transport. Location and traffic in real time. Proximity alerts and notifications.",
+        "School transport administrative platform. Real-time location of all units and live view of traffic.",
       Reportes: "Reports",
-      "Trazabilidad.": "Traceability.",
-      "Asistencia en rutas.": "Route assistance.",
-      "Alertas de velocidad.": "Speed alerts.",
-      "Horas en parada.": "Stop hours.",
+      "Trazabilidad.": "Traceability of all students.",
+      "Asistencia en rutas.": "Attendance in routes.",
+      "Alertas de velocidad.": "Speed limit alerts.",
+      "Horas en parada.": "Stops schedule.",
       "Tráfico.": "Traffic.",
       "Permite a los padres ver la ubicación exacta del transporte escolar en tiempo real a través de la app.":
-        "Allows parents to view the exact location of the school transport in real time through the app.",
+        "Allows parents to view the real-time location of their children in the school transport.",
       "Visualiza los tiempos de llegada estimados por parada, recibe notificaciones push durante la ruta y alertas de proximidad.":
-        "Visualize estimated arrival times per stop, receive push notifications during the route, and proximity alerts.",
+        "Push notifications and proximity alerts are sent automatically during the route. Parents can also visualize estimated arrival times by stop.",
       "Nueva Alianza con Grupo Golán": "New Integration Partner: Grupo Golán",
       "Ahora los colegios en Guatemala y El Salvador pueden optar por incluir un botón de pánico en el transporte escolar y ante cualquier situación de riesgo, un Especialista en Atención de Seguridad de Golán, atenderá la señal de emergencia desde la App de SchoolAid y una Patrulla REDIPAT se despachará de inmediato hacia la ubicación del bus.":
-        "Now schools in Guatemala and El Salvador can choose to include a panic button in the school transport and in any risk situation, a Golan Security Specialist will attend to the emergency signal from the SchoolAid App and a REDIPAT Patrol unit will be dispatched immediately to the bus location.",
+        "Now schools in Guatemala and El Salvador can choose to include a panic button in the school transport. In order to prevent and mitigate any security risk, a Golan Security Specialist will attend to the emergency signal from the SchoolAid App and a REDIPAT Patrol unit will be dispatched immediately to the location of the school transport.",
       "Plataforma administrativa para eficientizar solicitudes de padres. Trazabilidad de todos los cambios, ausencias y solicitudes.":
-        "Administrative platform to streamline parent requests. Traceability of all changes, absences, and requests.",
-      "Genera reportes automáticos por fecha, nivel de grado, grado, o por alumno. Personalización de formularios de solicitudes a la medida de necesidades del colegio. Control de asistencia y toma de asistencia en clases.":
-        "Generates automatic reports by date, grade level, grade, or student. Customization of request forms tailored to school needs. Attendance control and recording in classes.",
+        "Enhance the safety and efficiency of the school by automating parent requests, attendance and dismissal.",
       Características: "Features",
-      "Módulo de solicitudes y permisos para padres de familia (ausencias, cambio de transporte, cumpleaños, etc.)":
-        "Module for parental requests and permissions (absences, transportation changes, birthdays, etc.)",
-      "Personalización de solicitudes, formularios y permisos según requerimientos específicos del colegio.":
-        "Customization of requests, forms, and permissions according to specific school requirements.",
-      "Buzón de sugerencias, formularios, etc.": "Suggestions box, forms, etc.",
+      "Automatización de línea de automóvil mediante verificación de código QR individual. Los códigos se actualizan automáticamente con los cambios realizados por los padres, para que la salida de alumnos sea efectiva y más rápida.":
+        "Carline automation through individual QR code verification. Individual codes are automatically updated daily with the changes made by parents, for an effective and faster student dismissal.",
       "Control de accesos y salidas a través de Código QR.":
         "Access and exit control through QR Code.",
       "Generación de códigos para personas autorizadas para recoger niños, y compartirlos por cualquier medio.":
@@ -338,7 +336,16 @@ export default defineI18nConfig(() => ({
       "Políticas de Privacidad y Protección de Datos":
         "Privacy and Data Protection Policies",
       "Términos y Condiciones de uso": "Terms and Conditions of Platform Use",
-      "Política de cookies": "Cookies policy"
+      "Política de cookies": "Cookies policy",
+      "Agiliza las solicitudes de los padres y los cambios en la salida de alumnos.":
+        "Streamline parent requests and dismissal changes such as late arrival, playdates and after-school activities.",
+      "Obtener el registro de todos los cambios, ausencias y solicitudes de todos los estudiantes.":
+        "Get the record of all changes, absences and requests of all students.",
+      "Reportes por fecha, nivel, grado o por alumno.":
+        "Reports by date, level, grade, or by student.",
+      "Genera pases digitales o físicos.":
+        "Generate digital or physical passes.",
+        "Gestiona y automatizar la asistencia.": "Manage and automate attendance."
     },
   },
 }));
