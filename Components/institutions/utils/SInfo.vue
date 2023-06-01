@@ -10,7 +10,7 @@ const institution = [
     icon: "/assets/icons/Colegios.png",
   },
   {
-    title: "Empresas de Transporte",
+    title: "Empresas de transporte",
     icon: "/assets/icons/Empresas-Transporte.png",
   },
   {
@@ -25,7 +25,7 @@ const institution = [
 </script>
 <template>
   <div
-    class="flex flex-col items-center py-4 md:px-4 mx-auto xl:flex-row bg-[#537FF7] bg-opacity-10 rounded-3xl"
+    class="flex flex-col items-center py-4 md:px-8 mx-auto xl:flex-row bg-[#537FF7] bg-opacity-10 rounded-3xl"
   >
     <SInstitution
       v-for="(item, index) in institution"

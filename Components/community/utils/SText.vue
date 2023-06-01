@@ -4,7 +4,7 @@
       <div
         class="ModeratBlack 2xl:text-7xl res-font md:text-5xl text-4xl leading-serif"
       >
-        <h1 v-html="$t('welcome_message')"></h1>
+        <h1 v-html="$t('community_text')"></h1>
       </div>
     </div>
   </section>

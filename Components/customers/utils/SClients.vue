@@ -153,7 +153,7 @@ export default {
     startAutoSlide() {
       this.slideInterval = setInterval(() => {
         this.nextSlide();
-      }, 15000);
+      }, 3000);
     },
     stopAutoSlide() {
       clearInterval(this.slideInterval);
@@ -220,7 +220,6 @@ export default {
     </div>
   </section>
 </template>
-
 <style>
 .swiper-container {
   overflow: hidden;

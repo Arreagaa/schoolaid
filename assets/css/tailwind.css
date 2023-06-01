@@ -81,40 +81,6 @@
 ::-webkit-scrollbar-thumb:hover {
   background-color: #555;
 }
-a {
-  --secondary-color: #fff;
-}
-a .arrow-wrapper {
-  display: flex;
-  justify-content: center;
-  align-items: center;
-}
-a .arrow {
-  margin-top: 3px;
-  width: 10px;
-  background: var(--primary-color);
-  height: 2px;
-  position: relative;
-  transition: 0.2s;
-}
-a .arrow::before {
-  content: "";
-  box-sizing: border-box;
-  position: absolute;
-  border-width: 0 2px 2px 0;
-  display: inline-block;
-  top: -3px;
-  right: 3px;
-  transition: 0.2s;
-  padding: 3px;
-  transform: rotate(-45deg);
-}
-a:hover .arrow {
-  background: var(--secondary-color);
-}
-a:hover .arrow:before {
-  right: 0;
-}
 .max-w-custom {
   @apply max-w-[1700px] mx-auto;
 }
@@ -125,7 +91,6 @@ a:hover .arrow:before {
   transition: all 0.3s;
   transform: scale(1);
 }
-
 .hover\:grow:hover {
   transform: scale(1.02);
 }

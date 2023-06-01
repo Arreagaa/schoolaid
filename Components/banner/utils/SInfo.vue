@@ -28,7 +28,7 @@ const aids = [
 </script>
 <template>
   <div
-    class="grid overflow-hidden sm:grid-cols-1 lg:grid-cols-1 xl:grid-cols-1 gap-y-10 xl:py-36"
+    class="grid overflow-hidden sm:grid-cols-1 lg:grid-cols-1 xl:grid-cols-1 gap-y-10 2xl:pt-36 md:pb-0 md:pt-0"
   >
     <SCard
       v-for="(item, index) in aids"

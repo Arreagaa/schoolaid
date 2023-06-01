@@ -62,7 +62,7 @@ import SBagTitleAid from "../utils/SBagTitleAid.vue";
         <div class="lg:pb-32 md:pb-0 pb-16">
           <img
             src="/assets/img/transport.png"
-            class="z-50 lg:ml-16 absolute lg:top-60 top-20 left-0 rounded-lg"
+            class="z-50 lg:ml-16 absolute lg:top-60 top-20 left-0"
             alt=""
           />
         </div>

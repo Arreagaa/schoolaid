@@ -3,7 +3,7 @@ export default {
   data() {
     return {
       isPlaying: false,
-      videoLink: "https://www.youtube.com/embed/j0DyAQlewws?autoplay=1",
+      videoLink: "https://www.youtube.com/embed/j0DyAQlewws?autoplay=1&rel=0",
     };
   },
   methods: {
@@ -12,9 +12,9 @@ export default {
     },
     localeVideo() {
       if (this.$i18n.locale === "es") {
-        this.videoLink = "https://www.youtube.com/embed/j0DyAQlewws?autoplay=1";
+        this.videoLink = "https://www.youtube.com/embed/j0DyAQlewws?autoplay=1&rel=0";
       } else {
-        this.videoLink = "https://www.youtube.com/embed/zh4GX_9utBM?autoplay=1";
+        this.videoLink = "https://www.youtube.com/embed/zh4GX_9utBM?autoplay=1&rel=0";
       }
     },
   },

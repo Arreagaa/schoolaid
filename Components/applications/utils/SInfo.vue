@@ -6,7 +6,7 @@ const applications = [
     icon: "/assets/icons/Seguridad.png",
     description:
       "Gestión de visitantes, seguridad, control y seguridad de los alumnos.",
-    link: "/control-aid",
+    link: "/control-aid#plus",
   },
   {
     title: "Automatizar operaciones",

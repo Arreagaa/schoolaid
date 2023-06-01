@@ -17,7 +17,7 @@ export default {
 <template>
   <div class="max-w-xs md:max-w-none overflow-hidden py-4">
     <img class="object-cover rounded" :src="item.image" />
-    <div class="py-3 min-[1536px]:px-2">
+    <div class="py-3 px-2">
       <div class="flex items-center">
         <div class="flex items-center justify-center pt-4 pr-2">
           <img :src="item.icon" class="xl:w-8 w-6" />
@@ -38,7 +38,7 @@ export default {
         </div>
       </div>
       <p
-        class="paragraph-normal font-semibold text-[#333333] lg:pr-4 pt-6 min-[1536px]:text-xl text-lg h-28"
+        class="PoppinsLight paragraph-normal font-semibold text-[#333333] lg:pr-4 pt-6 min-[1536px]:text-lg text-base h-28"
       >
         {{ $t(item.description) }}
       </p>

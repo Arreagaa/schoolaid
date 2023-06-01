@@ -3,6 +3,7 @@ export default defineI18nConfig(() => ({
   fallbackLocale: "en",
   fallbackWarn: false,
   missingWarn: false,
+  warnHtmlMessage: false,
   messages: {
     es: {
       Español: "Español",
@@ -76,7 +77,7 @@ export default defineI18nConfig(() => ({
         "Gestiona cobros, estados de cuenta, productos, inventario, etc.",
       "Personaliza el punto de venta según tus necesidades.":
         "Personaliza el punto de venta según tus necesidades.",
-      welcome_message:
+      community_text:
         "Puedes utilizar <span class='text-[#537FF7]'>SchoolAid</span> en cualquier parte del mundo",
       "Colegios, Empresas y Academias": "Colegios, Empresas y Academias",
       "Usuarios satisfechos con opiniones positivas":
@@ -247,7 +248,7 @@ export default defineI18nConfig(() => ({
         "Manage charges, account statements, products, inventory, etc.",
       "Personaliza el punto de venta según tus necesidades.":
         "Customize the point of sale according to your needs.",
-      welcome_message:
+      community_text:
         "You can use <span class='text-[#537FF7]'>SchoolAid</span> anywhere in the world",
       "Colegios, Empresas y Academias": "Schools, Companies, and Institutions.",
       "Usuarios satisfechos con opiniones positivas":

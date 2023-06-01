@@ -7,12 +7,12 @@ const data = [
     color: "#F66750",
   },
   {
-    title: "+50k",
+    title: "+50K",
     description: "Usuarios satisfechos con opiniones positivas",
     color: "#537FF7",
   },
   {
-    title: "+35k",
+    title: "+35K",
     description: "Familias que usan la app a diario",
     color: "#F3BE18",
   },

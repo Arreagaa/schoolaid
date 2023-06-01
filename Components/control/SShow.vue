@@ -62,7 +62,7 @@ import SBagTitleAid from "../utils/SBagTitleAid.vue";
       <div class="lg:-ml-[72px] overflow-hidden">
         <img src="/assets/bg/aids.png" alt="" />
       </div>
-      <div class="PoppinsLight font-bold text-xl pt-4">
+      <div id="plus" class="PoppinsLight font-bold text-xl pt-4">
         <SBagTitleAid title="Control Aid+" image="/assets/aids/Control.png" />
         <div class="text-black px-8 res-space-aid">
           <p class="pt-4 pb-8 min-[166px]:pr-36">
