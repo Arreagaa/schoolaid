@@ -6,9 +6,7 @@ export default defineI18nConfig(() => ({
   warnHtmlMessage: false,
   messages: {
     es: {
-      Español: "Español",
-      Inglés: "Inglés",
-      "Quienes somos": "Quienes somos",
+      "Quienes somos": "Quiénes somos",
       "Ecosistema Aid": "Ecosistema Aid",
       Comunidad: "Comunidad",
       Instituciones: "Instituciones",
@@ -29,10 +27,10 @@ export default defineI18nConfig(() => ({
       "Tipos de Instituciones": "Tipos de Instituciones",
       "Nuestro Ecosistema Aid": "Nuestro Ecosistema Aid",
       "Quienes utilizan nuestros productos:":
-        "Quienes utilizan nuestros productos:",
+        "Quiénes utilizan nuestros productos:",
       Academias: "Academias",
       Colegios: "Colegios",
-      "Empresas de Transporte": "Empresas de Transporte",
+      "Empresas de Transporte": "Empresas de transporte",
       Guarderías: "Guarderías",
       "Instituciones educativas": "Instituciones educativas",
       "Seguridad en Campus": "Seguridad en Campus",
@@ -79,7 +77,7 @@ export default defineI18nConfig(() => ({
         "Personaliza el punto de venta según tus necesidades.",
       community_text:
         "Puedes utilizar <span class='text-[#537FF7]'>SchoolAid</span> en cualquier parte del mundo",
-      "Colegios, Empresas y Academias": "Colegios, Empresas y Academias",
+      "Colegios, Empresas y Academias": "Colegios, empresas y academias",
       "Usuarios satisfechos con opiniones positivas":
         "Usuarios satisfechos con opiniones positivas",
       "Familias que usan la app a diario": "Familias que usan la app a diario",
@@ -88,16 +86,16 @@ export default defineI18nConfig(() => ({
       Contáctanos: "Contáctanos",
       "Envíanos tus datos para asesorarte con la mejor solución para ti":
         "Envíanos tus datos para asesorarte con la mejor solución para ti",
-      Nombre: "Nombre",
-      Apellido: "Apellido",
+      Nombre: "Nombres",
+      Apellido: "Apellidos",
       "Correo electrónico": "Correo electrónico",
-      "Institución de contacto": "Institución de contacto",
+      "Institución de contacto": "Nombre de la institución",
       "¿Qué tipo de solución funciona mejor para ti?":
         "¿Qué tipo de solución funciona mejor para ti?",
-      "Cuéntanos más": "Cuéntanos más",
+      "Cuéntanos más": "Cuéntanos más:",
       Enviar: "Enviar",
       "Plataforma web para mejor administración del transporte escolar. Ubicación y tráfico en tiempo real. Alertas y notificaciones de proximidad.":
-        "Plataforma web para mejor administración del transporte escolar. Ubicación y tráfico en tiempo real. Alertas y notificaciones de proximidad.",
+        "Plataforma web para mejor administración del transporte escolar, ubicación y tráfico en tiempo real, alertas y notificaciones de proximidad.",
       Reportes: "Reportes",
       "Trazabilidad.": "Trazabilidad de estudiantes en la ruta.",
       "Asistencia en rutas.": "Asistencia en rutas.",
@@ -108,9 +106,9 @@ export default defineI18nConfig(() => ({
         "Permite a los padres ver la ubicación exacta del transporte escolar en tiempo real a través de la app.",
       "Visualiza los tiempos de llegada estimados por parada, recibe notificaciones push durante la ruta y alertas de proximidad.":
         "Visualiza los tiempos de llegada estimados por parada, recibe notificaciones push durante la ruta y alertas de proximidad.",
-      "Nueva Alianza con Grupo Golán": "Nueva Alianza con Grupo Golán",
+      "Nueva Alianza con Grupo Golán": "Nueva alianza con Grupo Golán",
       "Ahora los colegios en Guatemala y El Salvador pueden optar por incluir un botón de pánico en el transporte escolar y ante cualquier situación de riesgo, un Especialista en Atención de Seguridad de Golán, atenderá la señal de emergencia desde la App de SchoolAid y una Patrulla REDIPAT se despachará de inmediato hacia la ubicación del bus.":
-        "Ahora los colegios en Guatemala y El Salvador pueden optar por incluir un botón de pánico en el transporte escolar y ante cualquier situación de riesgo, un Especialista en Atención de Seguridad de Golán, atenderá la señal de emergencia desde la App de SchoolAid y una Patrulla REDIPAT se despachará de inmediato hacia la ubicación del bus.",
+        "Ahora los colegios en Guatemala y El Salvador pueden optar por incluir un botón de pánico en el transporte escolar y ante cualquier situación de riesgo, un especialista en atención de seguridad de Golán, atenderá la señal de emergencia desde la app de SchoolAid y una patrulla REDIPAT se despachará de inmediato hacia la ubicación del bus.",
       "Plataforma administrativa para eficientizar solicitudes de padres. Trazabilidad de todos los cambios, ausencias y solicitudes.":
         "Plataforma administrativa para optimizar las solicitudes de los padres. Seguimiento de todos los cambios, ausencias y solicitudes.",
       Características: "Características",
@@ -134,9 +132,9 @@ export default defineI18nConfig(() => ({
       "Mantén la privacidad de las familias sin tener que compartir contactos telefónicos.":
         "Mantén la privacidad de las familias sin tener que compartir contactos telefónicos.",
       "Módulo de encuestas y formularios personalizados para responder a través de la App de padres.":
-        "Módulo de encuestas y formularios personalizados para responder a través de la App de padres.",
-      "Monitorea la salud mental de los niños, detecta buying, o haz encuestass de satisfacción por nivel de grado, grado, sección o grupo específico.":
-        "Monitorea la salud mental de los niños, detecta el acoso escolar o realiza encuestas de satisfacción por nivel de grado, grado, sección o grupo específico.",
+        "Módulo de encuestas y formularios personalizados para responder a través de la app de padres.",
+      "Monitorea la salud mental de los niños, detecta bullying, o haz encuestas de satisfacción por nivel de grado, sección o grupo específico.":
+        "Monitorea la salud mental de los niños, detecta bullying, o haz encuestas de satisfacción por nivel de grado, sección o grupo específico.",
       "Recopila registros medicos, vacunación o permisos de administración de medicamentos.":
         "Recopila registros médicos, de vacunación o permisos de administración de medicamentos.",
       "Crea y administra un mercado totalmente digital para vender de manera fácil.":
@@ -160,12 +158,12 @@ export default defineI18nConfig(() => ({
       "Branding y personalización de pantalla inicial con logo de colegio.":
         "Branding y personalización de la pantalla inicial con el logotipo del colegio.",
       "Single sign-in para otras plataformas, consultas de notas o estados de cuenta con integraciones a portal de pagos, redes sociales, página web, Colegium, Facts, PowerSchool, Homeland, iSams, y otras plataformas.":
-        "Inicio de sesión único para otras plataformas, consulta de calificaciones o estados de cuenta con integraciones a portal de pagos, redes sociales, página web, Colegium, Facts, PowerSchool, Homeland, iSams y otras plataformas.",
+        "Inicio de sesión único para otras plataformas, consulta de calificaciones o estados de cuenta con integraciones a portal de pagos, redes sociales, página web, Colegium, FACTS, PowerSchool, Homeland, ISAMS y otras plataformas.",
       "Envía mensajes a través de notificaciones push a la App de padres y centraliza toda la comunicación de manera simple, utilizando filtros de segmentación para enviar mensajes por niveles de grado, grados, grupos específicos o por estudiante.":
-        "Envía mensajes a través de notificaciones push a la App de padres y centraliza toda la comunicación de manera sencilla, utilizando filtros de segmentación para enviar mensajes por niveles de grado, grados, grupos específicos o por estudiante.",
+        "Envía mensajes a través de notificaciones push a la app de padres y centraliza toda la comunicación de manera sencilla, utilizando filtros de segmentación para enviar mensajes por niveles de grado, grados, grupos específicos o por estudiante.",
       "Políticas de Privacidad y Protección de Datos":
-        "Políticas de Privacidad y Protección de Datos",
-      "Términos y Condiciones de uso": "Términos y Condiciones de uso",
+        "Políticas de privacidad y protección de datos",
+      "Términos y Condiciones de uso": "Términos y condiciones de uso",
       "Política de cookies": "Política de cookies",
       "Agiliza las solicitudes de los padres y los cambios en la salida de alumnos.":
         "Agiliza las solicitudes de los padres y los cambios en la salida de alumnos.",
@@ -178,8 +176,6 @@ export default defineI18nConfig(() => ({
         "Gestiona y automatizar la asistencia.",
     },
     en: {
-      Español: "Spanish",
-      Inglés: "English",
       "Quienes somos": "About",
       "Ecosistema Aid": "Aids Ecosystem",
       Comunidad: "Community",
@@ -202,8 +198,8 @@ export default defineI18nConfig(() => ({
       "Nuestro Ecosistema Aid": "Our Aids Ecosystem",
       "Quienes utilizan nuestros productos:": "Who's trusting our services:",
       Academias: "Academies",
-      Colegios: "Private Schools",
-      "Empresas de Transporte": "Transportation Services",
+      Colegios: "Private schools",
+      "Empresas de Transporte": "Transportation services",
       Guarderías: "Day cares",
       "Instituciones educativas": "Educational institutions",
       "Seguridad en Campus": "Campus Security",
@@ -250,11 +246,11 @@ export default defineI18nConfig(() => ({
         "Customize the point of sale according to your needs.",
       community_text:
         "You can use <span class='text-[#537FF7]'>SchoolAid</span> anywhere in the world",
-      "Colegios, Empresas y Academias": "Schools, Companies, and Institutions.",
+      "Colegios, Empresas y Academias": "Schools, companies, and institutions.",
       "Usuarios satisfechos con opiniones positivas":
         "Satisfied users with positive experiences.",
-      "Familias que usan la app a diario": "Families who use our App eveyday.",
-      Integraciones: "Integration Partners",
+      "Familias que usan la app a diario": "Families who use our app eveyday.",
+      Integraciones: "Integration partners",
       "Clientes satisfechos": "Our customers",
       Contáctanos: "Contact us",
       "Envíanos tus datos para asesorarte con la mejor solución para ti":
@@ -262,13 +258,13 @@ export default defineI18nConfig(() => ({
       Nombre: "Name",
       Apellido: "Surname",
       "Correo electrónico": "Email",
-      "Institución de contacto": "Type of institution",
+      "Institución de contacto": "Name of the institution",
       "¿Qué tipo de solución funciona mejor para ti?":
         "I want more information about...",
-      "Cuéntanos más": "Tell us more",
+      "Cuéntanos más": "Tell us more:",
       Enviar: "Send",
       "Plataforma web para mejor administración del transporte escolar. Ubicación y tráfico en tiempo real. Alertas y notificaciones de proximidad.":
-        "School transport administrative platform. Real-time location of all units and live view of traffic.",
+        "School transport administrative platform, real-time location of all units and live view of traffic.",
       Reportes: "Reports",
       "Trazabilidad.": "Traceability of all students.",
       "Asistencia en rutas.": "Attendance in routes.",
@@ -281,7 +277,7 @@ export default defineI18nConfig(() => ({
         "Push notifications and proximity alerts are sent automatically during the route. Parents can also visualize estimated arrival times by stop.",
       "Nueva Alianza con Grupo Golán": "New Integration Partner: Grupo Golán",
       "Ahora los colegios en Guatemala y El Salvador pueden optar por incluir un botón de pánico en el transporte escolar y ante cualquier situación de riesgo, un Especialista en Atención de Seguridad de Golán, atenderá la señal de emergencia desde la App de SchoolAid y una Patrulla REDIPAT se despachará de inmediato hacia la ubicación del bus.":
-        "Now schools in Guatemala and El Salvador can choose to include a panic button in the school transport. In order to prevent and mitigate any security risk, a Golan Security Specialist will attend to the emergency signal from the SchoolAid App and a REDIPAT Patrol unit will be dispatched immediately to the location of the school transport.",
+        "Now schools in Guatemala and El Salvador can choose to include a panic button in the school transport. In order to prevent and mitigate any security risk, a Golan security specialist will attend to the emergency signal from the SchoolAid app and a REDIPAT patrol unit will be dispatched immediately to the location of the school transport.",
       "Plataforma administrativa para eficientizar solicitudes de padres. Trazabilidad de todos los cambios, ausencias y solicitudes.":
         "Enhance the safety and efficiency of the school by automating parent requests, attendance and dismissal.",
       Características: "Features",
@@ -306,7 +302,7 @@ export default defineI18nConfig(() => ({
         "Maintain family privacy without having to share phone contacts.",
       "Módulo de encuestas y formularios personalizados para responder a través de la App de padres.":
         "Module for customized surveys and forms to be answered through the Parent App.",
-      "Monitorea la salud mental de los niños, detecta buying, o haz encuestass de satisfacción por nivel de grado, grado, sección o grupo específico.":
+      "Monitorea la salud mental de los niños, detecta bullying, o haz encuestas de satisfacción por nivel de grado, sección o grupo específico.":
         "Monitor children's mental health, detect bullying, or conduct satisfaction surveys by grade level, grade, section, or specific group.",
       "Recopila registros medicos, vacunación o permisos de administración de medicamentos.":
         "Collect medical records, vaccination information, or permissions for medication administration.",
@@ -331,12 +327,12 @@ export default defineI18nConfig(() => ({
       "Branding y personalización de pantalla inicial con logo de colegio.":
         "Branding and customization of the initial screen with school logo.",
       "Single sign-in para otras plataformas, consultas de notas o estados de cuenta con integraciones a portal de pagos, redes sociales, página web, Colegium, Facts, PowerSchool, Homeland, iSams, y otras plataformas.":
-        "Single sign-in for other platforms, grade inquiries or account statements with integrations to payment portals, social media, website, Colegium, Facts, PowerSchool, Homeland, iSams, and other platforms.",
+        "Single sign-in for other platforms, grade inquiries or account statements with integrations to payment portals, social media, website, Colegium, FACTS, PowerSchool, Homeland, ISAMS, and other platforms.",
       "Envía mensajes a través de notificaciones push a la App de padres y centraliza toda la comunicación de manera simple, utilizando filtros de segmentación para enviar mensajes por niveles de grado, grados, grupos específicos o por estudiante.":
         "Send messages through push notifications to the Parent App and centralize all communication in a simple way, using segmentation filters to send messages by grade levels, grades, specific groups, or by student.",
       "Políticas de Privacidad y Protección de Datos":
-        "Privacy and Data Protection Policies",
-      "Términos y Condiciones de uso": "Terms and Conditions of Platform Use",
+        "Privacy and data protection policies",
+      "Términos y Condiciones de uso": "Terms and conditions of platform use",
       "Política de cookies": "Cookies policy",
       "Agiliza las solicitudes de los padres y los cambios en la salida de alumnos.":
         "Streamline parent requests and dismissal changes such as late arrival, playdates and after-school activities.",
@@ -346,7 +342,8 @@ export default defineI18nConfig(() => ({
         "Reports by date, level, grade, or by student.",
       "Genera pases digitales o físicos.":
         "Generate digital or physical passes.",
-        "Gestiona y automatizar la asistencia.": "Manage and automate attendance."
+      "Gestiona y automatizar la asistencia.":
+        "Manage and automate attendance.",
     },
   },
 }));

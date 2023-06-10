@@ -63,7 +63,7 @@ export default {
           class="w-8 inline-block mr-2"
           :src="supportedLanguagesFlagIcons.es"
         />
-        {{ $t("Español") }}
+        Español
       </a>
       <a
         href="#"
@@ -74,7 +74,7 @@ export default {
           class="w-8 inline-block mr-2"
           :src="supportedLanguagesFlagIcons.en"
         />
-        {{ $t("Inglés") }}
+        English
       </a>
     </template>
   </SDropdown>

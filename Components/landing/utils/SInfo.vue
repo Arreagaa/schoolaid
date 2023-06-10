@@ -14,7 +14,7 @@ export default {
           description: "Alianza estratégica con Grupo Golán",
           text: "Ahora las rutas escolares están más protegidas.",
           url: "/transportation-aid",
-          image: "/assets/img/Group-7.png",
+          image: "/assets/img/Golan.png",
         },
         {
           title: "¡Nuevo módulo!",

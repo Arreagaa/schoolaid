@@ -21,7 +21,7 @@ export default {
   <div class="max-w-custom 2xl:px-12 px-4 pt-8">
     <nav class="relative px-4 res-spa py-4 flex items-center bg-white h-full">
       <div class="flex items-center justify-center w-full lg:w-auto">
-        <NuxtLink class="2xl:w-48 xl:w-40 lg:w-32 w-56 md:ml-0 ml-12" to="/">
+        <NuxtLink class="2xl:w-48 xl:w-40 lg:w-32 w-56 lg:ml-0 ml-12" to="/">
           <img src="/assets/schoolaid.png" />
         </NuxtLink>
         <div class="lg:hidden">

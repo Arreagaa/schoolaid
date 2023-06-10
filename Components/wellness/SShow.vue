@@ -27,7 +27,7 @@
               <li class="pb-10">
                 {{
                   $t(
-                    "Monitorea la salud mental de los niños, detecta buying, o haz encuestass de satisfacción por nivel de grado, grado, sección o grupo específico. "
+                    "Monitorea la salud mental de los niños, detecta bullying, o haz encuestas de satisfacción por nivel de grado, sección o grupo específico."
                   )
                 }}
               </li>

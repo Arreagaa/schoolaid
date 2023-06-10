@@ -17,17 +17,17 @@ export default {
 <template>
   <div class="max-w-xs md:max-w-none overflow-hidden py-4">
     <img class="object-cover rounded" :src="item.image" />
-    <div class="py-3 px-2">
+    <div class="py-3 md:px-2">
       <div class="flex items-center">
         <div class="flex items-center justify-center pt-4 pr-2">
           <img :src="item.icon" class="xl:w-8 w-6" />
         </div>
         <h3
-          class="ModeratBlack font-semibold min-[1536px]:text-4xl text-3xl text-black pt-4"
+          class="ModeratBlack font-semibold min-[1400px]:text-4xl text-3xl text-black pt-4"
         >
           {{ item.title }}
         </h3>
-        <div v-if="idItem === 5" class="pl-4 pt-4">
+        <div v-if="idItem === 5" class="pl-4 2xl:pt-4">
           <div
             class="bg-[#F66750] flex items-center leading-none rounded-full px-6 py-2 animate-bounce"
           >
@@ -38,7 +38,7 @@ export default {
         </div>
       </div>
       <p
-        class="PoppinsLight paragraph-normal font-semibold text-[#333333] lg:pr-4 pt-6 min-[1536px]:text-lg text-base h-28"
+        class="PoppinsLight paragraph-normal font-semibold text-[#333333] lg:pr-4 pt-6 text-lg 2xl:h-28 md:h-32"
       >
         {{ $t(item.description) }}
       </p>

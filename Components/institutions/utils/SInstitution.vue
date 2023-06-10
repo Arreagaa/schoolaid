@@ -12,13 +12,12 @@ const props = defineProps({
 </script>
 <template>
   <div class="padding-responsive px-10 py-10">
-    <div class="flex flex-col items-center">
-      <div v-if="idItem === 2 || idItem === 4" class="2xl:pb-10" />
+    <div class="flex flex-col items-center flex-grow">
       <div class="text-white text-center px-8 py-8 bg-[#537FF7] rounded-full">
         <img :src="item.icon" class="w-10 object-cover rounded-xl" />
       </div>
       <p
-        class="ModeratBlack block 2xl:max-w-[175px] mt-10 text-2xl res-size text-[#537FF7]"
+        class="ModeratBlack block h-12 md:w-36 mt-10 text-2xl res-size text-[#537FF7]"
       >
         {{ $t(item.title) }}
       </p>

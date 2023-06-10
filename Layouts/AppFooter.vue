@@ -20,7 +20,7 @@
                 FAQ
               </h2>
               <ul class="list-unstyled PoppinsRegular">
-                <li class="py1">
+                <li class="flex py1">
                   <NuxtLink
                     to="/privacy-policy"
                     target="_blank"
@@ -30,7 +30,7 @@
                     }}</NuxtLink
                   >
                 </li>
-                <li class="py1">
+                <li class="flex py1">
                   <NuxtLink
                     to="/terms"
                     target="_blank"
@@ -38,7 +38,7 @@
                     >{{ $t("Términos y Condiciones de uso") }}</NuxtLink
                   >
                 </li>
-                <li class="py1">
+                <li class="flex py1">
                   <NuxtLink
                     to="/cookies"
                     target="_blank"
@@ -53,7 +53,7 @@
                 {{ $t("Contacto") }}
               </h2>
               <ul class="mb-10 list-unstyled PoppinsRegular">
-                <li class="py1">
+                <li class="flex py1">
                   <a
                     href="mailto:info@schoolaid.app"
                     class="text-white block pb-2 text-base"

@@ -30,10 +30,9 @@ const applications = [
   },
 ];
 </script>
-
 <template>
   <div
-    class="mx-auto grid gap-6 md:w-3/4 lg:w-full md:grid-cols-1 lg:grid-cols-2 xl:grid-cols-4 grid-below-1535"
+    class="mx-auto grid gap-6 md:w-3/4 lg:w-full md:grid-cols-1 lg:grid-cols-2 xl:grid-cols-4 grid-below"
   >
     <SCard
       v-for="(item, index) in applications"
@@ -44,8 +43,8 @@ const applications = [
   </div>
 </template>
 <style>
-@media (min-width: 1080px) and (max-width: 1535px){
-  .grid-below-1535 {
+@media (min-width: 1080px) and (max-width: 1430px) {
+  .grid-below {
     grid-template-columns: repeat(2, minmax(0, 1fr));
   }
 }

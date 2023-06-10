@@ -55,7 +55,7 @@ export default {
           class="flex flex-col items-start justify-center h-full space-y-3 transform lg:space-y-5 2xl:pr-16 responsive-size text-white"
         >
           <a
-            class="ModeratBlack xl:text-4xl text-3xl font-bold leading-none xl:mb-6 mb-2 tracking-wider"
+            class="ModeratBlack xl:text-4xl text-3xl font-bold leading-none mb-2 tracking-wider"
             >{{ $t("¿Cómo funciona?") }}</a
           >
           <p class="PoppinsMedium lg:text-xl text-lg leading-6">
