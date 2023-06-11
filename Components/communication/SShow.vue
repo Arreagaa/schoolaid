@@ -47,7 +47,7 @@
     <div class="order-2 xl:order-1 xl:w-1/2">
       <img
         src="/assets/bg/Frame 1.png"
-        class="xl:block hidden w-full xl:absolute xl:w-[50%] 2xl:-mt-[6.1rem] xl:right-[0px] absolute bottom-0 right-0"
+        class="xl:block hidden w-full xl:absolute xl:w-[50%] xl:right-[0px] absolute bottom-0 right-0"
       />
       <img
         src="/assets/bg/Frame 1.png"

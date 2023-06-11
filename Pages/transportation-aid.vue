@@ -1,6 +1,7 @@
 <script setup>
 import AppHeaderVue from "~/Layouts/AppHeader.vue";
 import SShow from "~/Components/transportation/SShow.vue";
+import STransportation from "~/Components/transportation/STransportation.vue";
 import AppFooter from "~/Layouts/AppFooter.vue";
 import SBagTitleAid from "~/Components/utils/SBagTitleAid.vue";
 </script>
@@ -20,6 +21,7 @@ import SBagTitleAid from "~/Components/utils/SBagTitleAid.vue";
       </div>
       <div>
         <SShow />
+        <STransportation />
       </div>
     </div>
   </section>

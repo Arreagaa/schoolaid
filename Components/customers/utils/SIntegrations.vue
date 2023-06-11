@@ -1,4 +1,10 @@
+<script setup>
+import SBagTitleCustomers from '~/Components/utils/SBagTitleCustomers.vue';
+</script>
 <template>
+  <div>
+    <SBagTitleCustomers :title="$t('Integraciones')" />
+  </div>
   <div
     class="flex items-center text-center grid grid-cols-2 sm:grid-cols-3 md:grid-cols-4 gap-0"
   >

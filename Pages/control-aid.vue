@@ -2,6 +2,7 @@
 import AppHeaderVue from "~/Layouts/AppHeader.vue";
 import SShow from "~/Components/control/SShow.vue";
 import AppFooter from "~/Layouts/AppFooter.vue";
+import SControl from "~/Components/control/SControl.vue";
 import SBagTitleAid from "~/Components/utils/SBagTitleAid.vue";
 </script>
 <template>
@@ -17,6 +18,7 @@ import SBagTitleAid from "~/Components/utils/SBagTitleAid.vue";
       </div>
       <div>
         <SShow />
+        <SControl />
       </div>
     </div>
   </section>

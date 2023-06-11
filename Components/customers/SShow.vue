@@ -13,7 +13,7 @@ import SClients from "./utils/SClients.vue";
           <SClients />
         </div>
       </div>
-      <div class="lg:pt-0 pt-16">
+      <div class="pt-16">
         <img src="/assets/bg/Instituciones.png" alt="" />
       </div>
     </div>

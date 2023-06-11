@@ -12,7 +12,7 @@ export default {
   },
   computed: {
     textClasses() {
-      return "text-base w-full border border-2 border-[#537FF7] rounded-lg px-4 pt-2 pb-16 placeholder-[#537FF7] focus:outline-none focus:ring-2 focus:ring-[#537FF7] focus:border-[#537FF7]";
+      return "text-base w-full border border-2 border-[#537FF7] rounded-lg px-4 pt-2 pb-16 placeholder-[#537FF7] focus:outline-none focus:ring-1 focus:ring-[#537FF7] focus:border-[#537FF7]";
     },
   },
 };

@@ -20,7 +20,7 @@ export default {
   },
   computed: {
     inputClasses() {
-      return "w-full border border-2 border-[#537FF7] rounded-full py-3 px-6 mb-3 placeholder-[#537FF7] focus:outline-none focus:ring-2 focus:ring-[#537FF7] focus:border-[#537FF7]";
+      return "w-full border border-2 border-[#537FF7] rounded-full py-3 px-6 mb-3 placeholder-[#537FF7] focus:outline-none focus:ring-1 focus:ring-[#537FF7] focus:border-[#537FF7]";
     },
   },
 };

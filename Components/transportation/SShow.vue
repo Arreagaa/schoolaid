@@ -1,13 +1,11 @@
-<script setup>
-import SBagTitleAid from "../utils/SBagTitleAid.vue";
-</script>
 <template>
-  <div class="flex flex-col lg:flex-row">
-    <div class="lg:order-1 order-2 lg:w-1/2">
+  <div class="flex flex-col xl:flex-row relative">
+    <div class="xl:order-1 order-2 xl:w-3/5">
       <div
-        class="PoppinsLight min-[1535px]:px-24 px-8 py-4 pb-16 font-bold text-xl"
+        class="PoppinsLight min-[1700px]:px-36 min-[1535px]:px-24 px-8 py-4 font-bold xl:text-xl text-lg"
+        :class="$i18n.locale === 'es' ? '' : 'aid-res'"
       >
-        <p class="text-black 2xl:px-16 res-space-aid">
+        <p class="text-black 2xl:px-16 res-space-aid pb-8">
           {{
             $t(
               "Plataforma web para mejor administración del transporte escolar. Ubicación y tráfico en tiempo real. Alertas y notificaciones de proximidad."
@@ -16,14 +14,16 @@ import SBagTitleAid from "../utils/SBagTitleAid.vue";
         </p>
       </div>
       <div
-        class="flex flex-col bg-[#537FF7] PoppinsLight min-[1535px]:px-24 px-8 py-16 text-xl text-white"
+        class="PoppinsLight bg-[#537FF7] min-[1669px]:px-36 min-[1535px]:px-24 px-8 2xl:py-24 py-16 xl:text-xl text-lg text-white"
       >
         <div class="2xl:px-16 res-space-aid">
-          <div class="bg-[#18D3AF] rounded-lg px-4 py-4 w-max">
+          <div class="bg-[#18D3AF] rounded-xl px-4 py-4 w-max">
             <img src="/assets/icons/Vector.png" class="w-8" />
           </div>
           <div>
-            <h1 class="PoppinsBold text-3xl py-6">{{ $t("Reportes") }}</h1>
+            <h1 class="PoppinsBold text-3xl py-8">
+              {{ $t("Reportes") }}
+            </h1>
             <ul class="list-disc pl-8">
               <li class="pb-2">{{ $t("Trazabilidad.") }}</li>
               <li class="pb-2">{{ $t("Asistencia en rutas.") }}</li>
@@ -42,7 +42,7 @@ import SBagTitleAid from "../utils/SBagTitleAid.vue";
             )
           }}
         </p>
-        <p class="text-black pt-6 2xl:px-16 res-space-aid pb-16">
+        <p class="text-black pt-6 2xl:px-16 res-space-aid md:pb-16 pb-8">
           {{
             $t(
               "Visualiza los tiempos de llegada estimados por parada, recibe notificaciones push durante la ruta y alertas de proximidad."
@@ -50,46 +50,13 @@ import SBagTitleAid from "../utils/SBagTitleAid.vue";
           }}
         </p>
       </div>
-      <div class="xl:px-16 px-8">
-        <div class="lg:flex hidden items-center text-center">
-          <img src="/assets/bg/img+.png" alt="" />
-        </div>
-      </div>
     </div>
-    <div class="order-2 lg:order-1 lg:w-1/2">
-      <div class="lg:-ml-[72px] relative overflow-hidden">
-        <img src="/assets/bg/aid_1.png" alt="" />
-        <div class="lg:pb-32 md:pb-0 pb-16">
-          <img
-            src="/assets/img/transport.png"
-            class="z-50 lg:ml-16 absolute lg:top-60 top-20 left-0"
-            alt=""
-          />
-        </div>
-      </div>
-      <div class="PoppinsLight font-bold text-xl lg:pt-0">
-        <SBagTitleAid
-          title="Transportation Aid+"
-          image="/assets/aids/Transportation.png"
-        />
-        <h1 class="text-black 2xl:px-8 lg:px-0 px-8 res-space-aid">
-          {{ $t("Nueva Alianza con Grupo Golán") }}
-        </h1>
-        <p
-          class="text-black pt-6 min-[1669px]:px-8 min-[1669px]:pr-36 xl:pr-36 min-[1669px]:pb-36 lg:px-0 px-8 pb-4 text-justify"
-        >
-          {{
-            $t(
-              "Ahora los colegios en Guatemala y El Salvador pueden optar por incluir un botón de pánico en el transporte escolar y ante cualquier situación de riesgo, un Especialista en Atención de Seguridad de Golán, atenderá la señal de emergencia desde la App de SchoolAid y una Patrulla REDIPAT se despachará de inmediato hacia la ubicación del bus."
-            )
-          }}
-        </p>
-        <div>
-          <div class="lg:hidden items-center text-center">
-            <img src="/assets/bg/img+.png" alt="" />
-          </div>
-        </div>
-      </div>
+    <div class="order-2 xl:order-1 xl:w-1/2 2xl:-ml-[40px]">
+      <img
+        src="/assets/bg/Transportation.png"
+        class="xl:block hidden xl:absolute min-[1400px]:w-[55%] w-[60%] absolute min-[1700px]:bottom-0 bottom-20 right-0"
+      />
+      <img src="/assets/bg/Transportation.png" class="xl:hidden w-full" />
     </div>
   </div>
 </template>
@@ -98,6 +65,11 @@ import SBagTitleAid from "../utils/SBagTitleAid.vue";
   .res-space-aid {
     padding-left: 0%;
     padding-right: 0%;
+  }
+}
+@media (min-width: 1502px) and (max-width: 1517px) {
+  .aid-res {
+    padding-right: 4rem;
   }
 }
 </style>
