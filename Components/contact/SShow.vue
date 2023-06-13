@@ -43,7 +43,7 @@ export default {
           </p>
         </div>
         <div
-          class="PoppinsLight text-[#537FF7] font-bold min-[1535px]:pl-12 min-[1553px]:pr-40 px-6 py-4 pb-16 text-base"
+          class="PoppinsLight font-bold min-[1535px]:pl-12 min-[1553px]:pr-40 px-6 py-4 pb-16 text-base"
         >
           <div class="flex flex-col">
             <div class="-mx-3 md:flex mb-6">
@@ -105,7 +105,7 @@ export default {
               img="/assets/aids/Communication.png"
               title="Communication Aid"
             />
-            <SButtom img="/assets/aids/Chat.png" title="Chat Center Aid" />
+            <SButtom img="/assets/aids/Chat.png" title="Chat Center" />
             <SButtom
               img="/assets/aids/Transportation_1.png"
               title="Wellness Aid"
@@ -126,7 +126,7 @@ export default {
               img="/assets/aids/Communication.png"
               title="Communication Aid"
             />
-            <SButtom img="/assets/aids/Chat.png" title="Chat Center Aid" />
+            <SButtom img="/assets/aids/Chat.png" title="Chat Center" />
             <SButtom
               img="/assets/aids/Transportation_1.png"
               title="Wellness Aid"

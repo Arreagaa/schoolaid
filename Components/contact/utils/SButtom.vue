@@ -14,6 +14,11 @@ export default {
       default:
         "bg-[#537FF7] flex items-center border border-[#537FF7] leading-none rounded-full px-4 py-3 hover:bg-white inline text-base text-white hover:text-[#537FF7]",
     },
+    bgSelected: {
+      type: String,
+      default:
+        "flex items-center border border-[#537FF7] leading-none rounded-full px-4 py-3 bg-white inline text-base text-[#537FF7]",
+    },
     imgClass: {
       type: String,
       default: "w-6 mr-2",
@@ -26,9 +31,13 @@ export default {
   data() {
     return {
       hover: false,
+      isSelected: false,
     };
   },
   methods: {
+    toggleSelection() {
+      this.isSelected = !this.isSelected;
+    },
     applyHoverEffect() {
       if (this.hasHover) {
         this.hover = true;
@@ -40,7 +49,7 @@ export default {
       }
     },
     getImageSource() {
-      if (this.hover && this.hasHover) {
+      if (this.hover || this.isSelected && this.hasHover) {
         return "/assets/aids/Transportation.png";
       }
       return this.img;
@@ -49,9 +58,9 @@ export default {
 };
 </script>
 <template>
-  <button>
+  <button @click="toggleSelection">
     <div
-      :class="bgClass"
+      :class="[isSelected ? bgSelected : bgClass]"
       @mouseover="applyHoverEffect"
       @mouseleave="removeHoverEffect"
     >

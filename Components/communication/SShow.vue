@@ -45,13 +45,17 @@
       </div>
     </div>
     <div class="order-2 xl:order-1 xl:w-1/2">
-      <img
-        src="/assets/bg/Frame 1.png"
-        class="xl:block hidden w-full xl:absolute xl:w-[50%] xl:right-[0px] absolute bottom-0 right-0"
+      <video
+        src="/assets/bg/Communication-admin.mp4"
+        autoplay
+        loop
+        class="xl:block hidden w-full xl:absolute xl:w-[50%] absolute bottom-0 right-0"
       />
-      <img
-        src="/assets/bg/Frame 1.png"
-        class="xl:hidden w-full"
+      <video
+        src="/assets/bg/Communication-admin.mp4"
+        autoplay
+        loop
+        class="xl:hidden w-full pt-4"
       />
     </div>
   </div>
