@@ -35,11 +35,11 @@ export default {
       </div>
 
       <ul
-        class="PoppinsMedium font-semibold min-[1372px]:text-lg max-[1292px]:text-sm text-base hidden lg:flex lg:mx-auto lg:flex lg:items-center flex items-center 2xl:space-x-2"
+        class="PoppinsMedium font-semibold min-[1372px]:text-lg max-[1200px]:text-sm text-base hidden lg:flex lg:mx-auto lg:flex lg:items-center flex items-center 2xl:space-x-2"
         :class="{ hidden: !isMenuOpen }"
       >
         <li>
-          <SNavLink to="/" :text="$t('Quienes somos')" />
+          <SNavLink to="/#about" :text="$t('Quienes somos')" />
         </li>
         <li>
           <SEcosystem />
@@ -59,7 +59,7 @@ export default {
       </ul>
       <div class="flex items-center lg:flex hidden">
         <div
-          class="PoppinsMedium font-semibold min-[1372px]:text-lg max-[1292px]:text-sm text-base flex items-center"
+          class="PoppinsMedium font-semibold min-[1372px]:text-lg max-[1200px]:text-sm text-base flex items-center"
         >
           <a class="inline-block">
             <a class="inline-block">{{ $t("Idioma") }}</a>

@@ -14,7 +14,7 @@
         </p>
       </div>
       <div
-        class="PoppinsLight bg-[#537FF7] min-[1669px]:px-36 min-[1535px]:px-24 px-8 2xl:py-24 py-16 xl:text-xl text-lg text-white"
+        class="PoppinsLight bg-[#537FF7] rounded-r-lg min-[1669px]:px-36 min-[1535px]:px-24 px-8 2xl:py-24 py-16 xl:text-xl text-lg text-white"
       >
         <div class="2xl:px-16 res-space-aid">
           <div class="bg-[#18D3AF] rounded-xl px-4 py-4 w-max">
@@ -46,7 +46,7 @@
     <div class="order-2 xl:order-1 xl:w-1/2">
       <img
         src="/assets/bg/chat.png"
-        class="xl:block hidden w-full xl:absolute min-[1578px]:w-[50%] md:w-[55%] xl:right-[0px] absolute bottom-0 right-0"
+        class="xl:block hidden xl:absolute min-[1578px]:w-[50%] md:w-[55%] xl:right-[0px] absolute bottom-0 right-0"
       />
       <img src="/assets/bg/chat.png" class="xl:hidden w-full" />
     </div>

@@ -7,13 +7,13 @@
         <p class="text-black 2xl:px-16 res-space-aid pb-8">
           {{
             $t(
-              "Plataforma administrativa para eficientizar solicitudes de padres. Trazabilidad de todos los cambios, ausencias y solicitudes."
+              "Optimiza la gestión de solicitudes de padres de familia y mejora la seguridad del colegio con seguimiento y documentación."
             )
           }}
         </p>
       </div>
       <div
-        class="PoppinsLight bg-[#537FF7] min-[1669px]:px-36 min-[1535px]:px-24 px-8 py-16 xl:text-xl text-lg text-white"
+        class="PoppinsLight bg-[#537FF7] rounded-r-lg min-[1669px]:px-36 min-[1535px]:px-24 px-8 py-16 xl:text-xl text-lg text-white"
       >
         <div class="2xl:px-16 res-space-aid">
           <div class="bg-[#18D3AF] rounded-xl px-4 py-4 w-max">
@@ -27,24 +27,21 @@
               <li class="pb-10">
                 {{
                   $t(
-                    "Agiliza las solicitudes de los padres y los cambios en la salida de alumnos."
+                    "Registro de todos los cambios, ausencias y solicitudes de todos los estudiantes."
                   )
                 }}
               </li>
               <li class="pb-10">
+                {{ $t("Trazabilidad de check-ins y check-outs.") }}
+              </li>
+              <li class="pb-10">
                 {{
                   $t(
-                    "Obtener el registro de todos los cambios, ausencias y solicitudes de todos los estudiantes."
+                    "Personalización de solicitudes según necesidades de la institución."
                   )
                 }}
               </li>
-              <li class="pb-16">
-                {{ $t("Reportes por fecha, nivel, grado o por alumno.") }}
-              </li>
-              <li class="pb-16">
-                {{ $t("Genera pases digitales o físicos.") }}
-              </li>
-              <li class="pb-16">
+              <li class="pb-10">
                 {{ $t("Gestiona y automatizar la asistencia.") }}
               </li>
             </ul>
@@ -56,14 +53,14 @@
       <div v-if="$i18n.locale === 'es'" class="xl:pt-0 pt-8">
         <img
           src="/assets/bg/control-es.png"
-          class="xl:block hidden w-full xl:absolute xl:w-[55%] absolute bottom-0 right-0"
+          class="xl:block hidden xl:absolute w-[55%] absolute bottom-0 right-0"
         />
         <img src="/assets/bg/control-es.png" class="xl:hidden w-full" />
       </div>
       <div v-else class="xl:pt-0 pt-8">
         <img
           src="/assets/bg/control-en.png"
-          class="xl:block hidden w-full xl:absolute xl:w-[55%] absolute bottom-0 right-0"
+          class="xl:block hidden xl:absolute w-[55%] absolute bottom-0 right-0"
         />
         <img src="/assets/bg/control-en.png" class="xl:hidden w-full" />
       </div>

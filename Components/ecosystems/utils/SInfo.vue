@@ -52,7 +52,7 @@ const ecosystems = [
 </script>
 <template>
   <div
-    class="grid justify-center md:grid-cols-2 xl:grid-cols-3 gap-8 lg:gap-10 md:px-16"
+    class="grid justify-center md:grid-cols-2 xl:grid-cols-3 gap-8 lg:gap-10 xl:px-16 md:px-4"
   >
     <SCard
       v-for="(item, index) in ecosystems"

@@ -2,6 +2,9 @@
 @tailwind components;
 @tailwind utilities;
 
+html {
+  scroll-behavior: smooth;
+}
 @font-face {
   font-family: Moderat-Black;
   src: url("/assets/fonts/Moderat-Black.otf");

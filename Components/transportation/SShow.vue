@@ -14,7 +14,7 @@
         </p>
       </div>
       <div
-        class="PoppinsLight bg-[#537FF7] min-[1669px]:px-36 min-[1535px]:px-24 px-8 2xl:py-24 py-16 xl:text-xl text-lg text-white"
+        class="PoppinsLight bg-[#537FF7] rounded-r-lg min-[1669px]:px-36 min-[1535px]:px-24 px-8 2xl:py-24 py-16 xl:text-xl text-lg text-white"
       >
         <div class="2xl:px-16 res-space-aid">
           <div class="bg-[#18D3AF] rounded-xl px-4 py-4 w-max">
@@ -22,19 +22,23 @@
           </div>
           <div>
             <h1 class="PoppinsBold text-3xl py-8">
-              {{ $t("Reportes") }}
+              {{ $t("Características") }}
             </h1>
             <ul class="list-disc pl-8">
-              <li class="pb-2">{{ $t("Trazabilidad.") }}</li>
-              <li class="pb-2">{{ $t("Asistencia en rutas.") }}</li>
+              <li class="pb-2">{{ $t("Optimización de rutas.") }}</li>
+              <li class="pb-2">{{ $t("Asistencia de estudiantes.") }}</li>
               <li class="pb-2">{{ $t("Alertas de velocidad.") }}</li>
-              <li class="pb-2">{{ $t("Horas en parada.") }}</li>
+              <li class="pb-2">
+                {{ $t("ETA de paradas calculados con AI.") }}
+              </li>
               <li class="pb-2">{{ $t("Tráfico.") }}</li>
             </ul>
           </div>
         </div>
       </div>
-      <div class="PoppinsLight min-[1535px]:px-24 px-8 pt-8 font-bold text-xl">
+      <div
+        class="PoppinsLight min-[1535px]:px-24 px-8 pt-8 font-bold xl:text-xl text-lg"
+      >
         <p class="text-black 2xl:px-16 res-space-aid">
           {{
             $t(
@@ -51,10 +55,10 @@
         </p>
       </div>
     </div>
-    <div class="order-2 xl:order-1 xl:w-1/2 2xl:-ml-[40px]">
+    <div class="order-2 xl:order-1 xl:w-1/2">
       <img
         src="/assets/bg/Transportation.png"
-        class="xl:block hidden xl:absolute min-[1400px]:w-[55%] w-[60%] absolute min-[1700px]:bottom-0 bottom-20 right-0"
+        class="xl:block hidden xl:absolute w-[55%] absolute bottom-[90px] right-0"
       />
       <img src="/assets/bg/Transportation.png" class="xl:hidden w-full" />
     </div>

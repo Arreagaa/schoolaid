@@ -2,9 +2,9 @@
   <div class="flex flex-col xl:flex-row">
     <div class="xl:order-1 order-2 xl:w-1/2">
       <div
-        class="PoppinsLight font-bold lg:text-xl text-base 2xl:px-12 md:px-6 px-8 text-black"
+        class="PoppinsLight font-bold xl:text-xl text-lg 2xl:px-12 md:px-6 px-8 text-black"
       >
-        <h1 class="ModeratBlack lg:text-4xl text-3xl text-black py-8">
+        <h1 class="PoppinsBold lg:text-3xl text-2xl text-black py-8">
           {{ $t("¿Qué es?") }}
         </h1>
         <p>
@@ -22,7 +22,7 @@
             )
           }}
         </p>
-        <p class="PoppinsBold text-3xl py-8">
+        <p class="PoppinsBold lg:text-3xl text-2xl py-8">
           {{ $t("Incluye:") }}
         </p>
         <ul class="px-4 custom-list-market">
@@ -59,13 +59,13 @@
         <img
           v-if="$i18n.locale === 'es'"
           src="/assets/bg/market-es.png"
-          class="min-[1450px]:w-[80%] max-[1280px]:w-[55%] max-[760px]:w-[80%] mx-auto"
+          class="min-[1450px]:w-[80%] max-[1280px]:w-[55%] max-[760px]:w-full mx-auto"
           alt=""
         />
         <img
           v-else
           src="/assets/bg/market-en.png"
-          class="min-[1450px]:w-[80%] max-[1280px]:w-[55%] max-[760px]:w-[80%] mx-auto"
+          class="min-[1450px]:w-[80%] max-[1280px]:w-[55%] max-[760px]:w-full mx-auto"
           alt=""
         />
       </div>

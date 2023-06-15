@@ -61,7 +61,7 @@ export default {
           <p class="PoppinsMedium lg:text-xl text-lg leading-6">
             {{
               $t(
-                "SchoolAid es un SaaS que facilita y automatiza las gestiones diarias entre padres de familia y colegio, y centraliza todas las plataformas en un mismo lugar."
+                "Nuestro software tiene soluciones modulares, que pueden integrarse o utilizarse de forma individual, según las necesidades de cada institución."
               )
             }}
           </p>

@@ -8,21 +8,21 @@ import SBagTitleAid from "../utils/SBagTitleAid.vue";
         <video
           v-if="$i18n.locale === 'es'"
           src="/assets/videos/TRANS-ES.mp4"
-          class="mx-auto sm:w-[70%]"
+          class="min-[1450px]:w-[70%] max-[1280px]:w-[55%] max-[760px]:w-full mx-auto"
           autoplay
           loop
         />
         <video
           v-else
           src="/assets/videos/TRANS-EN.mp4"
-          class="mx-auto sm:w-[70%]"
+          class="min-[1450px]:w-[70%] max-[1280px]:w-[55%] max-[760px]:w-full mx-auto"
           autoplay
           loop
         />
       </div>
     </div>
     <div class="order-1 xl:order-2 xl:w-1/2">
-      <div class="PoppinsLight font-bold text-xl xl:pt-0">
+      <div class="PoppinsLight font-bold xl:text-xl text-lg xl:pt-0">
         <SBagTitleAid
           title="Transportation Aid+"
           image="/assets/aids/Transportation.png"

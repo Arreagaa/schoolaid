@@ -6,7 +6,7 @@ export default defineI18nConfig(() => ({
   warnHtmlMessage: false,
   messages: {
     es: {
-      "Quienes somos": "Quiénes somos",
+      "Quienes somos": "¿Quienes somos?",
       "Ecosistema Aid": "Ecosistema Aid",
       Comunidad: "Comunidad",
       Instituciones: "Instituciones",
@@ -46,8 +46,8 @@ export default defineI18nConfig(() => ({
       "Centro de chat y herramientas de comunicación eficientes e inmediatas.":
         "Centro de chat y herramientas de comunicación eficientes e inmediatas.",
       "¿Cómo funciona?": "¿Cómo funciona?",
-      "SchoolAid es un SaaS que facilita y automatiza las gestiones diarias entre padres de familia y colegio, y centraliza todas las plataformas en un mismo lugar.":
-        "SchoolAid es un SaaS que facilita y automatiza las gestiones diarias entre padres de familia y colegio, y centraliza todas las plataformas en un mismo lugar.",
+      "Nuestro software tiene soluciones modulares, que pueden integrarse o utilizarse de forma individual, según las necesidades de cada institución.":
+        "Nuestro software tiene soluciones modulares, que pueden integrarse o utilizarse de forma individual, según las necesidades de cada institución.",
       "Gestiona y administra el transporte escolar. Ubicación en tiempo real, reportes y más.":
         "Gestiona y administra el transporte escolar. Ubicación en tiempo real, reportes y más.",
       "Mantén el control de los accesos, salidas y cambios. Administra solicitudes de padres y asistencia en clases.":
@@ -97,10 +97,10 @@ export default defineI18nConfig(() => ({
       "Plataforma web para mejor administración del transporte escolar. Ubicación y tráfico en tiempo real. Alertas y notificaciones de proximidad.":
         "Plataforma web para mejor administración del transporte escolar, ubicación y tráfico en tiempo real, alertas y notificaciones de proximidad.",
       Reportes: "Reportes",
-      "Trazabilidad.": "Trazabilidad de estudiantes en la ruta.",
-      "Asistencia en rutas.": "Asistencia en rutas.",
+      "Optimización de rutas.": "Optimización de rutas.",
+      "Asistencia de estudiantes.": "Asistencia de estudiantes.",
       "Alertas de velocidad.": "Alertas de velocidad.",
-      "Horas en parada.": "Horarios de paradas.",
+      "ETA de paradas calculados con AI.": "ETA de paradas calculados con AI.",
       "Tráfico.": "Tráfico.",
       "Permite a los padres ver la ubicación exacta del transporte escolar en tiempo real a través de la app.":
         "Permite a los padres ver la ubicación exacta del transporte escolar en tiempo real a través de la app.",
@@ -109,15 +109,15 @@ export default defineI18nConfig(() => ({
       "Nueva Alianza con Grupo Golán": "Nueva alianza con Grupo Golán",
       "Ahora los colegios en Guatemala y El Salvador pueden optar por incluir un botón de pánico en el transporte escolar y ante cualquier situación de riesgo, un Especialista en Atención de Seguridad de Golán, atenderá la señal de emergencia desde la App de SchoolAid y una Patrulla REDIPAT se despachará de inmediato hacia la ubicación del bus.":
         "Ahora los colegios en Guatemala y El Salvador pueden optar por incluir un botón de pánico en el transporte escolar y ante cualquier situación de riesgo, un especialista en atención de seguridad de Golán, atenderá la señal de emergencia desde la app de SchoolAid y una patrulla REDIPAT se despachará de inmediato hacia la ubicación del bus.",
-      "Plataforma administrativa para eficientizar solicitudes de padres. Trazabilidad de todos los cambios, ausencias y solicitudes.":
-        "Plataforma administrativa para optimizar las solicitudes de los padres. Seguimiento de todos los cambios, ausencias y solicitudes.",
+      "Optimiza la gestión de solicitudes de padres de familia y mejora la seguridad del colegio con seguimiento y documentación.":
+        "Optimiza la gestión de solicitudes de padres de familia y mejora la seguridad del colegio con seguimiento y documentación.",
       Características: "Características",
       "Automatización de línea de automóvil mediante verificación de código QR individual. Los códigos se actualizan automáticamente con los cambios realizados por los padres, para que la salida de alumnos sea efectiva y más rápida.":
         "Automatización de línea de automóvil mediante verificación de código QR individual. Los códigos se actualizan automáticamente con los cambios realizados por los padres, para que la salida de alumnos sea efectiva y más rápida.",
       "Control de accesos y salidas a través de Código QR.":
         "Control de accesos y salidas mediante código QR.",
-      "Generación de códigos para personas autorizadas para recoger niños, y compartirlos por cualquier medio.":
-        "Generación de códigos para personas autorizadas a recoger a los niños y compartirlos por cualquier medio.",
+      "Generación de códigos para personas autorizadas a recoger a los niños, para compartirlos por cualquier medio.":
+        "Generación de códigos para personas autorizadas a recoger a los niños, para compartirlos por cualquier medio.",
       "Invitaciones para proveedores y visitas provisionales.":
         "Invitaciones para proveedores y visitas temporales.",
       "Botón para eficientizar colas en horario de salida en auto.":
@@ -155,25 +155,46 @@ export default defineI18nConfig(() => ({
       "Personalización según necesidades del colegio.":
         "Personalización según las necesidades del colegio.",
       "Recordatorios de pago a papas.": "Recordatorios de pago a los padres.",
-      "Branding y personalización de pantalla inicial con logo de colegio.":
-        "Branding y personalización de la pantalla inicial con el logotipo del colegio.",
+      "Centraliza toda la comunicación del colegio desde un mismo lugar y agiliza el envío de circulares, notificaciones e información importante.":
+        "Centraliza toda la comunicación del colegio desde un mismo lugar y agiliza el envío de circulares, notificaciones e información importante.",
       "Single sign-in para otras plataformas, consultas de notas o estados de cuenta con integraciones a portal de pagos, redes sociales, página web, Colegium, Facts, PowerSchool, Homeland, iSams, y otras plataformas.":
         "Inicio de sesión único para otras plataformas, consulta de calificaciones o estados de cuenta con integraciones a portal de pagos, redes sociales, página web, Colegium, FACTS, PowerSchool, Homeland, ISAMS y otras plataformas.",
-      "Envía mensajes a través de notificaciones push a la App de padres y centraliza toda la comunicación de manera simple, utilizando filtros de segmentación para enviar mensajes por niveles de grado, grados, grupos específicos o por estudiante.":
-        "Envía mensajes a través de notificaciones push a la app de padres y centraliza toda la comunicación de manera sencilla, utilizando filtros de segmentación para enviar mensajes por niveles de grado, grados, grupos específicos o por estudiante.",
       "Políticas de Privacidad y Protección de Datos":
         "Políticas de privacidad y protección de datos",
       "Términos y Condiciones de uso": "Términos y condiciones de uso",
       "Política de cookies": "Política de cookies",
-      "Agiliza las solicitudes de los padres y los cambios en la salida de alumnos.":
-        "Agiliza las solicitudes de los padres y los cambios en la salida de alumnos.",
-      "Obtener el registro de todos los cambios, ausencias y solicitudes de todos los estudiantes.":
-        "Obtener el registro de todos los cambios, ausencias y solicitudes de todos los estudiantes.",
-      "Reportes por fecha, nivel, grado o por alumno.":
-        "Reportes por fecha, nivel, grado o por alumno.",
-      "Genera pases digitales o físicos.": "Genera pases digitales o físicos.",
+      "Registro de todos los cambios, ausencias y solicitudes de todos los estudiantes.":
+        "Registro de todos los cambios, ausencias y solicitudes de todos los estudiantes.",
+      "Trazabilidad de check-ins y check-outs.":
+        "Trazabilidad de check-ins y check-outs.",
+      "Personalización de solicitudes según necesidades de la institución.":
+        "Personalización de solicitudes según necesidades de la institución.",
       "Gestiona y automatizar la asistencia.":
         "Gestiona y automatizar la asistencia.",
+      "Envío de mensajes a través de notificaciones push a la app.":
+        "Envío de mensajes a través de notificaciones push a la app.",
+      "Filtros de segmentación por niveles de grado, grados, grupos específicos o por estudiante.":
+        "Filtros de segmentación por niveles de grado, grados, grupos específicos o por estudiante.",
+      "Todas las herramientas, información y plataformas del colegio, en un mismo lugar para fácil acceso.":
+        "Todas las herramientas, información y plataformas del colegio, en un mismo lugar para fácil acceso.",
+      "Consulta de calificaciones o estados de cuenta.":
+        "Consulta de calificaciones o estados de cuenta.",
+      "Integraciones a portal de pagos, redes sociales, página web y Learning Management Systems.":
+        "Integraciones a portal de pagos, redes sociales, página web y Learning Management Systems.",
+      "Recepción de mensajes a través del inbox.":
+        "Recepción de mensajes a través del inbox.",
+      "Consulta de documentos y otra información importante.":
+        "Consulta de documentos y otra información importante.",
+      "SchoolAid es una plataforma (SaaS) que automatiza y simplifica las operaciones diarias de instituciones educativas.":
+        "SchoolAid es una plataforma (SaaS) que automatiza y simplifica las operaciones diarias de instituciones educativas.",
+      "Nos enfocamos en cuatro áreas clave para hacer más eficiente la gestión de procesos y mejorar la relación con los padres de familia.":
+        "Nos enfocamos en cuatro áreas clave para hacer más eficiente la gestión de procesos y mejorar la relación con los padres de familia.",
+      "Incluye:": "Incluye:",
+      "¿Qué es?": "¿Qué es?",
+      "Market Aid es una solución de punto de venta para academias, gimnasios, colegios y otras instituciones que brindan servicios de suscripción, clases, eventos o bookings.":
+        "Market Aid es una solución de punto de venta para academias, gimnasios, colegios y otras instituciones que brindan servicios de suscripción, clases, eventos o bookings.",
+      " Automatiza las gestiones de cobro, y facilita la administración de pagos, venta de productos, servicios y membresías.":
+        "Automatiza las gestiones de cobro, y facilita la administración de pagos, venta de productos, servicios y membresías.",
     },
     en: {
       "Quienes somos": "About",
@@ -215,8 +236,8 @@ export default defineI18nConfig(() => ({
       "Centro de chat y herramientas de comunicación eficientes e inmediatas.":
         "Efficient and immediate communication tools and chat center.",
       "¿Cómo funciona?": "Get to know SchoolAid",
-      "SchoolAid es un SaaS que facilita y automatiza las gestiones diarias entre padres de familia y colegio, y centraliza todas las plataformas en un mismo lugar.":
-        "SchoolAid facilitates and automates the daily procedures between parents and the school, centralizing all the platforms in one place.",
+      "Nuestro software tiene soluciones modulares, que pueden integrarse o utilizarse de forma individual, según las necesidades de cada institución.":
+        "Our software offers modular solutions that can be integrated or used individually, according to the needs of each institution.",
       "Gestiona y administra el transporte escolar. Ubicación en tiempo real, reportes y más.":
         "Manage bus ridership, real-time tracking of students, custom reports, and more.",
       "Mantén el control de los accesos, salidas y cambios. Administra solicitudes de padres y asistencia en clases.":
@@ -266,10 +287,10 @@ export default defineI18nConfig(() => ({
       "Plataforma web para mejor administración del transporte escolar. Ubicación y tráfico en tiempo real. Alertas y notificaciones de proximidad.":
         "School transport administrative platform, real-time location of all units and live view of traffic.",
       Reportes: "Reports",
-      "Trazabilidad.": "Traceability of all students.",
-      "Asistencia en rutas.": "Attendance in routes.",
+      "Optimización de rutas.": "Route optimization.",
+      "Asistencia de estudiantes.": "Student assistance.",
       "Alertas de velocidad.": "Speed limit alerts.",
-      "Horas en parada.": "Stops schedule.",
+      "ETA de paradas calculados con AI.": "AI-calculated ETA for stops.",
       "Tráfico.": "Traffic.",
       "Permite a los padres ver la ubicación exacta del transporte escolar en tiempo real a través de la app.":
         "Allows parents to view the real-time location of their children in the school transport.",
@@ -278,15 +299,15 @@ export default defineI18nConfig(() => ({
       "Nueva Alianza con Grupo Golán": "New Integration Partner: Grupo Golán",
       "Ahora los colegios en Guatemala y El Salvador pueden optar por incluir un botón de pánico en el transporte escolar y ante cualquier situación de riesgo, un Especialista en Atención de Seguridad de Golán, atenderá la señal de emergencia desde la App de SchoolAid y una Patrulla REDIPAT se despachará de inmediato hacia la ubicación del bus.":
         "Now schools in Guatemala and El Salvador can choose to include a panic button in the school transport. In order to prevent and mitigate any security risk, a Golan security specialist will attend to the emergency signal from the SchoolAid app and a REDIPAT patrol unit will be dispatched immediately to the location of the school transport.",
-      "Plataforma administrativa para eficientizar solicitudes de padres. Trazabilidad de todos los cambios, ausencias y solicitudes.":
-        "Enhance the safety and efficiency of the school by automating parent requests, attendance and dismissal.",
+      "Optimiza la gestión de solicitudes de padres de familia y mejora la seguridad del colegio con seguimiento y documentación.":
+        "It optimizes parent requests management and enhances school security through tracking and documentation.",
       Características: "Features",
       "Automatización de línea de automóvil mediante verificación de código QR individual. Los códigos se actualizan automáticamente con los cambios realizados por los padres, para que la salida de alumnos sea efectiva y más rápida.":
         "Carline automation through individual QR code verification. Individual codes are automatically updated daily with the changes made by parents, for an effective and faster student dismissal.",
       "Control de accesos y salidas a través de Código QR.":
         "Access and exit control through QR Code.",
-      "Generación de códigos para personas autorizadas para recoger niños, y compartirlos por cualquier medio.":
-        "Generation of codes for authorized persons to pick up children and share them through any means.",
+      "Generación de códigos para personas autorizadas a recoger a los niños, para compartirlos por cualquier medio.":
+        "Generation of codes for authorized individuals to pick up children, to be shared through any means.",
       "Invitaciones para proveedores y visitas provisionales.":
         "Invitations for suppliers and temporary visits.",
       "Botón para eficientizar colas en horario de salida en auto.":
@@ -324,26 +345,46 @@ export default defineI18nConfig(() => ({
       "Personalización según necesidades del colegio.":
         "Customization according to school needs.",
       "Recordatorios de pago a papas.": "Payment reminders to parents.",
-      "Branding y personalización de pantalla inicial con logo de colegio.":
-        "Branding and customization of the initial screen with school logo.",
+      "Centraliza toda la comunicación del colegio desde un mismo lugar y agiliza el envío de circulares, notificaciones e información importante.":
+        "It centralizes all school communication in one place and streamlines the sending of circulars, notifications, and important information.",
       "Single sign-in para otras plataformas, consultas de notas o estados de cuenta con integraciones a portal de pagos, redes sociales, página web, Colegium, Facts, PowerSchool, Homeland, iSams, y otras plataformas.":
         "Single sign-in for other platforms, grade inquiries or account statements with integrations to payment portals, social media, website, Colegium, FACTS, PowerSchool, Homeland, ISAMS, and other platforms.",
-      "Envía mensajes a través de notificaciones push a la App de padres y centraliza toda la comunicación de manera simple, utilizando filtros de segmentación para enviar mensajes por niveles de grado, grados, grupos específicos o por estudiante.":
-        "Send messages through push notifications to the Parent App and centralize all communication in a simple way, using segmentation filters to send messages by grade levels, grades, specific groups, or by student.",
       "Políticas de Privacidad y Protección de Datos":
         "Privacy and data protection policies",
       "Términos y Condiciones de uso": "Terms and conditions of platform use",
       "Política de cookies": "Cookies policy",
-      "Agiliza las solicitudes de los padres y los cambios en la salida de alumnos.":
-        "Streamline parent requests and dismissal changes such as late arrival, playdates and after-school activities.",
-      "Obtener el registro de todos los cambios, ausencias y solicitudes de todos los estudiantes.":
-        "Get the record of all changes, absences and requests of all students.",
-      "Reportes por fecha, nivel, grado o por alumno.":
-        "Reports by date, level, grade, or by student.",
-      "Genera pases digitales o físicos.":
-        "Generate digital or physical passes.",
+      "Registro de todos los cambios, ausencias y solicitudes de todos los estudiantes.":
+        "Recording all changes, absences, and requests of all students.",
+      "Trazabilidad de check-ins y check-outs.":
+        "Traceability of check-ins and check-outs.",
+      "Personalización de solicitudes según necesidades de la institución.":
+        "Customization of requests according to the institution's needs.",
       "Gestiona y automatizar la asistencia.":
         "Manage and automate attendance.",
+      "Envío de mensajes a través de notificaciones push a la app.":
+        "Sending messages through push notifications to the app.",
+      "Filtros de segmentación por niveles de grado, grados, grupos específicos o por estudiante.":
+        "Segmentation filters by grade levels, grades, specific groups, or individual students.",
+      "Todas las herramientas, información y plataformas del colegio, en un mismo lugar para fácil acceso.":
+        "All school tools, information, and platforms in one place for easy access.",
+      "Consulta de calificaciones o estados de cuenta.":
+        "Check grades or account statements.",
+      "Integraciones a portal de pagos, redes sociales, página web y Learning Management Systems.":
+        "Integrations with payment portal, social media, website, and Learning Management Systems.",
+      "Recepción de mensajes a través del inbox.":
+        "Message reception through the inbox.",
+      "Consulta de documentos y otra información importante.":
+        "Access documents and other important information.",
+      "SchoolAid es una plataforma (SaaS) que automatiza y simplifica las operaciones diarias de instituciones educativas.":
+        "SchoolAid is a (SaaS) platform that automates and simplifies the daily operations of educational institutions.",
+      "Nos enfocamos en cuatro áreas clave para hacer más eficiente la gestión de procesos y mejorar la relación con los padres de familia.":
+        "We focus on four key areas to make process management more efficient and improve the relationship with parents.",
+      "Incluye:": "Includes:",
+      "¿Qué es?": "What is it?",
+      "Market Aid es una solución de punto de venta para academias, gimnasios, colegios y otras instituciones que brindan servicios de suscripción, clases, eventos o bookings.":
+        "Market Aid is a point of sale solution for academies, gyms, schools, and other institutions that provide subscription services, classes, events, or bookings.",
+      " Automatiza las gestiones de cobro, y facilita la administración de pagos, venta de productos, servicios y membresías.":
+        "It automates payment management and facilitates the administration of payments, product sales, services, and memberships.",
     },
   },
 }));

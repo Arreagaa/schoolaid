@@ -17,10 +17,10 @@ defineProps({
         alt=""
       />
       <div>
-        <h1 class="ModeratBlack md:text-4xl text-2xl text-black py-2">
+        <h1 class="ModeratBlack md:text-4xl text-3xl text-black py-2">
           {{ title }}
         </h1>
-        <p class="PoppinsMedium md:text-lg text-base text-black">
+        <p class="PoppinsMedium text-lg text-black">
           {{ description }}
         </p>
       </div>

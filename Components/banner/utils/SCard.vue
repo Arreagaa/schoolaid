@@ -20,7 +20,7 @@ const props = defineProps({
         <img :src="item.icon" class="w-10" alt="" />
       </div>
       <div class="space-y-2">
-        <h5 class="PoppinsLight font-bold xl:text-lg text-base text-black">
+        <h5 class="PoppinsLight font-bold text-lg text-black">
           {{ $t(item.description) }}
         </h5>
       </div>

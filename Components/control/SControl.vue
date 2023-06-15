@@ -8,21 +8,21 @@ import SBagTitleAid from "../utils/SBagTitleAid.vue";
         <video
           v-if="$i18n.locale === 'es'"
           src="/assets/videos/QR-ES.mp4"
-          class="mx-auto sm:w-[70%]"
+          class="min-[1450px]:w-[70%] max-[1280px]:w-[55%] max-[760px]:w-full mx-auto"
           autoplay
           loop
         />
         <video
           v-else
           src="/assets/videos/QR-EN.mp4"
-          class="mx-auto sm:w-[70%]"
+          class="min-[1450px]:w-[70%] max-[1280px]:w-[55%] max-[760px]:w-full mx-auto"
           autoplay
           loop
         />
       </div>
     </div>
     <div class="order-1 xl:order-2 xl:w-1/2">
-      <div class="PoppinsLight font-bold text-xl xl:pt-0">
+      <div class="PoppinsLight font-bold xl:text-xl text-lg xl:pt-0">
         <SBagTitleAid title="Control Aid+" image="/assets/aids/Control.png" />
         <div class="text-black px-8 2xl:pr-36">
           <p class="pt-4 pb-8 min-[1700px]:pr-36">
@@ -39,7 +39,7 @@ import SBagTitleAid from "../utils/SBagTitleAid.vue";
             <li class="pb-8">
               {{
                 $t(
-                  "Generación de códigos para personas autorizadas para recoger niños, y compartirlos por cualquier medio."
+                  "Generación de códigos para personas autorizadas a recoger a los niños, para compartirlos por cualquier medio."
                 )
               }}
             </li>

@@ -37,12 +37,12 @@ export default {
   <section>
     <Sbanner />
   </section>
-  <section class="max-w-custom pt-16 pb-8">
+  <section id="about" class="max-w-custom pt-16 pb-8">
     <SBagTitle
       :title="$t('¿Cómo te ayudamos?')"
       image="/assets/aids/Ayuda.png"
     />
-    <div class="py-8">
+    <div class="pb-8">
       <SShow />
     </div>
   </section>
@@ -75,7 +75,7 @@ export default {
       <SVideo />
     </div>
   </section>
-  <section class="max-w-custom py-16">
+  <section id="ecosystem" class="max-w-custom py-16">
     <SBagTitle
       :title="$t('Nuestro Ecosistema Aid')"
       image="/assets/aids/Aid.png"
