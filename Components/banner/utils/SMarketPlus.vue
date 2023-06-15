@@ -1,6 +1,6 @@
 <template>
   <div class="flex flex-col xl:flex-row">
-    <div class="xl:order-1 order-2 xl:w-1/2">
+    <div class="flex items-center xl:order-1 order-2 xl:w-1/2">
       <div
         class="PoppinsLight font-bold xl:text-xl text-lg 2xl:px-12 md:px-6 px-8 text-black"
       >
@@ -22,40 +22,10 @@
             )
           }}
         </p>
-        <p class="PoppinsBold lg:text-3xl text-2xl py-8">
-          {{ $t("Incluye:") }}
-        </p>
-        <ul class="px-4 custom-list-market">
-          <li class="pb-8">
-            {{ $t("Control de accesos y salidas a través de Código QR.") }}
-          </li>
-          <li class="pb-8">
-            {{
-              $t(
-                "Generación de códigos para personas autorizadas para recoger niños, y compartirlos por cualquier medio."
-              )
-            }}
-          </li>
-          <li class="pb-8">
-            {{ $t("Invitaciones para proveedores y visitas provisionales.") }}
-          </li>
-          <li class="pb-8">
-            {{
-              $t("Botón para eficientizar colas en horario de salida en auto.")
-            }}
-          </li>
-          <li class="pb-8">
-            {{
-              $t(
-                "Trazabilidad de entradas y salidas y reportes en tiempo real."
-              )
-            }}
-          </li>
-        </ul>
       </div>
     </div>
     <div class="order-2 xl:order-1 xl:w-1/2">
-      <div class="flex md:py-16">
+      <div class="flex md:py-16 py-4">
         <img
           v-if="$i18n.locale === 'es'"
           src="/assets/bg/market-es.png"

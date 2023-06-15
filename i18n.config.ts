@@ -6,7 +6,7 @@ export default defineI18nConfig(() => ({
   warnHtmlMessage: false,
   messages: {
     es: {
-      "Quienes somos": "¿Quienes somos?",
+      "Quienes somos": "¿Quiénes somos?",
       "Ecosistema Aid": "Ecosistema Aid",
       Comunidad: "Comunidad",
       Instituciones: "Instituciones",
@@ -85,13 +85,12 @@ export default defineI18nConfig(() => ({
       "Clientes satisfechos": "Clientes satisfechos",
       Contáctanos: "Contáctanos",
       "Envíanos tus datos para asesorarte con la mejor solución para ti":
-        "Envíanos tus datos para asesorarte con la mejor solución para ti",
+        "Envíanos tus datos para asesorarte con la mejor solución",
       Nombre: "Nombres",
       Apellido: "Apellidos",
       "Correo electrónico": "Correo electrónico",
       "Institución de contacto": "Nombre de la institución",
-      "¿Qué tipo de solución funciona mejor para ti?":
-        "¿Qué tipo de solución funciona mejor para ti?",
+      "¿Qué módulos te interesan?": "¿Qué módulos te interesan?",
       "Cuéntanos más": "Cuéntanos más:",
       Enviar: "Enviar",
       "Plataforma web para mejor administración del transporte escolar. Ubicación y tráfico en tiempo real. Alertas y notificaciones de proximidad.":
@@ -256,7 +255,7 @@ export default defineI18nConfig(() => ({
       "Punto de venta digital para colegios, academias y gimnasios":
         "Digital point of sale for schools, academies and gyms",
       "Facilita la automatización y gestión de pagos, venta de productos y membresías.":
-        "It facilitates the automation and management of payments, product sales and memberships.",
+        "Streamline your operations, elevate your performance, and automate payments and memberships with our new solution.",
       "Crea y administra un mercado totalmente digital para vender de manera fácil.":
         "Create and manage a fully digital marketplace to sell easily.",
       "Crea membresías de cobro automático para facilitar los procesos de pago.":
@@ -280,8 +279,7 @@ export default defineI18nConfig(() => ({
       Apellido: "Surname",
       "Correo electrónico": "Email",
       "Institución de contacto": "Name of the institution",
-      "¿Qué tipo de solución funciona mejor para ti?":
-        "I want more information about...",
+      "¿Qué módulos te interesan?": "I want more information about...",
       "Cuéntanos más": "Tell us more:",
       Enviar: "Send",
       "Plataforma web para mejor administración del transporte escolar. Ubicación y tráfico en tiempo real. Alertas y notificaciones de proximidad.":
@@ -354,7 +352,7 @@ export default defineI18nConfig(() => ({
       "Términos y Condiciones de uso": "Terms and conditions of platform use",
       "Política de cookies": "Cookies policy",
       "Registro de todos los cambios, ausencias y solicitudes de todos los estudiantes.":
-        "Recording all changes, absences, and requests of all students.",
+        "Record all changes, absences, and requests of all students.",
       "Trazabilidad de check-ins y check-outs.":
         "Traceability of check-ins and check-outs.",
       "Personalización de solicitudes según necesidades de la institución.":
@@ -384,7 +382,7 @@ export default defineI18nConfig(() => ({
       "Market Aid es una solución de punto de venta para academias, gimnasios, colegios y otras instituciones que brindan servicios de suscripción, clases, eventos o bookings.":
         "Market Aid is a point of sale solution for academies, gyms, schools, and other institutions that provide subscription services, classes, events, or bookings.",
       " Automatiza las gestiones de cobro, y facilita la administración de pagos, venta de productos, servicios y membresías.":
-        "It automates payment management and facilitates the administration of payments, product sales, services, and memberships.",
+        "It simplifies administrative tasks, improves efficiency, and enhances the overall customer experience for schools, academies, and gyms by providing a centralized platform for managing transactions, inventory, classes, memberships, and reporting.",
     },
   },
 }));

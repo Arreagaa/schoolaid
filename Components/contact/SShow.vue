@@ -92,7 +92,7 @@ export default {
         </div>
         <div class="PoppinsLight min-[1535px]:px-12 px-6 font-bold text-xl">
           <p class="text-black">
-            {{ $t("¿Qué tipo de solución funciona mejor para ti?") }}
+            {{ $t("¿Qué módulos te interesan?") }}
           </p>
           <div class="md:block hidden space-x-4 space-y-4">
             <SButtom

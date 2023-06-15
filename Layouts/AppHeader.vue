@@ -20,11 +20,11 @@ export default {
 <template>
   <div class="max-w-custom 2xl:px-12 px-4 pt-8">
     <nav class="relative px-4 res-spa py-4 flex items-center bg-white h-full">
-      <div class="flex items-center justify-center w-full lg:w-auto">
-        <NuxtLink class="2xl:w-48 xl:w-40 lg:w-32 w-56 lg:ml-0 ml-12" to="/">
+      <div class="flex items-center justify-center w-full xl:w-auto">
+        <NuxtLink class="2xl:w-48 xl:w-40 xl:w-32 w-56 xl:ml-0 ml-12" to="/">
           <img src="/assets/schoolaid.png" />
         </NuxtLink>
-        <div class="lg:hidden">
+        <div class="xl:hidden">
           <button
             class="navbar-burger flex items-center text-2xl text-[#537FF7] py-3 ml-8"
             @click="toggleMenu"
@@ -35,7 +35,7 @@ export default {
       </div>
 
       <ul
-        class="PoppinsMedium font-semibold min-[1372px]:text-lg max-[1200px]:text-sm text-base hidden lg:flex lg:mx-auto lg:flex lg:items-center flex items-center 2xl:space-x-2"
+        class="PoppinsMedium font-semibold min-[1372px]:text-lg max-[1200px]:text-sm text-base hidden xl:flex xl:mx-auto xl:flex xl:items-center flex items-center 2xl:space-x-2"
         :class="{ hidden: !isMenuOpen }"
       >
         <li>
@@ -57,7 +57,7 @@ export default {
           <SNavLink to="/contact" :text="$t('Contacto')" />
         </li>
       </ul>
-      <div class="flex items-center lg:flex hidden">
+      <div class="flex items-center xl:flex hidden">
         <div
           class="PoppinsMedium font-semibold min-[1372px]:text-lg max-[1200px]:text-sm text-base flex items-center"
         >
