@@ -51,7 +51,7 @@ const formattedNumber = computed(() => {
 </script>
 <template>
   <div
-    class="flex flex-col items-center text-center"
+    class="flex flex-col items-center text-center max-[320px]:p-12"
     :class="idItem === 2 ? 'p-16 min-[1282px]:px-28' : `p-16`"
   >
     <transition name="number-transition">

@@ -49,7 +49,7 @@ export default {
       class="lg:w-1/2 lg:order-2 flex items-center justify-center bg-[url('/assets/aids/Video.png')] bg-cover bg-center"
     >
       <div
-        class="flex flex-col items-start justify-center w-full h-full xl:px-4 xl:py-6 px-6 py-28 mb-6 lg:mb-0 lg:w-3/4"
+        class="flex flex-col items-start justify-center w-full h-full xl:px-4 xl:py-6 max-[320px]:px-2 px-6 py-28 mb-6 lg:mb-0 lg:w-3/4"
       >
         <div
           class="flex flex-col items-start justify-center h-full space-y-3 transform lg:space-y-5 2xl:pr-16 responsive-size text-white"

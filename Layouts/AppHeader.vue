@@ -18,7 +18,7 @@ export default {
 };
 </script>
 <template>
-  <div class="max-w-custom 2xl:px-12 px-4 pt-8">
+  <div class="max-w-custom 2xl:px-10 px-4 pt-8">
     <nav class="relative px-4 res-spa py-4 flex items-center bg-white h-full">
       <div class="flex items-center justify-center w-full xl:w-auto">
         <NuxtLink class="2xl:w-48 xl:w-40 xl:w-32 w-56 xl:ml-0 ml-12" to="/">
