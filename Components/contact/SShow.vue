@@ -96,7 +96,7 @@ export default {
           </p>
           <div class="md:block hidden space-x-4 space-y-4">
             <SButtom
-              img="/assets/aids/Transportation_1.png"
+              img="/assets/aids/Transportation1.png"
               title="Transportation Aid"
               :hasHover="true"
             />
@@ -107,7 +107,7 @@ export default {
             />
             <SButtom img="/assets/aids/Chat.png" title="Chat Center" />
             <SButtom
-              img="/assets/aids/Transportation_1.png"
+              img="/assets/aids/Transportation1.png"
               title="Wellness Aid"
               :hasHover="true"
             />
@@ -117,7 +117,7 @@ export default {
             class="md:hidden grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 gap-x-2 gap-y-4 pt-8"
           >
             <SButtom
-              img="/assets/aids/Transportation_1.png"
+              img="/assets/aids/Transportation1.png"
               title="Transportation Aid"
               :hasHover="true"
             />
@@ -128,7 +128,7 @@ export default {
             />
             <SButtom img="/assets/aids/Chat.png" title="Chat Center" />
             <SButtom
-              img="/assets/aids/Transportation_1.png"
+              img="/assets/aids/Transportation1.png"
               title="Wellness Aid"
               :hasHover="true"
             />
