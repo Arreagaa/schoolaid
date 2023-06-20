@@ -29,7 +29,7 @@ export default {
             image: "/assets/clients/internacional.png",
           },
           {
-            image: "/assets/clients/IAG2.png",
+            image: "/assets/clients/schule.PNG",
           },
         ],
         [
@@ -60,7 +60,7 @@ export default {
         ],
         [
           {
-            image: "/assets/clients/cvg-1.png",
+            image: "/assets/clients/viena.PNG",
           },
           {
             image: "/assets/clients/ens-logo.png",

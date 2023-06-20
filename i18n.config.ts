@@ -75,8 +75,7 @@ export default defineI18nConfig(() => ({
         "Gestiona cobros, estados de cuenta, productos, inventario, etc.",
       "Personaliza el punto de venta según tus necesidades.":
         "Personaliza el punto de venta según tus necesidades.",
-      community_text:
-        "Puedes utilizar <span class='text-[#537FF7]'>SchoolAid</span> en cualquier parte del mundo",
+      community_text: "Puedes utilizar SchoolAid en cualquier parte del mundo",
       "Colegios, Empresas y Academias": "Colegios, empresas y academias",
       "Usuarios satisfechos con opiniones positivas":
         "Usuarios satisfechos con opiniones positivas",
@@ -264,8 +263,7 @@ export default defineI18nConfig(() => ({
         "Manage charges, account statements, products, inventory, etc.",
       "Personaliza el punto de venta según tus necesidades.":
         "Customize the point of sale according to your needs.",
-      community_text:
-        "You can use <span class='text-[#537FF7]'>SchoolAid</span> anywhere in the world",
+      community_text: "You can use SchoolAid anywhere in the world",
       "Colegios, Empresas y Academias": "Schools, companies, and institutions.",
       "Usuarios satisfechos con opiniones positivas":
         "Satisfied users with positive experiences.",
