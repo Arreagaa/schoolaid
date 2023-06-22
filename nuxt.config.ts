@@ -13,6 +13,12 @@ export default defineNuxtConfig({
           href: "/assets/aid_white.png",
         },
       ],
+      script: [
+        {
+          src: "https://widget.intercom.io/widget/csz7m2co",
+          async: true,
+        },
+      ],
     },
   },
   css: ["@fortawesome/fontawesome-free/css/all.min.css"],
