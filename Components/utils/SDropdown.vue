@@ -17,6 +17,7 @@ const props = defineProps({
 });
 
 let open = ref(false);
+let hover = ref(false);
 
 const closeOnEscape = (e) => {
   if (open.value && e.key === "Escape") {
@@ -51,7 +52,11 @@ const alignmentClasses = computed(() => {
 
 <template>
   <div class="relative">
-    <div @click="open = !open">
+    <div
+      @click="open = !open"
+      @mouseover="hover = true"
+      @mouseleave="hover = false"
+    >
       <slot name="trigger" />
     </div>
 
@@ -67,11 +72,13 @@ const alignmentClasses = computed(() => {
       leave-to-class="transform opacity-0 scale-95"
     >
       <div
-        v-show="open"
+        v-show="open || hover"
         class="absolute z-50 mt-2 rounded-md"
         :class="[widthClass, alignmentClasses]"
         style="display: none"
         @click="open = false"
+        @mouseover="hover = true"
+        @mouseleave="hover = false"
       >
         <div
           class="rounded-md ring-1 ring-black ring-opacity-5"

@@ -42,10 +42,3 @@ const applications = [
     />
   </div>
 </template>
-<style>
-@media (min-width: 1080px) and (max-width: 1430px) {
-  .grid-below {
-    grid-template-columns: repeat(2, minmax(0, 1fr));
-  }
-}
-</style>

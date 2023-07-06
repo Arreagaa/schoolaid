@@ -1,4 +1,5 @@
 <script>
+import axios from "axios";
 import SInput from "./utils/SInput.vue";
 import SButtom from "./utils/SButtom.vue";
 import SSend from "./utils/SSend.vue";
@@ -20,15 +21,97 @@ export default {
       email: "",
       institution: "",
       body: "",
+      errorMessage: "",
+      successMessage: "",
+      selectedModules: [],
     };
+  },
+  methods: {
+    async contactForm() {
+      this.errorMessage = "";
+      this.successMessage = "";
+
+      const formData = {
+        firstName: this.firstName,
+        lastName: this.lastName,
+        email: this.email,
+        institution: this.institution,
+        body: this.body,
+        selectedModules: this.selectedModules,
+      };
+
+      if (
+        this.firstName === "" &&
+        this.lastName === "" &&
+        this.email === "" &&
+        this.institution === "" &&
+        this.body === ""
+      ) {
+        this.errorMessage = this.$t("Debes completar todos los campos.");
+        return;
+      }
+
+      if (this.firstName === "") {
+        this.errorMessage = this.$t("El campo Nombre es requerido.");
+        return;
+      }
+
+      if (this.lastName === "") {
+        this.errorMessage = this.$t("El campo Apellido es requerido.");
+        return;
+      }
+
+      if (this.email === "") {
+        this.errorMessage = this.$t(
+          "El campo Correo electrónico es requerido."
+        );
+        return;
+      }
+
+      if (this.institution === "") {
+        this.errorMessage = this.$t(
+          "El campo Nombre de la institución es requerido."
+        );
+        return;
+      }
+
+      if (this.body === "") {
+        this.errorMessage = this.$t("¡Cuéntanos más!");
+        return;
+      }
+      try {
+        const response = await axios.post(
+          "https://im602gpbnb.execute-api.us-east-1.amazonaws.com/prod/landingForm",
+          formData,
+          {
+            firstName: this.firstName,
+            lastName: this.lastName,
+            email: this.email,
+            institution: this.institution,
+            body: this.body,
+          },
+          {
+            headers: {
+              "x-api-key": "HYbEtoDcUt7woFlQecsIp1xlRvjDCzwka30dJNe0",
+            },
+          }
+        );
+
+        this.successMessage = "El correo fue enviado correctamente";
+        console.log(response.data);
+      } catch (error) {
+        this.errorMessage = "Ocurrió un error al enviar el correo";
+        console.error(error);
+      }
+    },
   },
 };
 </script>
 <template>
-  <section class="lg:bg-[url('/assets/bg/Contacto.png')] bg-cover bg-center">
-    <div class="max-w-custom flex flex-col lg:flex-row">
-      <div class="lg:order-1 order-2 lg:w-1/2">
-        <div class="min-[1535px]:px-8 px-4">
+  <section class="xl:bg-[url('/assets/bg/Contacto.png')] bg-cover bg-center">
+    <div class="max-w-custom flex flex-col xl:flex-row">
+      <div class="xl:order-1 order-2 xl:w-1/2 contact-res">
+        <div class="min-[1535px]:px-8 px-2">
           <SBagTitleCustomers :title="$t('Contáctanos')" />
         </div>
         <div
@@ -90,7 +173,9 @@ export default {
             </div>
           </div>
         </div>
-        <div class="PoppinsLight min-[1535px]:px-12 px-6 font-bold text-xl">
+        <div
+          class="PoppinsLight min-[1535px]:px-12 min-[1400px]:px-6 max-[1400px]:pl-6 font-bold text-xl"
+        >
           <p class="text-black">
             {{ $t("¿Qué módulos te interesan?") }}
           </p>
@@ -143,14 +228,22 @@ export default {
             <STextarea id="body" :value="body" @update:value="body = $event" />
           </div>
         </div>
-        <div class="PoppinsLight min-[1535px]:px-10 px-6 pt-4 lg:pb-56">
+        <div class="PoppinsLight min-[1535px]:px-10 px-6 pt-4 xl:pb-56">
           <div class="flex">
-            <SSend />
+            <SSend @click="contactForm" />
+          </div>
+          <div v-if="errorMessage" class="flex py-8">
+            <span v-if="errorMessage !== ''" class="alert-danger">
+              {{ errorMessage }}
+            </span>
+            <span v-if="successMessage !== ''" class="alert-success">
+              {{ successMessage }}
+            </span>
           </div>
         </div>
       </div>
-      <div class="order-2 lg:order-1 lg:w-1/2">
-        <div class="lg:hidden">
+      <div class="order-2 xl:order-1 xl:w-1/2">
+        <div class="xl:hidden">
           <img src="/assets/bg/Contacto_1.png" alt="" />
         </div>
       </div>

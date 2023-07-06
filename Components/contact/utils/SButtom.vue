@@ -37,6 +37,15 @@ export default {
   methods: {
     toggleSelection() {
       this.isSelected = !this.isSelected;
+
+      const selectedModule = this.title;
+
+      const index = this.$parent.selectedModules.indexOf(selectedModule);
+      if (index !== -1) {
+        this.$parent.selectedModules.splice(index, 1);
+      } else {
+        this.$parent.selectedModules.push(selectedModule);
+      }
     },
     applyHoverEffect() {
       if (this.hasHover) {
@@ -49,7 +58,7 @@ export default {
       }
     },
     getImageSource() {
-      if (this.hover || this.isSelected && this.hasHover) {
+      if (this.hover || (this.isSelected && this.hasHover)) {
         return "/assets/aids/Transportation.png";
       }
       return this.img;

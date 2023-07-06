@@ -61,9 +61,7 @@ export default {
         <div
           class="PoppinsMedium font-semibold min-[1372px]:text-lg max-[1200px]:text-sm text-base flex items-center"
         >
-          <a class="inline-block">
-            <a class="inline-block">{{ $t("Idioma") }}</a>
-          </a>
+          <a class="inline-block">{{ $t("Idioma") }}</a>
           <a class="inline-block navLink">
             <STranslate />
           </a>

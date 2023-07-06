@@ -127,3 +127,8 @@ strong {
   color: #4a4a4a;
   font-size: 14px;
 }
+@media (min-width: 1280px) and (max-width: 1400px) {
+  .contact-res {
+    @apply w-3/5;
+  }
+}
