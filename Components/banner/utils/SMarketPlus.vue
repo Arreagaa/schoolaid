@@ -29,13 +29,13 @@
         <img
           v-if="$i18n.locale === 'es'"
           src="/assets/bg/market-es.png"
-          class="min-[1450px]:w-[80%] max-[1280px]:w-[55%] max-[760px]:w-full mx-auto"
+          class="min-[1669px]:w-[80%] min-[1280px]:w-[75%] max-[1280px]:w-[55%] max-[760px]:w-full mx-auto"
           alt=""
         />
         <img
           v-else
           src="/assets/bg/market-en.png"
-          class="min-[1450px]:w-[80%] max-[1280px]:w-[55%] max-[760px]:w-full mx-auto"
+          class="min-[1669px]:w-[80%] min-[1280px]:w-[75%] max-[1280px]:w-[55%] max-[760px]:w-full mx-auto"
           alt=""
         />
       </div>

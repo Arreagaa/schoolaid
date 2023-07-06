@@ -19,10 +19,15 @@ import SClients from "./utils/SClients.vue";
     </div>
   </section>
 </template>
-<style>
-@media (min-width: 1016px) and (max-width: 1669px) {
+<style scoped>
+@media (min-width: 1536px) and (max-width: 1669px) {
   .clients-responsive {
     padding-left: 36px;
+  }
+}
+@media (min-width: 1016px) and (max-width: 1536px) {
+  .clients-responsive {
+    padding-left: 15px;
   }
 }
 </style>

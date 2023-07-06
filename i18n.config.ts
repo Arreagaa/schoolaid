@@ -193,6 +193,18 @@ export default defineI18nConfig(() => ({
         "Market Aid es una solución de punto de venta para academias, gimnasios, colegios y otras instituciones que brindan servicios de suscripción, clases, eventos o bookings.",
       " Automatiza las gestiones de cobro, y facilita la administración de pagos, venta de productos, servicios y membresías.":
         "Automatiza las gestiones de cobro, y facilita la administración de pagos, venta de productos, servicios y membresías.",
+      "Debes completar todos los campos.": "Debes completar todos los campos.",
+      "El campo Nombre es requerido.": "El campo Nombre es requerido.",
+      "El campo Apellido es requerido.": "El campo Apellido es requerido.",
+      "El campo Correo electrónico es requerido.":
+        "El campo Correo electrónico es requerido.",
+      "El campo Nombre de la institución es requerido.":
+        "El campo Nombre de la institución es requerido.",
+      "¡Cuéntanos más!": "¡Cuéntanos más!",
+      "El correo fue enviado correctamente":
+        "El correo fue enviado correctamente",
+      "Ocurrió un error al enviar el correo":
+        "Ocurrió un error al enviar el correo",
     },
     en: {
       "Quienes somos": "About",
@@ -381,6 +393,17 @@ export default defineI18nConfig(() => ({
         "Market Aid is a point of sale solution for academies, gyms, schools, and other institutions that provide subscription services, classes, events, or bookings.",
       " Automatiza las gestiones de cobro, y facilita la administración de pagos, venta de productos, servicios y membresías.":
         "It simplifies administrative tasks, improves efficiency, and enhances the overall customer experience for schools, academies, and gyms by providing a centralized platform for managing transactions, inventory, classes, memberships, and reporting.",
+      "Debes completar todos los campos.": "You must complete all fields.",
+      "El campo Nombre es requerido.": "The First Name field is required.",
+      "El campo Apellido es requerido.": "The Last Name field is required.",
+      "El campo Correo electrónico es requerido.":
+        "The Email field is required.",
+      "El campo Nombre de la institución es requerido.":
+        "The Contact Institution field is required.",
+      "¡Cuéntanos más!": "Tell us more!",
+      "El correo fue enviado correctamente": "The email was sent successfully",
+      "Ocurrió un error al enviar el correo":
+        "An error occurred while sending the email",
     },
   },
 }));

@@ -8,14 +8,14 @@ import SBagTitleAid from "../utils/SBagTitleAid.vue";
         <video
           v-if="$i18n.locale === 'es'"
           src="/assets/videos/QR-ES.mp4"
-          class="min-[1450px]:w-[70%] max-[1280px]:w-[55%] max-[760px]:w-full mx-auto"
+          class="min-[1669px]:w-[65%] min-[1280px]:w-[80%] max-[1280px]:w-[55%] max-[760px]:w-full mx-auto"
           autoplay
           loop
         />
         <video
           v-else
           src="/assets/videos/QR-EN.mp4"
-          class="min-[1450px]:w-[70%] max-[1280px]:w-[55%] max-[760px]:w-full mx-auto"
+          class="min-[1669px]:w-[65%] min-[1280px]:w-[80%] max-[1280px]:w-[55%] max-[760px]:w-full mx-auto"
           autoplay
           loop
         />

@@ -22,12 +22,12 @@ const props = defineProps({
     </div>
     <div class="text-black pt-6 pb-8 px-4">
       <h3
-        class="ModeratBlack text-3xl min-[1430px]:h-20"
+        class="ModeratBlack text-3xl xl:h-20"
         :class="$i18n.locale === 'es' ? '2xl:pr-0' : '2xl:pr-16'"
       >
         {{ $t(item.title) }}
       </h3>
-      <p class="PoppinsMedium text-lg py-4 2xl:pr-4 pr-0 min-[1430px]:h-36">
+      <p class="PoppinsMedium text-lg py-4 2xl:pr-4 pr-0 xl:h-36 res-h">
         {{ $t(item.description) }}
       </p>
       <div class="flex items-center text-center pt-4">
@@ -40,6 +40,11 @@ const props = defineProps({
 @media (min-width: 1519px) and (max-width: 1535px) {
   .res-btnap {
     padding-bottom: 28px;
+  }
+}
+@media (min-width: 1280px) and (max-width: 1430px) {
+  .res-h {
+    height: 11rem;
   }
 }
 </style>
