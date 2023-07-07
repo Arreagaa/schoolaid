@@ -34,6 +34,13 @@ export default {
 
       return this.$t(this.errorMessage);
     },
+    translatedSuccesMessage() {
+      if (this.successMessage === "") {
+        return "";
+      }
+
+      return this.$t(this.successMessage);
+    },
   },
   methods: {
     async contactForm() {
@@ -232,9 +239,9 @@ export default {
           </div>
           <div v-if="translatedErrorMessage" class="flex py-8">
             <span class="alert-danger">{{ translatedErrorMessage }}</span>
-            <span v-if="successMessage !== ''" class="alert-success">
-              {{ successMessage }}
-            </span>
+          </div>
+          <div v-if="translatedSuccesMessage !== ''" class="flex py-8">
+            <span class="alert-success">{{ translatedSuccesMessage }}</span>
           </div>
         </div>
       </div>
