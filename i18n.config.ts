@@ -202,13 +202,13 @@ export default defineI18nConfig(() => ({
         "El campo Nombre de la institución es requerido.",
       "¡Cuéntanos más!": "¡Cuéntanos más!",
       "El correo fue enviado correctamente":
-        "El correo fue enviado correctamente",
+        "El correo fue enviado correctamente.",
       "Ocurrió un error al enviar el correo":
-        "Ocurrió un error al enviar el correo",
+        "Ocurrió un error al enviar el correo.",
     },
     en: {
       "Quienes somos": "About",
-      "Ecosistema Aid": "Aids Ecosystem",
+      "Ecosistema Aid": "Aid Ecosystem",
       Comunidad: "Community",
       Instituciones: "Customers",
       Socios: "Partners",
@@ -226,7 +226,7 @@ export default defineI18nConfig(() => ({
         "Now school routes are more protected.",
       "¿Cómo te ayudamos?": "Our solutions",
       "Tipos de Instituciones": "Our clients",
-      "Nuestro Ecosistema Aid": "Our Aids Ecosystem",
+      "Nuestro Ecosistema Aid": "Our Aid Ecosystem",
       "Quienes utilizan nuestros productos:": "Who's trusting our services:",
       Academias: "Academies",
       Colegios: "Private schools",
@@ -401,9 +401,9 @@ export default defineI18nConfig(() => ({
       "El campo Nombre de la institución es requerido.":
         "The Contact Institution field is required.",
       "¡Cuéntanos más!": "Tell us more!",
-      "El correo fue enviado correctamente": "The email was sent successfully",
+      "El correo fue enviado correctamente": "The email was sent successfully.",
       "Ocurrió un error al enviar el correo":
-        "An error occurred while sending the email",
+        "An error occurred while sending the email.",
     },
   },
 }));

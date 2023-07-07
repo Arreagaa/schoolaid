@@ -26,6 +26,15 @@ export default {
       selectedModules: [],
     };
   },
+  computed: {
+    translatedErrorMessage() {
+      if (this.errorMessage === "") {
+        return "";
+      }
+
+      return this.$t(this.errorMessage);
+    },
+  },
   methods: {
     async contactForm() {
       this.errorMessage = "";
@@ -47,49 +56,38 @@ export default {
         this.institution === "" &&
         this.body === ""
       ) {
-        this.errorMessage = this.$t("Debes completar todos los campos.");
+        this.errorMessage = "Debes completar todos los campos.";
         return;
       }
 
       if (this.firstName === "") {
-        this.errorMessage = this.$t("El campo Nombre es requerido.");
+        this.errorMessage = "El campo Nombre es requerido.";
         return;
       }
 
       if (this.lastName === "") {
-        this.errorMessage = this.$t("El campo Apellido es requerido.");
+        this.errorMessage = "El campo Apellido es requerido.";
         return;
       }
 
       if (this.email === "") {
-        this.errorMessage = this.$t(
-          "El campo Correo electrónico es requerido."
-        );
+        this.errorMessage = "El campo Correo electrónico es requerido.";
         return;
       }
 
       if (this.institution === "") {
-        this.errorMessage = this.$t(
-          "El campo Nombre de la institución es requerido."
-        );
+        this.errorMessage = "El campo Nombre de la institución es requerido.";
         return;
       }
 
       if (this.body === "") {
-        this.errorMessage = this.$t("¡Cuéntanos más!");
+        this.errorMessage = "¡Cuéntanos más!";
         return;
       }
       try {
         const response = await axios.post(
           "https://im602gpbnb.execute-api.us-east-1.amazonaws.com/prod/landingForm",
           formData,
-          {
-            firstName: this.firstName,
-            lastName: this.lastName,
-            email: this.email,
-            institution: this.institution,
-            body: this.body,
-          },
           {
             headers: {
               "x-api-key": "HYbEtoDcUt7woFlQecsIp1xlRvjDCzwka30dJNe0",
@@ -232,10 +230,8 @@ export default {
           <div class="flex">
             <SSend @click="contactForm" />
           </div>
-          <div v-if="errorMessage" class="flex py-8">
-            <span v-if="errorMessage !== ''" class="alert-danger">
-              {{ errorMessage }}
-            </span>
+          <div v-if="translatedErrorMessage" class="flex py-8">
+            <span class="alert-danger">{{ translatedErrorMessage }}</span>
             <span v-if="successMessage !== ''" class="alert-success">
               {{ successMessage }}
             </span>
