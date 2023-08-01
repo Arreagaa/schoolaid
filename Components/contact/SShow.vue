@@ -174,7 +174,7 @@ export default {
           </div>
         </div>
         <div
-          class="PoppinsLight min-[1535px]:px-12 min-[1400px]:px-6 max-[1400px]:pl-6 font-bold text-xl"
+          class="PoppinsLight px-6 contact-btn 2xl:px-12 font-bold text-xl"
         >
           <p class="text-black">
             {{ $t("¿Qué módulos te interesan?") }}
