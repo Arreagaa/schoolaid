@@ -132,3 +132,25 @@ strong {
     @apply w-3/5;
   }
 }
+@media (min-width: 1297px) and (max-width: 1345px) {
+  .contact-btn {
+    padding-left: 1.5rem;
+    padding-right: 0rem;
+  }
+}
+.custom-list-market {
+  list-style-type: none;
+  margin-left: 1.25rem;
+  position: relative;
+}
+.custom-list-market li:before {
+  content: "";
+  display: inline-block;
+  width: 1.25rem;
+  height: 1.25rem;
+  border-radius: 50%;
+  background-color: #f3be18;
+  position: absolute;
+  left: -1rem;
+  margin-top: 3px;
+}

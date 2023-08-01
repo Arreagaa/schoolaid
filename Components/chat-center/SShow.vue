@@ -14,7 +14,7 @@
         </p>
       </div>
       <div
-        class="PoppinsLight bg-[#537FF7] rounded-r-lg min-[1669px]:px-36 min-[1535px]:px-24 px-8 2xl:py-24 py-16 xl:text-xl text-lg text-white"
+        class="PoppinsLight bg-[#537FF7] lg:rounded-tr-lg min-[1669px]:px-36 min-[1535px]:px-24 px-8 2xl:py-24 py-16 xl:text-xl text-lg text-white"
       >
         <div class="2xl:px-16 res-space-aid">
           <div class="bg-[#18D3AF] rounded-xl px-4 py-4 w-max">

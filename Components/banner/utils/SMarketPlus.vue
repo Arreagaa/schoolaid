@@ -42,21 +42,3 @@
     </div>
   </div>
 </template>
-<style>
-.custom-list-market {
-  list-style-type: none;
-  margin-left: 1.25rem;
-  position: relative;
-}
-.custom-list-market li:before {
-  content: "";
-  display: inline-block;
-  width: 1.25rem;
-  height: 1.25rem;
-  border-radius: 50%;
-  background-color: #f3be18;
-  position: absolute;
-  left: -1rem;
-  margin-top: 3px;
-}
-</style>

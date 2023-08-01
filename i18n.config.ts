@@ -219,7 +219,7 @@ export default defineI18nConfig(() => ({
       "Automatiza y simplifica los procesos diarios entre colegio y padres de familia.":
         "We simplify processes and improve relationships between parents and schools.",
       "Conoce más": "Learn more",
-      "¡Nuevo socio de integración!": "New Integration Partner!",
+      "¡Nuevo socio de integración!": "New integration partner!",
       "Alianza estratégica con Grupo Golán":
         "Strategic alliance with Grupo Golan",
       "Ahora las rutas escolares están más protegidas.":
@@ -259,7 +259,7 @@ export default defineI18nConfig(() => ({
       "Crea encuestas y formularios personalizados. Administra registros médicos y más.":
         "Create, send and customize surveys and forms. Manage medical records, vaccination, and more.",
       "Punto de venta digital. Administra cobros, membresías y más.":
-        "Digital Point of Sale. Create and manage tuition payments, memberships, products, and more.",
+        "Digital point of sale. Create and manage tuition payments, memberships, products, and more.",
       "¡Nuevo!": "New!",
       "Todos los derechos": "All rights reserved.",
       "¡Nuevo módulo!": "New module!",
@@ -304,7 +304,7 @@ export default defineI18nConfig(() => ({
         "Allows parents to view the real-time location of their children in the school transport.",
       "Visualiza los tiempos de llegada estimados por parada, recibe notificaciones push durante la ruta y alertas de proximidad.":
         "Push notifications and proximity alerts are sent automatically during the route. Parents can also visualize estimated arrival times by stop.",
-      "Nueva Alianza con Grupo Golán": "New Integration Partner: Grupo Golán",
+      "Nueva Alianza con Grupo Golán": "New integration partner: Grupo Golán",
       "Ahora los colegios en Guatemala y El Salvador pueden optar por incluir un botón de pánico en el transporte escolar y ante cualquier situación de riesgo, un Especialista en Atención de Seguridad de Golán, atenderá la señal de emergencia desde la App de SchoolAid y una Patrulla REDIPAT se despachará de inmediato hacia la ubicación del bus.":
         "Now schools in Guatemala and El Salvador can choose to include a panic button in the school transport. In order to prevent and mitigate any security risk, a Golan security specialist will attend to the emergency signal from the SchoolAid app and a REDIPAT patrol unit will be dispatched immediately to the location of the school transport.",
       "Optimiza la gestión de solicitudes de padres de familia y mejora la seguridad del colegio con seguimiento y documentación.":
@@ -330,7 +330,7 @@ export default defineI18nConfig(() => ({
       "Mantén la privacidad de las familias sin tener que compartir contactos telefónicos.":
         "Maintain family privacy without having to share phone contacts.",
       "Módulo de encuestas y formularios personalizados para responder a través de la App de padres.":
-        "Module for customized surveys and forms to be answered through the Parent App.",
+        "Module for customized surveys and forms to be answered through the parent app.",
       "Monitorea la salud mental de los niños, detecta bullying, o haz encuestas de satisfacción por nivel de grado, sección o grupo específico.":
         "Monitor children's mental health, detect bullying, or conduct satisfaction surveys by grade level, grade, section, or specific group.",
       "Recopila registros medicos, vacunación o permisos de administración de medicamentos.":
