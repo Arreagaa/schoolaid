@@ -5,7 +5,7 @@ import SBagTitleAid from "../utils/SBagTitleAid.vue";
   <div class="flex flex-col xl:flex-row py-8">
     <div class="xl:order-2 order-2 xl:w-1/2">
       <div class="md:py-8 pb-8">
-        <img src="/assets/bg/communication.png" class="mx-auto sm:w-[70%]" />
+        <img src="/assets/bg/Communication.png" class="mx-auto sm:w-[70%]" />
       </div>
     </div>
     <div class="order-1 xl:order-2 xl:w-1/2">
