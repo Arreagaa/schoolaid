@@ -193,16 +193,16 @@ export default defineI18nConfig(() => ({
         "Market Aid es una solución de punto de venta para academias, gimnasios, colegios y otras instituciones que brindan servicios de suscripción, clases, eventos o bookings.",
       " Automatiza las gestiones de cobro, y facilita la administración de pagos, venta de productos, servicios y membresías.":
         "Automatiza las gestiones de cobro, y facilita la administración de pagos, venta de productos, servicios y membresías.",
-      "Debes completar todos los campos.": "Debes completar todos los campos.",
-      "El campo Nombre es requerido.": "El campo Nombre es requerido.",
-      "El campo Apellido es requerido.": "El campo Apellido es requerido.",
+      "Debes completar todos los campos.": "Debes completar todos los campos",
+      "El campo Nombre es requerido.": "El campo nombres es requerido",
+      "El campo Apellido es requerido.": "El campo apellidos es requerido",
       "El campo Correo electrónico es requerido.":
-        "El campo Correo electrónico es requerido.",
+        "El campo correo electrónico es requerido",
       "El campo Nombre de la institución es requerido.":
-        "El campo Nombre de la institución es requerido.",
+        "El campo nombre de la institución es requerido",
       "¡Cuéntanos más!": "¡Cuéntanos más!",
       "El correo fue enviado correctamente":
-        "El correo fue enviado correctamente.",
+        "El correo fue enviado correctamente",
       "Ocurrió un error al enviar el correo":
         "Ocurrió un error al enviar el correo",
       "Recuperar contraseña": "Recuperar contraseña",
@@ -218,7 +218,8 @@ export default defineI18nConfig(() => ({
       "Las contraseñas no coinciden": "Las contraseñas no coinciden",
       "Contraseña actualizada correctamente":
         "Contraseña actualizada correctamente",
-        "Está solicitud ha expirado o no existe": "Está solicitud ha expirado o no existe"
+      "Está solicitud ha expirado o no existe":
+        "Está solicitud ha expirado o no existe",
     },
     en: {
       "Quienes somos": "About",
@@ -407,15 +408,15 @@ export default defineI18nConfig(() => ({
         "Market Aid is a point of sale solution for academies, gyms, schools, and other institutions that provide subscription services, classes, events, or bookings.",
       " Automatiza las gestiones de cobro, y facilita la administración de pagos, venta de productos, servicios y membresías.":
         "It simplifies administrative tasks, improves efficiency, and enhances the overall customer experience for schools, academies, and gyms by providing a centralized platform for managing transactions, inventory, classes, memberships, and reporting.",
-      "Debes completar todos los campos.": "You must complete all fields.",
-      "El campo Nombre es requerido.": "The First Name field is required.",
-      "El campo Apellido es requerido.": "The Last Name field is required.",
+      "Debes completar todos los campos.": "You must complete all fields",
+      "El campo Nombre es requerido.": "The first name field is required",
+      "El campo Apellido es requerido.": "The last name field is required",
       "El campo Correo electrónico es requerido.":
-        "The Email field is required.",
+        "The email field is required",
       "El campo Nombre de la institución es requerido.":
-        "The Contact Institution field is required.",
+        "The contact institution field is required",
       "¡Cuéntanos más!": "Tell us more!",
-      "El correo fue enviado correctamente": "The email was sent successfully.",
+      "El correo fue enviado correctamente": "The email was sent successfully",
       "Ocurrió un error al enviar el correo":
         "An error occurred while sending the email",
       "Recuperar contraseña": "Recover password",
@@ -427,9 +428,10 @@ export default defineI18nConfig(() => ({
       confirm_password: "Confirm Password",
       "Por favor introduzca su contraseña": "Please enter your password",
       "Por favor confirme su contraseña": "Please confirm your password",
-      "Las contraseñas no coinciden": "Las contraseñas no coinciden",
+      "Las contraseñas no coinciden": "The passwords do not match",
       "Contraseña actualizada correctamente": "Password updated successfully",
-      "Está solicitud ha expirado o no existe": "This request has expired or does not exist"
+      "Está solicitud ha expirado o no existe":
+        "This request has expired or does not exist",
     },
   },
 }));
