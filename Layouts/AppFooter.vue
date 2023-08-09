@@ -21,29 +21,29 @@
               </h2>
               <ul class="list-unstyled PoppinsRegular">
                 <li class="flex py1">
-                  <NuxtLink
-                    to="/privacy-policy"
+                  <a
+                    href="/privacy-policy"
                     target="_blank"
                     class="text-white block pb-2 text-base"
                     >{{
                       $t("Políticas de Privacidad y Protección de Datos")
-                    }}</NuxtLink
+                    }}</a
                   >
                 </li>
                 <li class="flex py1">
-                  <NuxtLink
-                    to="/terms"
+                  <a
+                    href="/terms"
                     target="_blank"
                     class="text-white block pb-2 text-base"
-                    >{{ $t("Términos y Condiciones de uso") }}</NuxtLink
+                    >{{ $t("Términos y Condiciones de uso") }}</a
                   >
                 </li>
                 <li class="flex py1">
-                  <NuxtLink
-                    to="/cookies"
+                  <a
+                    href="/cookies"
                     target="_blank"
                     class="text-white block pb-2 text-base"
-                    >{{ $t("Política de cookies") }}</NuxtLink
+                    >{{ $t("Política de cookies") }}</a
                   >
                 </li>
               </ul>

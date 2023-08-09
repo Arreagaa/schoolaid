@@ -63,7 +63,7 @@ export default {
 };
 </script>
 <template>
-  <div class="lg:py-52 md:py-40 py-16">
+  <div class="md:py-40 py-16">
     <div class="text-center w-full">
       <div class="ModeratBlack text-2xl mb-4">
         {{ $t("Recuperar contraseña") }}
@@ -85,7 +85,7 @@ export default {
       <div class="flex justify-center">
         <SSend @click="sendForm" />
       </div>
-      <div class="flex justify-center pt-10">
+      <div class="flex justify-center pt-8">
         <div v-if="translatedErrorMessage">
           <span class="alert-danger">{{ translatedErrorMessage }}</span>
         </div>

@@ -204,7 +204,7 @@ export default defineI18nConfig(() => ({
       "El correo fue enviado correctamente":
         "El correo fue enviado correctamente.",
       "Ocurrió un error al enviar el correo":
-        "Ocurrió un error al enviar el correo.",
+        "Ocurrió un error al enviar el correo",
       "Recuperar contraseña": "Recuperar contraseña",
       "Ingresa tu nombre de usuario": "Ingresa tu nombre de usuario",
       "Por favor introduzca su username": "Por favor introduzca su username",
@@ -417,7 +417,7 @@ export default defineI18nConfig(() => ({
       "¡Cuéntanos más!": "Tell us more!",
       "El correo fue enviado correctamente": "The email was sent successfully.",
       "Ocurrió un error al enviar el correo":
-        "An error occurred while sending the email.",
+        "An error occurred while sending the email",
       "Recuperar contraseña": "Recover password",
       "Ingresa tu nombre de usuario": "Enter your username",
       "Por favor introduzca su username": "Please enter your username",
