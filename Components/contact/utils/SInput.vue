@@ -17,6 +17,10 @@ export default {
       type: String,
       required: true,
     },
+    disabled: {
+      type: Boolean,
+      required: false,
+    },
   },
   computed: {
     inputClasses() {
@@ -42,6 +46,7 @@ export default {
       :id="id"
       :type="type"
       :value="value"
+      :disabled="disabled"
       @input="$emit('update:value', $event.target.value)"
     />
   </div>

@@ -103,10 +103,8 @@ export default {
         );
 
         this.successMessage = "El correo fue enviado correctamente";
-        console.log(response.data);
       } catch (error) {
         this.errorMessage = "Ocurrió un error al enviar el correo";
-        console.error(error);
       }
     },
   },

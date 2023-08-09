@@ -9,7 +9,7 @@ import AppFooter from "~/Layouts/AppFooter.vue";
       <AppHeaderVue />
     </div>
   </section>
-  <section class="py-8">
+  <section class="lg:py-8 pb-8">
     <div>
       <div class="md:pt-8">
         <SShow />

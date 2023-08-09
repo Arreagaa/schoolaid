@@ -1,8 +1,8 @@
 <template>
     <section>
-        <div class="flex justify-center py-2">
+        <div class="flex justify-center md:py-2 py-8">
             <NuxtLink to="/">
-                <img src="/assets/schoolaid_logo.png" alt="" />
+                <img src="/assets/schoolaid_logo.png" class="md:w-full w-56" alt="" />
             </NuxtLink>
         </div>
         <div id="terms-of-service" class="aid-text">

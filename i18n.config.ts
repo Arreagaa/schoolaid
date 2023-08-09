@@ -205,6 +205,20 @@ export default defineI18nConfig(() => ({
         "El correo fue enviado correctamente.",
       "Ocurrió un error al enviar el correo":
         "Ocurrió un error al enviar el correo.",
+      "Recuperar contraseña": "Recuperar contraseña",
+      "Ingresa tu nombre de usuario": "Ingresa tu nombre de usuario",
+      "Por favor introduzca su username": "Por favor introduzca su username",
+      "Hemos enviado un link de restablecimiento de contraseña a tu correo":
+        "Hemos enviado un link de restablecimiento de contraseña a tu correo",
+      new_password: "Nueva contraseña",
+      confirm_password: "Confirmar Contraseña",
+      "Por favor introduzca su contraseña":
+        "Por favor introduzca su contraseña",
+      "Por favor confirme su contraseña": "Por favor confirme su contraseña",
+      "Las contraseñas no coinciden": "Las contraseñas no coinciden",
+      "Contraseña actualizada correctamente":
+        "Contraseña actualizada correctamente",
+        "Está solicitud ha expirado o no existe": "Está solicitud ha expirado o no existe"
     },
     en: {
       "Quienes somos": "About",
@@ -404,6 +418,18 @@ export default defineI18nConfig(() => ({
       "El correo fue enviado correctamente": "The email was sent successfully.",
       "Ocurrió un error al enviar el correo":
         "An error occurred while sending the email.",
+      "Recuperar contraseña": "Recover password",
+      "Ingresa tu nombre de usuario": "Enter your username",
+      "Por favor introduzca su username": "Please enter your username",
+      "Hemos enviado un link de restablecimiento de contraseña a tu correo":
+        "We have sent a password reset link to your email",
+      new_password: "New password",
+      confirm_password: "Confirm Password",
+      "Por favor introduzca su contraseña": "Please enter your password",
+      "Por favor confirme su contraseña": "Please confirm your password",
+      "Las contraseñas no coinciden": "Las contraseñas no coinciden",
+      "Contraseña actualizada correctamente": "Password updated successfully",
+      "Está solicitud ha expirado o no existe": "This request has expired or does not exist"
     },
   },
 }));

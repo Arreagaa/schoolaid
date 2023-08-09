@@ -28,7 +28,7 @@ watchEffect(() => {
     } else {
       animatedNumber.value = current;
     }
-  }, 10);
+  }, 50);
 });
 
 function parseNumber(title) {
@@ -58,7 +58,6 @@ const formattedNumber = computed(() => {
       <p
         class="ModeratBlack text-7xl py-3"
         :class="idItem === 2 ? 'text-[#F3BE18]' : `text-[${item.color}]`"
-        :key="currentNumber"
       >
         {{ formattedNumber }}
       </p>
