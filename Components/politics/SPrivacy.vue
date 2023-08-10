@@ -2,7 +2,11 @@
     <section>
         <div class="flex justify-center md:py-2 py-8">
             <NuxtLink to="/">
-                <img src="/assets/schoolaid_logo.png" class="md:w-full w-56" alt="" />
+                <img
+                    src="/assets/schoolaid.png"
+                    class="md:w-64 w-56"
+                    alt=""
+                />
             </NuxtLink>
         </div>
         <div>
