@@ -18,21 +18,33 @@ export default {
     },
   },
   created() {
-    const selectedLanguage = localStorage.getItem("selectedLanguage");
-    if (selectedLanguage) {
-      this.$i18n.locale = selectedLanguage;
+    if (typeof localStorage !== "undefined") {
+      const selectedLanguage = localStorage.getItem("selectedLanguage");
+      if (selectedLanguage) {
+        this.$i18n.locale = selectedLanguage;
+      }
+      this.setupClearLocalStorageOnExit();
     }
-    this.clearLocalStorageOnExit();
   },
   methods: {
     setLanguage(languageCode) {
-      localStorage.setItem("selectedLanguage", languageCode);
-      this.$i18n.locale = languageCode;
+      if (typeof localStorage !== "undefined") {
+        localStorage.setItem("selectedLanguage", languageCode);
+        this.$i18n.locale = languageCode;
+      }
     },
-    clearLocalStorageOnExit() {
-      window.addEventListener("beforeunload", () => {
-        localStorage.removeItem("selectedLanguage");
-      });
+    setupClearLocalStorageOnExit() {
+      if (typeof localStorage !== "undefined") {
+        const clearLocalStorage = () => {
+          localStorage.removeItem("selectedLanguage");
+        };
+
+        window.addEventListener("pagehide", clearLocalStorage);
+
+        this.$options.beforeUnmount = () => {
+          window.removeEventListener("pagehide", clearLocalStorage);
+        };
+      }
     },
   },
 };

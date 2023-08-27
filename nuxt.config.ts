@@ -8,6 +8,7 @@ export default defineNuxtConfig({
       cookieKey: "i18n_redirected",
       alwaysRedirect: true,
       redirectOn: "no prefix",
+      fallbackLocale: "es",
     },
     vueI18n: "./i18n.config.ts",
   },
