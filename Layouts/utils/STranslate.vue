@@ -3,7 +3,6 @@ import SDropdown from "~/Components/utils/SDropdown.vue";
 export default {
   data() {
     return {
-      currentLanguage: this.$i18n.locale,
       supportedLanguagesFlagIcons: {
         es: "/assets/icons/ES.svg",
         en: "/assets/icons/en.svg",
@@ -13,10 +12,27 @@ export default {
   components: {
     SDropdown,
   },
+  computed: {
+    currentLanguage() {
+      return this.$i18n.locale;
+    },
+  },
+  created() {
+    const selectedLanguage = localStorage.getItem("selectedLanguage");
+    if (selectedLanguage) {
+      this.$i18n.locale = selectedLanguage;
+    }
+    this.clearLocalStorageOnExit();
+  },
   methods: {
     setLanguage(languageCode) {
+      localStorage.setItem("selectedLanguage", languageCode);
       this.$i18n.locale = languageCode;
-      this.currentLanguage = languageCode;
+    },
+    clearLocalStorageOnExit() {
+      window.addEventListener("beforeunload", () => {
+        localStorage.removeItem("selectedLanguage");
+      });
     },
   },
 };

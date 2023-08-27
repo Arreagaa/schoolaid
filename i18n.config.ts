@@ -1,6 +1,4 @@
 export default defineI18nConfig(() => ({
-  locale: "es",
-  fallbackLocale: "en",
   fallbackWarn: false,
   missingWarn: false,
   warnHtmlMessage: false,
@@ -220,6 +218,8 @@ export default defineI18nConfig(() => ({
         "Contraseña actualizada correctamente",
       "Está solicitud ha expirado o no existe":
         "Está solicitud ha expirado o no existe",
+      "Personalización de la pantalla inicial con el logotipo de la institución.":
+        "Personalización de la pantalla inicial con el logotipo de la institución.",
     },
     en: {
       "Quienes somos": "About",
@@ -432,6 +432,8 @@ export default defineI18nConfig(() => ({
       "Contraseña actualizada correctamente": "Password updated successfully",
       "Está solicitud ha expirado o no existe":
         "This request has expired or does not exist",
+      "Personalización de la pantalla inicial con el logotipo de la institución.":
+        "Customization of the home screen with the institution's logo.",
     },
   },
 }));
